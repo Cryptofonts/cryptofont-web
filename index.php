@@ -1,9 +1,52 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119769091-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119769091-1');
+    </script>
+
+    <!-- Hotjar Tracking Code for https://cryptofonts.com/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:1835372,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A crisp webfont icons and svg for your favourite cryptocurrencies. Featuring 974 icons.">
+    <meta name="author" content="Fabio Monzani">
+
+    <title>CryptoFont - Cryptocurrency icons and webfont</title>
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:site_name" content="CryptoFonts" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.cryptofonts.com/img/card.png" />
+    <meta property="og:url" content="https://www.cryptofonts.com/" />
+    <meta property="og:title" content="CryptoFonts" />
+    <meta property="og:description" content="We create beautiful and crisp cryptocurrency webfonts, icons and SVG " />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@CryptoFonts" />
+    <meta property="og:url" content="https://www.cryptofonts.com/" />
+    <meta property="og:title" content="CryptoFonts" />
+    <meta property="og:description" content="We create beautiful and crisp cryptocurrency webfonts, icons and SVG " />
+    <meta property="og:image" content="https://www.cryptofonts.com/img/card.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,6 +58,8 @@
     <link href="css/fontawesome.min.css" rel="stylesheet">
     <link href="css/duotone.min.css" rel="stylesheet">
     <link href="css/brands.min.css" rel="stylesheet">
+    <!-- Cryptofonts -->
+    <link href="css/cryptofont.css" rel="stylesheet">
 
   </head>
   <body>
@@ -38,10 +83,10 @@
             <a class="nav-link" href="#">Icons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Github</a>
+            <a class="nav-link" href="https://github.com/monzanifabio/cryptofont"><i class="fab fa-github"></i> Github</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Donate</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
           </li>
         </ul>
       </div>
@@ -61,11 +106,11 @@
           <div class="row">
             <div class="col-md-6">
               <p class="mb-5">Crypto Fonts gives you scalable vector icons that can instantly be customized by size, color, shadow, and anything that can be done with the power of CSS.</p>
-              <img class="img-fluid" src="img/bitcoin-vector.svg">
+              <img class="img-fluid mb-5" src="img/bitcoin-vector.svg">
             </div>
             <div class="col-md-6">
               <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
                     <i class="fad fa-box-full"></i>
@@ -74,7 +119,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
                     <i class="fad fa-feather"></i>
@@ -83,7 +128,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
                     <i class="fab fa-js-square"></i>
@@ -92,7 +137,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
                     <i class="fad fa-expand"></i>
@@ -101,7 +146,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
                     <i class="fab fa-css3-alt"></i>
@@ -110,7 +155,7 @@
                 </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
                     <i class="fad fa-eye"></i>
@@ -130,7 +175,7 @@
     </section>
 
 
-      <section>
+      <section class="mb-5">
         <div class="container">
           <h1 class="mb-4">Compatibility</h1>
 
@@ -170,7 +215,7 @@
           <div class="row mt-5">
             <div class="col-md-6">
               <h4>1. Move the CSS and web fonts into your project.</h4>
-              <p>Copy the entire  webfonts folder and the  cryptofont.css into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff).</p>
+              <p>Copy the entire  <i class="fad fa-folder"></i> <strong>webfonts</strong> folder and the  <i class="fad fa-file"></i> <strong>cryptofont.css</strong> into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff).</p>
             </div>
             <div class="col-md-6 text-center">
               <img src="img/icon-transfer.svg">
@@ -180,7 +225,7 @@
           <div class="row mt-5">
             <div class="col-md-6">
               <h4>2. Reference the CSS</h4>
-              <p>Add a reference to the  cryptofont.css styling file into the <code>&lt;head&gt;</code> of each template or page that you want to use Crypto Font on.
+              <p>Add a reference to the  <i class="fad fa-file"></i> <strong>cryptofont.css</strong> styling file into the <code>&lt;head&gt;</code> of each template or page that you want to use Crypto Font on.
               Pay attention to the pathing of your project and where you moved the files to in the previous step.</p>
             </div>
             <div class="col-md-6">
@@ -190,7 +235,7 @@
                     <li class="dot"></li>
                     <li class="dot"></li>
                     <li class="dot"></li>
-                    <li class="white float-right">index.html</li>
+                    <li class="white float-right"><i class="fab fa-html5"></i> index.html</li>
                   </ul>
                 </div>
                 <div class="card-body">
@@ -218,16 +263,16 @@
                     <li class="dot"></li>
                     <li class="dot"></li>
                     <li class="dot"></li>
-                    <li class="white float-right">index.html</li>
+                    <li class="white float-right"><i class="fab fa-html5"></i> index.html</li>
                   </ul>
                 </div>
                 <div class="card-body">
                   <p class="card-text">
                     &lt;<span class="markup">body</span>&gt;<br>
                     &lt;!--some icons--&gt;<br>
-                       &lt;<span class="markup">i</span> <span class="ref">class="cf cf-btc"&gt;</span><span class="link">&lt;/i&gt;</span><br>
-                       &lt;<span class="markup">i</span> <span class="ref">class="cf cf-eth"&gt;</span><span class="link">&lt;/i&gt;</span><br>
-                       &lt;<span class="markup">i</span> <span class="ref">class="cf cf-ltc"&gt;</span><span class="link">&lt;/i&gt;</span><br>
+                       &lt;<span class="markup">i</span> <span class="ref">class="cf cf-btc"&gt;</span><span class="link">&lt;/i&gt; &nbsp;</span><i class="cf cf-btc"></i><br>
+                       &lt;<span class="markup">i</span> <span class="ref">class="cf cf-eth"&gt;</span><span class="link">&lt;/i&gt; &nbsp;</span><i class="cf cf-eth"></i><br>
+                       &lt;<span class="markup">i</span> <span class="ref">class="cf cf-ltc"&gt;</span><span class="link">&lt;/i&gt; &nbsp;</span><i class="cf cf-ltc"></i><br>
                     </body>
                   </p>
                 </div>
@@ -236,31 +281,32 @@
           </div>
         </div>
       </section>
-      <img class="img-fluid" src="img/section-footer.svg">
+      <section class="section-footer">
+      </section>
 
       <footer>
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 text-center mb-4">
               <img class="opacity-50" src="img/logo.svg" height="60px">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-3">
               <ul class="footer-list">
                 <li>Social</li>
                 <li><a href="#">Twitter</a></li>
               </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-3">
               <ul class="footer-list">
                 <li>Legal</li>
                 <li><a href="#">License</a></li>
               </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-3">
               <ul class="footer-list">
                 <li>Developers</li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Gitcoin</a></li>
+                <li><a href="https://github.com/monzanifabio/cryptofont">Github</a></li>
+                <li><a href="https://gitcoin.co/grants/720/crypto-fonts">Gitcoin</a></li>
               </ul>
             </div>
           </div>
@@ -270,6 +316,51 @@
       <div class="row">
         <div class="col text-center">
           <p class="small opacity-50">Made with love around the world</p>
+        </div>
+      </div>
+
+      <!-- Donate Modal -->
+      <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cryptofonts is a one man project.</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="mb-5">Creating all these beautiful icons takes time and money.<br>
+              If you think that my work has any value to you, or you like my icons, a small donation would be really appreciated.
+              This would motivate me to create more icons and keep the project going.</p>
+
+              <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="cf cf-eth"></i> Ethereum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Gitcoin</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="cf cf-btc"></i> Bitcoin</a>
+                </li>
+              </ul>
+              <div class="tab-content text-center" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <p>Even 1 DAI would make the difference</p>
+                </div>
+                <div class="tab-pane fade text-center" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                  <p>Donate on Gitcoin by sponsoring my grant</p>
+                </div>
+                <div class="tab-pane fade text-center" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                  <p>I know transactions cost are high, but if you feel generous here's my Bitcoin address</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Nah, thanks</button>
+            </div>
+          </div>
         </div>
       </div>
 

@@ -1,5 +1,8 @@
 html, body {
   font-family: 'Lato', sans-serif;
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, span {
@@ -21,10 +24,14 @@ p, a {
   color: #FFF;
 }
 
-.card-body > .fad {
+.card-body > .fad,.fab {
   font-size: 64px;
   margin: 15px;
   color: #AEBCCC;
+}
+.fa-html5, .fa-github {
+  margin: 0;
+  font-size: 1rem;
 }
 .card-body > p {
   margin-bottom: 0;
@@ -50,6 +57,14 @@ p, a {
   top: 40%;
   left: 5%;
   width: 50%;
+}
+@media (max-width: 768px) {
+  .hero-text {
+    width: 80%;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
 }
 
 .card {
@@ -106,6 +121,12 @@ p, a {
 .link {
   color: #98c379;
 }
+.section-footer {
+  height: 300px;
+  background-image: url('../img/section-footer.svg');
+  background-position: left;
+  background-size: cover;
+}
 footer {
   margin-top: 8rem;
   margin-bottom: 4rem;
@@ -127,4 +148,9 @@ footer {
 }
 .opacity-50 {
   opacity: 0.5;
+}
+
+.modal-header, .modal-footer, .modal-content {
+  border: none;
+  border-radius: 1rem;
 }
