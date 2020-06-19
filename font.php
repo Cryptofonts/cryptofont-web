@@ -66,7 +66,7 @@
           while($row = mysqli_fetch_assoc($result)){
 
             echo "<div class='col-md-2 col-xs-4 text-center expand'>";
-            echo "<i class='cf cf-" . $row['ticker'] . " large' id='" . $row['ticker'] . "' onclick='getDetails()'></i>";
+            echo "<i class='cf cf-" . $row['ticker'] . " large' id='" . $row['ticker'] . "' onclick='getDetails(this)'></i>";
             echo "<p class='text-muted'>cf-" . $row['ticker'] . "</p>";
             echo "</div>";
           }
@@ -85,14 +85,16 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Edit</h5>
+            <h5 class="modal-title text-uppercase" id="modalTitle"></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <form>
-            <div class="modal-body">
+            <div class="modal-body text-center">
               <i class="" id="tickerDetail"></i>
+              <h2 class="mt-5">Icon Font Usage</h2>
+              <p id="tickerHtml"></p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
@@ -124,11 +126,15 @@
     }
 
     function getDetails(ticker) {
-      var name = $(ticker).attr('class');
+      var name = $(ticker).attr('id');
       console.log(name);
 
       $('#detailModal').modal();
-      $('#tickerDetail').addClass("cf" + name);
+      $('#tickerDetail').removeClass();
+      $('#modalTitle').html("<i class='cf cf-" + name + "'></i> " + name);
+      $('#tickerDetail').addClass("cf cf-" + name + " xlarge");
+      $('#tickerHtml').text('<i class="cf cf-' + name + '"></i>');
+      $('#tickerTitle').addClass("cf cf-" + name);
     }
     </script>
 

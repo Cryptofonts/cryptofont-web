@@ -177,6 +177,17 @@ footer {
 .large {
   font-size: 4rem;
   color: #6C7488;
+  cursor: pointer;
+}
+
+.xlarge {
+  font-size: 12rem;
+  color: #6C7488;
+}
+
+#tickerDetail {
+  background-image: url('../img/checker.png');
+  background-size: cover;
 }
 .expand {
   transition: transform 0.4s;
