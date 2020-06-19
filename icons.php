@@ -33,9 +33,9 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1>High Quality Web Font</h1>
-        <p class="lead">The complete set of 1930 open source cryptocurrencies icons crafted for designers and developers.</p>
-        <a href="https://github.com/monzanifabio/cryptofont/releases" class="btn btn-primary">Download Webfont</a>
+        <h1>High Quality Cryptocurrencies Icons</h1>
+        <p class="lead">The complete set of <?php echo $count; ?> SVG icons.</p>
+        <a href="https://github.com/monzanifabio/cryptoicons/releases" class="btn btn-primary">Download All <?php echo $count; ?> Icons</a>
       </div>
     </div>
 
@@ -52,22 +52,25 @@
           <?php
           //get database account details
           include('include/dbaccess.php');
+          include('include/images.php');
 
           //create connection
           $link = mysqli_connect($db_hostname,$db_username,$db_password,$db_database)
               or die("cannot connect to database.");
 
           //running SQL query
-          $query ="SELECT * FROM fontcase ORDER BY ticker";
+          $query ="SELECT * FROM coloricon ORDER BY ticker";
           $result=mysqli_query($link, $query)
               or die("Failed to load data.");
 
           //processing results
           while($row = mysqli_fetch_assoc($result)){
 
+            $logoid = $row['id'];
             echo "<div class='col-md-2 col-xs-4 text-center expand'>";
-            echo "<i class='cf cf-" . $row['ticker'] . " large' id='" . $row['ticker'] . "' onclick='getDetails(this)'></i>";
-            echo "<p class='text-muted'>cf-" . $row['ticker'] . "</p>";
+            // echo "<embed type='image/svg+xml' class='grow' src='" . $path . $row['ticker'] . ".svg' height='60'/>";
+            echo "<img loading='lazy' src='" . $path . $row['ticker'] . ".svg' height='60' id='" . $row['ticker'] . "' onclick='getDetails(this)'></img>";
+            echo "<p class='text-muted'>" . $row['ticker'] . "</p>";
             echo "</div>";
           }
 
@@ -92,9 +95,7 @@
           </div>
           <form>
             <div class="modal-body text-center">
-              <i class="" id="tickerDetail"></i>
-              <h2 class="mt-5">Icon Font Usage</h2>
-              <p id="tickerHtml"></p>
+              <img id="iconDetail" src="" height="200">
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
@@ -127,14 +128,12 @@
 
     function getDetails(ticker) {
       var name = $(ticker).attr('id');
+      var newSrc = "img/icons/" + name + ".svg";
       console.log(name);
 
       $('#detailModal').modal();
-      $('#tickerDetail').removeClass();
-      $('#modalTitle').html("<i class='cf cf-" + name + "'></i> " + name);
-      $('#tickerDetail').addClass("cf cf-" + name + " xlarge");
-      $('#tickerHtml').text('<i class="cf cf-' + name + '"></i>');
-      $('#tickerTitle').addClass("cf cf-" + name);
+      $('#modalTitle').html('<img src="img/icons/'+ name + '.svg" height="16"> ' + name);
+      $('#iconDetail').attr('src', newSrc);
     }
     </script>
 
