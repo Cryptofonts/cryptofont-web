@@ -93,14 +93,9 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form>
             <div class="modal-body text-center">
               <img id="iconDetail" src="" height="200">
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-          </form>
-          </div>
         </div>
       </div>
     </div>
