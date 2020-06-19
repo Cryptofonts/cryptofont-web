@@ -90,16 +90,11 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form>
             <div class="modal-body text-center">
               <i class="" id="tickerDetail"></i>
               <h2 class="mt-5">Icon Font Usage</h2>
               <p id="tickerHtml"></p>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-          </form>
-          </div>
         </div>
       </div>
     </div>
