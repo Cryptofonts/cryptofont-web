@@ -3,7 +3,7 @@
   <head>
 
     <?php include('include/tracking.php') ?>
-    
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -41,7 +41,7 @@
 
     <div class="container">
       <div class="input-group input-group-lg">
-        <input type="text" id="searchTicker" onkeyup="searchTicker()"class="form-control" placeholder="Search icons...">
+        <input type="text" id="searchTicker" onkeyup="searchTicker()"class="form-control" placeholder="Search icons..." autofocus autocomplete="off">
       </div>
     </div>
 
@@ -66,7 +66,7 @@
           while($row = mysqli_fetch_assoc($result)){
 
             echo "<div class='col-md-2 col-xs-4 text-center expand'>";
-            echo "<i class='cf cf-" . $row['ticker'] . " large'></i>";
+            echo "<i class='cf cf-" . $row['ticker'] . " large' id='" . $row['ticker'] . "' onclick='getDetails()'></i>";
             echo "<p class='text-muted'>cf-" . $row['ticker'] . "</p>";
             echo "</div>";
           }
@@ -79,6 +79,29 @@
     <?php include('include/footer.php') ?>
 
     <?php include('include/donate.php') ?>
+
+    <!-- Detail Modal -->
+    <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Edit</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form>
+            <div class="modal-body">
+              <i class="" id="tickerDetail"></i>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <script>
     function searchTicker() {
@@ -98,6 +121,14 @@
                 li[i].style.display = "none";
             }
         }
+    }
+
+    function getDetails(ticker) {
+      var name = $(ticker).attr('class');
+      console.log(name);
+
+      $('#detailModal').modal();
+      $('#tickerDetail').addClass("cf" + name);
     }
     </script>
 
