@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-custom">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.php">
     <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top mr-3" alt="" loading="lazy">
     Cryptofonts
   </a>
@@ -9,7 +9,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#get-started">Get started</a>
+        <a class="nav-link" href="index.php#get-started">Get started</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="font.php">Font</a>
