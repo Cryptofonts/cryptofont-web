@@ -15,7 +15,7 @@
         <a class="nav-link" href="font.php">Font</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Icons</a>
+        <a class="nav-link" href="icons.php">Icons</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/monzanifabio/cryptofont"><i class="fab fa-github"></i> Github</a>
