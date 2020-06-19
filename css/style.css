@@ -24,6 +24,10 @@ p, a {
   color: #FFF;
 }
 
+.jumbotron {
+  background-color: #F5F8FF;
+}
+
 .card-body > .fad,.fab {
   font-size: 64px;
   margin: 15px;
@@ -153,4 +157,34 @@ footer {
 .modal-header, .modal-footer, .modal-content {
   border: none;
   border-radius: 1rem;
+}
+
+.form-control {
+  top: -56px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(108,116,136,0.16);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(108,116,136,0.16);
+  box-shadow: 0px 0px 12px 0px rgba(108,116,136,0.16);
+}
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #AEBCCC;
+  font-size: 1rem;
+}
+.form-control::-moz-placeholder { /* Firefox 19+ */
+  color: #AEBCCC;
+  font-size: 1rem;
+}
+.large {
+  font-size: 4rem;
+  color: #6C7488;
+}
+.expand {
+  transition: transform 0.4s;
+}
+.expand:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
