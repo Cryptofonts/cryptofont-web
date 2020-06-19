@@ -2,27 +2,7 @@
 <html lang="en">
   <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119769091-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-119769091-1');
-    </script>
-
-    <!-- Hotjar Tracking Code for https://cryptofonts.com/ -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1835372,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+    <?php include('include/tracking.php') ?>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -32,21 +12,7 @@
 
     <title>CryptoFont - Cryptocurrency icons and webfont</title>
 
-    <!-- Facebook Open Graph -->
-    <meta property="og:site_name" content="CryptoFonts" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.cryptofonts.com/img/card.png" />
-    <meta property="og:url" content="https://www.cryptofonts.com/" />
-    <meta property="og:title" content="CryptoFonts" />
-    <meta property="og:description" content="We create beautiful and crisp cryptocurrency webfonts, icons and SVG " />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@CryptoFonts" />
-    <meta property="og:url" content="https://www.cryptofonts.com/" />
-    <meta property="og:title" content="CryptoFonts" />
-    <meta property="og:description" content="We create beautiful and crisp cryptocurrency webfonts, icons and SVG " />
-    <meta property="og:image" content="https://www.cryptofonts.com/img/card.png" />
+    <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -63,34 +29,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top mr-3" alt="" loading="lazy">
-        Cryptofonts
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#get-started">Get started</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Font</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Icons</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/monzanifabio/cryptofont"><i class="fab fa-github"></i> Github</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <?php include('include/navbar.php') ?>
 
     <div class="hero">
       <img src="img/jumbotron.svg" width="100%">
@@ -284,86 +223,9 @@
       <section class="section-footer">
       </section>
 
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 text-center mb-4">
-              <img class="opacity-50" src="img/logo.svg" height="60px">
-            </div>
-            <div class="col-md-3 col-3">
-              <ul class="footer-list">
-                <li>Social</li>
-                <li><a href="#">Twitter</a></li>
-              </ul>
-            </div>
-            <div class="col-md-3 col-3">
-              <ul class="footer-list">
-                <li>Legal</li>
-                <li><a href="#">License</a></li>
-              </ul>
-            </div>
-            <div class="col-md-3 col-3">
-              <ul class="footer-list">
-                <li>Developers</li>
-                <li><a href="https://github.com/monzanifabio/cryptofont">Github</a></li>
-                <li><a href="https://gitcoin.co/grants/720/crypto-fonts">Gitcoin</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?php include('include/footer.php') ?>
 
-      <div class="row">
-        <div class="col text-center">
-          <p class="small opacity-50">Made with love around the world</p>
-        </div>
-      </div>
-
-      <!-- Donate Modal -->
-      <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Cryptofonts is a one man project.</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p class="mb-5">Creating all these beautiful icons takes time and money.<br>
-              If you think that my work has any value to you, or you like my icons, a small donation would be really appreciated.
-              This would motivate me to create more icons and keep the project going.</p>
-
-              <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="cf cf-eth"></i> Ethereum</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Gitcoin</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="cf cf-btc"></i> Bitcoin</a>
-                </li>
-              </ul>
-              <div class="tab-content text-center" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                  <p>Even 1 DAI would make the difference</p>
-                </div>
-                <div class="tab-pane fade text-center" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                  <p>Donate on Gitcoin by sponsoring my grant</p>
-                </div>
-                <div class="tab-pane fade text-center" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                  <p>I know transactions cost are high, but if you feel generous here's my Bitcoin address</p>
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Nah, thanks</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <?php include('include/donate.php') ?>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
