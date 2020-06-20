@@ -204,3 +204,8 @@ footer {
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.qrcode {
+  border: 4px black solid;
+  border-radius: 8px;
+}
