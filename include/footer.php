@@ -7,7 +7,7 @@
       <div class="col-md-3 col-3">
         <ul class="footer-list">
           <li>Social</li>
-          <li><a href="#">Twitter</a></li>
+          <li><a href="https://twitter.com/cryptofonts?lang=en">Twitter</a></li>
         </ul>
       </div>
       <div class="col-md-3 col-3">
