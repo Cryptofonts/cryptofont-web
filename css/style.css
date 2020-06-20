@@ -189,12 +189,13 @@ footer {
   color: #6C7488;
 }
 
-#tickerDetail {
+#tickerDetail, #iconDetail {
   background-image: url('../img/checker.png');
   background-size: cover;
 }
 .expand {
   transition: transform 0.4s;
+  cursor: pointer;
 }
 .expand:hover {
   -moz-transform: scale(1.1);
