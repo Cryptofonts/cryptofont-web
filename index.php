@@ -12,6 +12,7 @@
 
     <title>CryptoFont - Cryptocurrency icons and webfont</title>
 
+    <?php include('include/favicon.php') ?>
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
