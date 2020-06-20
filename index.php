@@ -108,7 +108,7 @@
         </div>
 
         <div class="row justify-content-center mt-5 mb-5">
-          <a href="#" class="btn btn-primary">Show me the icons</a>
+          <a href="font.php" class="btn btn-primary">Show me the font</a>
         </div>
       </div>
     </section>
@@ -212,10 +212,14 @@
                        &lt;<span class="markup">i</span> <span class="ref">class="cf cf-btc"&gt;</span><span class="link">&lt;/i&gt; &nbsp;</span><i class="cf cf-btc"></i><br>
                        &lt;<span class="markup">i</span> <span class="ref">class="cf cf-eth"&gt;</span><span class="link">&lt;/i&gt; &nbsp;</span><i class="cf cf-eth"></i><br>
                        &lt;<span class="markup">i</span> <span class="ref">class="cf cf-ltc"&gt;</span><span class="link">&lt;/i&gt; &nbsp;</span><i class="cf cf-ltc"></i><br>
-                    </body>
+                    &lt;<span class="markup">/body</span>&gt;
                   </p>
                 </div>
               </div>
+              </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+              <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary">Get started with Cryptofonts</a>
             </div>
           </div>
         </div>
