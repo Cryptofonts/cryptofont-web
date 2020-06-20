@@ -36,7 +36,7 @@
       <div class="container">
         <h1>High Quality Web Font</h1>
         <p class="lead">The complete set of 1930 open source cryptocurrencies icons crafted for designers and developers.</p>
-        <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary"><i class="fad fa-folder-download"></i> Download Webfont</a>
+        <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download Webfont</a>
       </div>
     </div>
 

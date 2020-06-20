@@ -39,7 +39,7 @@
       <div class="container">
         <h1>High Quality Cryptocurrencies Icons</h1>
         <p class="lead">The complete set of <?php echo $count; ?> SVG icons.</p>
-        <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary"><i class="fad fa-folder-download"></i> Download All Icons</a>
+        <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download All Icons</a>
       </div>
     </div>
 

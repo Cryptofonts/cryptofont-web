@@ -53,7 +53,7 @@
               <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
-                    <i class="fad fa-box-full"></i>
+                    <span class="fad fa-box-full"></span>
                     <p>One font,1300+ icons</p>
                   </div>
                 </div>
@@ -62,7 +62,7 @@
               <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
-                    <i class="fad fa-feather"></i>
+                    <span class="fad fa-feather"></span>
                     <p>Lightweight</p>
                   </div>
                 </div>
@@ -71,7 +71,7 @@
               <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
-                    <i class="fab fa-js-square"></i>
+                    <span class="fab fa-js-square"></span>
                     <p>No Javascript</p>
                   </div>
                 </div>
@@ -80,7 +80,7 @@
               <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
-                    <i class="fad fa-expand"></i>
+                    <span class="fad fa-expand"></span>
                     <p>Infinite scalability</p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@
               <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
-                    <i class="fab fa-css3-alt"></i>
+                    <span class="fab fa-css3-alt"></span>
                     <p>CSS controls</p>
                   </div>
                 </div>
@@ -98,7 +98,7 @@
               <div class="col-md-6 col-6">
                 <div class="card">
                   <div class="card-body">
-                    <i class="fad fa-eye"></i>
+                    <span class="fad fa-eye"></span>
                     <p>Retina ready</p>
                   </div>
                 </div>
@@ -155,7 +155,7 @@
           <div class="row mt-5">
             <div class="col-md-6">
               <h4>1. Move the CSS and web fonts into your project.</h4>
-              <p>Copy the entire  <i class="fad fa-folder"></i> <strong>webfonts</strong> folder and the  <i class="fad fa-file"></i> <strong>cryptofont.css</strong> into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff).</p>
+              <p>Copy the entire  <span class="fad fa-folder"></span> <strong>webfonts</strong> folder and the  <span class="fad fa-file"></span> <strong>cryptofont.css</strong> into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff).</p>
             </div>
             <div class="col-md-6 text-center">
               <img src="img/icon-transfer.svg">
@@ -165,7 +165,7 @@
           <div class="row mt-5">
             <div class="col-md-6">
               <h4>2. Reference the CSS</h4>
-              <p>Add a reference to the  <i class="fad fa-file"></i> <strong>cryptofont.css</strong> styling file into the <code>&lt;head&gt;</code> of each template or page that you want to use Crypto Font on.
+              <p>Add a reference to the  <span class="fad fa-file"></span> <strong>cryptofont.css</strong> styling file into the <code>&lt;head&gt;</code> of each template or page that you want to use Crypto Font on.
               Pay attention to the pathing of your project and where you moved the files to in the previous step.</p>
             </div>
             <div class="col-md-6">
@@ -175,7 +175,7 @@
                     <li class="dot"></li>
                     <li class="dot"></li>
                     <li class="dot"></li>
-                    <li class="white float-right"><i class="fab fa-html5"></i> index.html</li>
+                    <li class="white float-right"><span class="fab fa-html5"></span> index.html</li>
                   </ul>
                 </div>
                 <div class="card-body">
@@ -203,7 +203,7 @@
                     <li class="dot"></li>
                     <li class="dot"></li>
                     <li class="dot"></li>
-                    <li class="white float-right"><i class="fab fa-html5"></i> index.html</li>
+                    <li class="white float-right"><span class="fab fa-html5"></span> index.html</li>
                   </ul>
                 </div>
                 <div class="card-body">
