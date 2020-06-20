@@ -18,7 +18,7 @@
         <a class="nav-link" href="icons.php">Icons</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://github.com/monzanifabio/cryptofont"><i class="fab fa-github"></i> Github</a>
+        <a class="nav-link" href="https://github.com/monzanifabio/cryptofont" target="_blank"><i class="fab fa-github"></i> Github</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>

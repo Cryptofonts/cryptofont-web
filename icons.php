@@ -29,13 +29,16 @@
 
   </head>
   <body>
-    <?php include('include/navbar.php') ?>
+    <?php
+      include('include/navbar.php');
+      include('include/getcount.php');
+     ?>
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1>High Quality Cryptocurrencies Icons</h1>
         <p class="lead">The complete set of <?php echo $count; ?> SVG icons.</p>
-        <a href="https://github.com/monzanifabio/cryptoicons/releases" class="btn btn-primary">Download All <?php echo $count; ?> Icons</a>
+        <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary">Download All Icons</a>
       </div>
     </div>
 
@@ -95,6 +98,9 @@
           </div>
             <div class="modal-body text-center">
               <img id="iconDetail" src="" height="200">
+              <div class="row justify-content-center mt-5">
+                <a download='' id="iconDownload" href="" class="btn btn-primary">Download SVG</a>
+              </div>
             </div>
         </div>
       </div>
@@ -129,6 +135,7 @@
       $('#detailModal').modal();
       $('#modalTitle').html('<img src="img/icons/'+ name + '.svg" height="16"> ' + name);
       $('#iconDetail').attr('src', newSrc);
+      $('#iconDownload').attr('href', newSrc).attr('download', name);
     }
     </script>
 
