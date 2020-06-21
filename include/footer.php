@@ -26,7 +26,7 @@
     </div>
     <div class="row">
       <div class="col text-center">
-        <p class="small opacity-50">Made with <i class="fad fa-heart"></i> around the world</p>
+        <p class="small opacity-50">Made with <span class="fad fa-heart"></span> around the world</p>
       </div>
     </div>
   </div>
