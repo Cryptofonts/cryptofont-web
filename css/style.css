@@ -20,6 +20,9 @@ h4 {
 p, a {
   font-weight: 400;
 }
+a {
+  cursor: pointer;
+}
 
 img {
   vertical-align: unset;
@@ -178,6 +181,7 @@ footer {
   color: #AEBCCC;
   font-size: 1rem;
 }
+
 .large {
   font-size: 4rem;
   color: #6C7488;

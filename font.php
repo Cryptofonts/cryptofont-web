@@ -94,7 +94,10 @@
             <div class="modal-body text-center">
               <i class="" id="tickerDetail"></i>
               <h2 class="mt-5">Icon Font Usage</h2>
-              <p id="tickerHtml"></p>
+              <div class="form-inline justify-content-center">
+                <p id="tickerHtml"></p>
+                <!-- <a class="badge badge-light mb-3" onclick="copy('#tickerHtml')"><img src="img/clipboard-regular.svg" height="16"></a> -->
+              </div>
             </div>
         </div>
       </div>
@@ -132,6 +135,7 @@
       $('#tickerHtml').text('<i class="cf cf-' + name + '"></i>');
       $('#tickerTitle').addClass("cf cf-" + name);
     }
+
     </script>
 
 
