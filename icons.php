@@ -74,7 +74,7 @@
             $logoid = $row['id'];
             echo "<div class='col-md-2 col-xs-4 text-center expand'>";
             // echo "<embed type='image/svg+xml' class='grow' src='" . $path . $row['ticker'] . ".svg' height='60'/>";
-            echo "<img loading='lazy' src='" . $path . $row['ticker'] . ".svg' height='60' id='" . $row['ticker'] . "' onclick='getDetails(this)'></img>";
+            echo "<img loading='lazy' src='" . $path . $row['ticker'] . ".svg' height='60' id='" . $row['ticker'] . "' onclick='getDetails(this)' alt='" . $row['ticker'] . "'></img>";
             echo "<p class='text-muted'>" . $row['ticker'] . "</p>";
             echo "</div>";
           }
