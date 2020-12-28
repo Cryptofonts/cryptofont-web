@@ -49,7 +49,8 @@ img {
 }
 
 .bg-custom {
-  background-color: #F5F8FF;
+  /* background-color: #F5F8FF; */
+  backdrop-filter: blur(6px);
 }
 .nav-item {
   margin-left: 16px;

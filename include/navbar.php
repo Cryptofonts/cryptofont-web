@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-custom">
+<nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
   <a class="navbar-brand" href="index.php">
     <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top mr-3" alt="" loading="lazy">
     Cryptofonts
