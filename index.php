@@ -38,7 +38,7 @@
     <?php include('include/navbar.php') ?>
 
     <div class="hero">
-      <img src="img/jumbotron.svg" width="100%">
+      <!-- <img src="img/jumbotron.svg" width="100%"> -->
       <div class="hero-text">
         <h1 class="mb-4">Beautifully crafted cryptocurrencies font and icons for your projects.</h1>
         <p>1500+ Open-source CSS and SVG Icons</p>

@@ -60,6 +60,11 @@ img {
   color: #6C7488 !important;
 }
 .hero {
+  height: 100vh;
+  background-image: url('../img/cryptofonts-jumbotron.png'), url('../img/slice.svg');
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, top;
   position: relative;
   margin-bottom: 80px;
 }
