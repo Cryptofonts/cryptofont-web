@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'cryptofont';
-  src:  url('fonts/cryptofont.eot?85l6ud');
-  src:  url('fonts/cryptofont.eot?85l6ud#iefix') format('embedded-opentype'),
-    url('fonts/cryptofont.ttf?85l6ud') format('truetype'),
-    url('fonts/cryptofont.woff?85l6ud') format('woff'),
-    url('fonts/cryptofont.svg?85l6ud#cryptofont') format('svg');
+  src:  url('../webfonts/cryptofont.eot?85l6ud');
+  src:  url('../webfonts/cryptofont.eot?85l6ud#iefix') format('embedded-opentype'),
+    url('../webfonts/cryptofont.ttf?85l6ud') format('truetype'),
+    url('../webfonts/cryptofont.woff?85l6ud') format('woff'),
+    url('../webfonts/cryptofont.svg?85l6ud#cryptofont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,13 +25,13 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.cf-xbtc:before {
+.cf-0xbtc:before {
   content: "\e900";
 }
-.cf-inch:before {
+.cf-1inch:before {
   content: "\e901";
 }
-.cf-st:before {
+.cf-1st:before {
   content: "\e902";
 }
 .cf-42:before {
