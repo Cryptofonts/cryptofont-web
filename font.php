@@ -75,7 +75,7 @@
           //processing results
           while($row = mysqli_fetch_assoc($result)){
 
-            echo "<div class='col-md-2 col-xs-4 text-center expand'>";
+            echo "<div class='col-md-2 col-6 text-center expand'>";
             echo "<i class='cf cf-" . $row['ticker'] . " large' id='" . $row['ticker'] . "' onclick='getDetails(this)'></i>";
             echo "<p class='text-muted'>cf-" . $row['ticker'] . "</p>";
             echo "</div>";
