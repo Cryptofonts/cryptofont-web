@@ -49,8 +49,15 @@ img {
 }
 
 .bg-custom {
-  /* background-color: #F5F8FF; */
-  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, .9);
+}
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: blur(6px)) or (backdrop-filter: blur(6px))) {
+  .bg-custom {
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+  }
 }
 .nav-item {
   margin-left: 16px;
@@ -60,10 +67,16 @@ img {
 .navbar-brand {
   color: #6C7488 !important;
 }
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
 .hero {
   height: 100vh;
   background-image: url('../img/cryptofonts-jumbotron.png'), url('../img/slice.svg');
-  background-size: contain, contain;
+  background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
   background-position: right, top;
   position: relative;
@@ -74,14 +87,6 @@ img {
   top: 40%;
   left: 5%;
   width: 50%;
-}
-@media (max-width: 768px) {
-  .hero-text {
-    width: 80%;
-  }
-  h1 {
-    font-size: 1.4rem;
-  }
 }
 
 .card {
@@ -218,4 +223,16 @@ footer {
 .qrcode {
   border: 4px black solid;
   border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    width: 80%;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+  .container {
+    margin-top: 2rem;
+  }
 }
