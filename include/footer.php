@@ -29,5 +29,10 @@
         <p class="small opacity-50">Made with <span class="fad fa-heart"></span> around the world</p>
       </div>
     </div>
+    <div class="row">
+      <div class="col text-center">
+        <p class="small opacity-50">All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.</p>
+      </div>
+    </div>
   </div>
 </footer>
