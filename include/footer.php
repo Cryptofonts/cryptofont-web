@@ -8,6 +8,7 @@
         <ul class="footer-list">
           <li>Social</li>
           <li><a href="https://twitter.com/cryptofonts?lang=en" target="_blank">Twitter</a></li>
+          <li><a href="https://t.me/cryptofonts" target="_blank">Telegram</a></li>
         </ul>
       </div>
       <div class="col-md-3 col-3">
