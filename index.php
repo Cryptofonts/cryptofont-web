@@ -156,6 +156,26 @@
       <section class="get-started" id="get-started">
         <div class="container">
           <h1 class="mb-4">Get Started</h1>
+          <h3><span class="fad fa-rabbit-fast"></span> Quick start</h3>
+          <p>Looking to quickly add Cryptofonts to your project? Use CryptofontsCDN<br>
+            Copy-paste the stylesheet <code>&lt;link&gt;</code> into your <code>&lt;head&gt;</code> before all other stylesheets to load our CSS.</p>
+          <div class="card terminal">
+            <div class="card-header">
+              <ul class="list-inline">
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="white float-right"><span class="fab fa-html5"></span> index.html</li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>
+                &lt;<span class="markup">link</span> <span class="ref">rel=</span><span class="link">"stylesheet"</span> <span class="ref">rel=</span><span class="link">"https://cdn.cryptofonts.com/1.3.0/cryptofont.css"</span>&gt;
+              </p>
+            </div>
+          </div>
+
+          <h3><span class="fad fa-hand-holding-box"></span> The manual way</h3>
           <p>Grap a copy of the latest version of Crypto Fonts and use it alongside your source code.</p>
           <div class="row mt-5">
             <div class="col-md-6">
