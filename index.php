@@ -170,7 +170,7 @@
             </div>
             <div class="card-body">
               <p>
-                &lt;<span class="markup">link</span> <span class="ref">rel=</span><span class="link">"stylesheet"</span> <span class="ref">rel=</span><span class="link">"https://cdn.cryptofonts.com/1.3.0/cryptofont.css"</span>&gt;
+                &lt;<span class="markup">link</span> <span class="ref">rel=</span><span class="link">"stylesheet"</span> <span class="ref">href=</span><span class="link">"https://cdn.cryptofonts.com/1.3.0/cryptofont.css"</span>&gt;
               </p>
             </div>
           </div>
