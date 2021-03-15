@@ -41,7 +41,7 @@
       <!-- <img src="img/jumbotron.svg" width="100%"> -->
       <div class="hero-text">
         <h1 class="mb-4">Beautifully crafted cryptocurrencies font and icons for your projects.</h1>
-        <p>1500+ Open-source CSS and SVG Icons</p>
+        <h2>1500+ Open-source CSS and SVG Icons</h2>
       </div>
     </div>
 
@@ -114,7 +114,7 @@
         </div>
 
         <div class="row justify-content-center mt-5 mb-5">
-          <a href="font.php" class="btn btn-primary">Show me the font</a>
+          <a href="font.php" class="btn btn-primary btn-lg">Show me the font</a>
         </div>
       </div>
     </section>
@@ -245,7 +245,7 @@
               </div>
             </div>
             <div class="row justify-content-center mt-5">
-              <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary">Get started with Cryptofonts</a>
+              <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary btn-lg">Get started with Cryptofonts</a>
             </div>
           </div>
         </div>
