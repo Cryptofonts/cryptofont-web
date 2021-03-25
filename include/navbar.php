@@ -23,6 +23,9 @@
       <li class="nav-item">
         <a class="nav-link" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
       </li>
+      <li class="nav-item">
+        <a class="btn btn-outline-primary" href="https://forms.gle/b3LQr8JeTJi7SRdQ6" target="_blank">Request form</a>
+      </li>
     </ul>
   </div>
 </nav>
