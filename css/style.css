@@ -3,6 +3,7 @@ html, body {
   min-width: 100%;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -34,6 +35,18 @@ img {
 }
 .white {
   color: #FFF;
+}
+.btn-primary {
+  background-color: rgba(62,161,219,1);
+  border-color: rgba(62,161,219,1);
+}
+.btn-outline-primary {
+  border-color: rgba(62,161,219,1);
+  color: rgba(62,161,219,1);
+}
+.btn-outline-primary:hover {
+  background-color: rgba(62,161,219,1);
+  border-color: rgba(62,161,219,1);
 }
 
 .jumbotron {
@@ -80,8 +93,8 @@ img {
 
 .hero {
   height: 100vh;
-  background-image: url('../img/cryptofonts-jumbotron.png'), url('../img/slice.svg');
-  background-size: cover, cover;
+  background-image: url('../img/cryptofonts-bw.png'), url('../img/slice.svg');
+  background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   background-position: right, top;
   position: relative;
@@ -89,9 +102,17 @@ img {
 }
 .hero-text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 5%;
-  width: 70%;
+  width: 50%;
+}
+.hero-text h1 {
+  background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-text h2 {
+  font-size: 1.6rem;
 }
 
 .card {
@@ -231,6 +252,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    background-size: cover, cover;
+    background-position: center, top;
+  }
   .hero-text {
     width: 80%;
   }

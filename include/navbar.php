@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
   <a class="navbar-brand" href="index.php">
-    <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top mr-3" alt="" loading="lazy">
-    Cryptofonts
+    <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="" loading="lazy">
+    <strong>Cryptofonts</strong>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
         <a class="nav-link" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
       </li>
       <li class="nav-item">
-        <a class="btn btn-outline-primary" href="https://forms.gle/b3LQr8JeTJi7SRdQ6" target="_blank">Request form</a>
+        <a class="btn btn-primary" href="https://forms.gle/b3LQr8JeTJi7SRdQ6" target="_blank">Request form</a>
       </li>
     </ul>
   </div>

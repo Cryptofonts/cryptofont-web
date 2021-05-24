@@ -21,7 +21,9 @@
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Lato font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
     <!-- FontAwesome -->
     <link href="css/fontawesome.min.css" rel="stylesheet">
     <link href="css/duotone.min.css" rel="stylesheet">
@@ -38,10 +40,11 @@
     <?php include('include/navbar.php') ?>
 
     <div class="hero">
-      <!-- <img src="img/jumbotron.svg" width="100%"> -->
       <div class="hero-text">
         <h1 class="mb-4">Beautifully crafted cryptocurrencies font and icons for your projects.</h1>
         <h2>1500+ Open-source CSS and SVG Icons</h2>
+        <a href="#get-started" class="btn btn-primary btn-lg mr-3 mt-3">Getting started</a>
+        <a href="font.php" class="btn btn-outline-primary btn-lg mt-3">Show me the font</a>
       </div>
     </div>
 
@@ -59,7 +62,7 @@
                 <div class="card">
                   <div class="card-body">
                     <span class="fad fa-box-full"></span>
-                    <p>One font,1300+ icons</p>
+                    <p>One font,1500+ icons</p>
                   </div>
                 </div>
               </div>
