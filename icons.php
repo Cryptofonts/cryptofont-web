@@ -20,8 +20,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- Lato font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <!-- FontAwesome -->
     <link href="css/fontawesome.min.css" rel="stylesheet">
     <link href="css/duotone.min.css" rel="stylesheet">
