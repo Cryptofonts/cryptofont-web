@@ -11,8 +11,17 @@
       <li class="nav-item">
         <a class="nav-link" href="index.php#get-started">Get started</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="font.php">Font</a>
+      </li> -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fonts
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="font.php">Crypto Font</a>
+          <a class="dropdown-item" href="utils.php">Utility Font</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="icons.php">Icons</a>
