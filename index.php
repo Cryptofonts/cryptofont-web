@@ -158,6 +158,31 @@
         </div>
       </section>
 
+      <section class="mb-5">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="mb-4">Crypto Font</h1>
+              <p class="mb-5">Crypto font is the original collection of more than 1500 icons that you can use for free in all your crypto projects.</p>
+              <a href="font.php" class="btn btn-primary btn-lg">Go to the font</a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center flex-column">
+              <div class="font-showcase d-flex justify-content-center align-items-center mb-4">
+                <i class="cf cf-btc xlarge"></i>
+              </div>
+              <div class="d-flex justify-content-between">
+                <input class="font-color" type="radio" id="huey" name="font-color" value="gray" checked>
+                <input class="font-color" type="radio" id="huey" name="font-color" value="black">
+                <input class="font-color" type="radio" id="huey" name="font-color" value="yellow">
+                <input class="font-color" type="radio" id="huey" name="font-color" value="green">
+                <input class="font-color" type="radio" id="huey" name="font-color" value="blue">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="get-started" id="get-started">
         <div class="container">
           <h1 class="mb-4">Get Started</h1>

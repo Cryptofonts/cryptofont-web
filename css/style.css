@@ -252,6 +252,15 @@ footer {
   background-image: url('../img/checker.png');
   background-size: cover;
 }
+.font-showcase {
+  height: 300px;
+  width: 100%;
+  background-image: url('../img/checker.png');
+  background-size: cover;
+}
+.font-color {
+  
+}
 .expand {
   transition: transform 0.4s;
   cursor: pointer;
