@@ -33,6 +33,9 @@ a {
 img {
   vertical-align: unset;
 }
+.mb-15 {
+  margin-bottom: 15rem;
+}
 .white {
   color: #FFF;
 }
@@ -258,9 +261,25 @@ footer {
   background-image: url('../img/checker.png');
   background-size: cover;
 }
-.font-color {
-  
+.font-section {
+  height: 400px;
 }
+
+.utils-showcase {
+  height: 600px;
+  background-image: url('../img/utils-img.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.icons-showcase {
+  height: 600px;
+  /* background-image: url('../img/icons-img.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left; */
+}
+
 .expand {
   transition: transform 0.4s;
   cursor: pointer;
@@ -276,6 +295,28 @@ footer {
 .qrcode {
   border: 4px black solid;
   border-radius: 8px;
+}
+
+.radio {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.gray {
+  background-color: #6C7488;
+}
+.black {
+  background-color: #1A1A1A;
+}
+.yellow {
+  background-color: #F2A900;
+}
+.green {
+  background-color: #3EC144;
+}
+.blue {
+  background-color: #1A9BFC;
 }
 
 @media (max-width: 768px) {

@@ -125,7 +125,7 @@
     </section>
 
 
-      <section class="mb-5">
+      <section class="mb-15">
         <div class="container">
           <h1 class="mb-4">Compatibility</h1>
 
@@ -158,7 +158,7 @@
         </div>
       </section>
 
-      <section class="mb-5">
+      <section class="mb-5 font-section">
         <div class="container">
 
           <div class="row">
@@ -169,15 +169,44 @@
             </div>
             <div class="col-md-4 d-flex justify-content-center flex-column">
               <div class="font-showcase d-flex justify-content-center align-items-center mb-4">
-                <i class="cf cf-btc xlarge"></i>
+                <i id="font-target" class="cf cf-btc xlarge"></i>
               </div>
               <div class="d-flex justify-content-between">
-                <input class="font-color" type="radio" id="huey" name="font-color" value="gray" checked>
-                <input class="font-color" type="radio" id="huey" name="font-color" value="black">
-                <input class="font-color" type="radio" id="huey" name="font-color" value="yellow">
-                <input class="font-color" type="radio" id="huey" name="font-color" value="green">
-                <input class="font-color" type="radio" id="huey" name="font-color" value="blue">
+                <div id="#6C7488" class="radio gray" onclick="changeColor(this)"></div>
+                <div id="#1A1A1A" class="radio black" onclick="changeColor(this)"></div>
+                <div id="#F2A900" class="radio yellow" onclick="changeColor(this)"></div>
+                <div id="#3EC144" class="radio green" onclick="changeColor(this)"></div>
+                <div id="#1A9BFC" class="radio blue" onclick="changeColor(this)"></div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-5 utils-showcase">
+        <div class="container">
+          <h1 class="mb-4">Utility Font</h1>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-5">Create beautiful dApps with our utility font. Every icon is professionally designed and pixel perfect at every resolution.</p>
+              <a href="utils.php" class="btn btn-primary btn-lg">Go to the font</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-5 icons-showcase">
+        <div class="container">
+
+          <div class="row justify-content-end">
+            <div class="col-md-8">
+              <img class="img-fluid" src="img/icons-img.png">
+            </div>
+            <div class="col-md-4">
+              <h1 class="mb-4">Icons</h1>
+              <p class="mb-5">This beautiful SVG icon collection includes some of the most popular crypto projects and continues to expand.</p>
+              <a href="icons.php" class="btn btn-primary btn-lg">Go to the icons</a>
             </div>
           </div>
         </div>
@@ -292,5 +321,14 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    function changeColor(el) {
+      var id = $(el).attr("id");
+      console.log(id);
+      $("#font-target").css("color", id);
+
+    }
+    </script>
   </body>
 </html>
