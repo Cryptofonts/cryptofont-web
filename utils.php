@@ -47,7 +47,7 @@
       <div class="container">
         <h1>Utility Web Font for dApps</h1>
         <p class="lead">Create beautiful dApps with our utilty collection.</p>
-        <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download Webfont</a>
+        <a href="https://github.com/monzanifabio/cryptofonts-utils/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download Webfont</a>
       </div>
     </div>
 
