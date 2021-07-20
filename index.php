@@ -125,7 +125,7 @@
     </section>
 
 
-      <section class="mb-15">
+      <section class="mb-10">
         <div class="container">
           <h1 class="mb-4">Compatibility</h1>
 
@@ -158,55 +158,52 @@
         </div>
       </section>
 
-      <section class="mb-5 font-section">
+      <section class="mb-5">
         <div class="container">
-
+          <h1 class="mb-4">Products</h1>
           <div class="row">
             <div class="col-md-6">
-              <h1 class="mb-4">Crypto Font</h1>
-              <p class="mb-5">Crypto font is the original collection of more than 1500 icons that you can use for free in all your crypto projects.</p>
-              <a href="font.php" class="btn btn-primary btn-lg">Go to the font</a>
-            </div>
-            <div class="col-md-4 d-flex justify-content-center flex-column">
-              <div class="font-showcase d-flex justify-content-center align-items-center mb-4">
-                <i id="font-target" class="cf cf-btc xlarge"></i>
-              </div>
-              <div class="d-flex justify-content-between">
-                <div id="#6C7488" class="radio gray" onclick="changeColor(this)"></div>
-                <div id="#1A1A1A" class="radio black" onclick="changeColor(this)"></div>
-                <div id="#F2A900" class="radio yellow" onclick="changeColor(this)"></div>
-                <div id="#3EC144" class="radio green" onclick="changeColor(this)"></div>
-                <div id="#1A9BFC" class="radio blue" onclick="changeColor(this)"></div>
+              <div class="card utils-showcase">
+                <div class="card-body">
+                  <h3>Utility Font</h3>
+                  <p class="mb-2">Create beautiful dApps with our utility font. Every icon is professionally designed and pixel perfect at every resolution.</p>
+                  <a href="utils.php" class="btn btn-link">Go to the font</a>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="mb-5 utils-showcase">
-        <div class="container">
-          <h1 class="mb-4">Utility Font</h1>
-
-          <div class="row">
             <div class="col-md-6">
-              <p class="mb-5">Create beautiful dApps with our utility font. Every icon is professionally designed and pixel perfect at every resolution.</p>
-              <a href="utils.php" class="btn btn-primary btn-lg">Go to the font</a>
+              <div class="card icons-showcase">
+                <div class="card-body">
+                  <h3>Icons</h3>
+                  <p class="mb-2">This beautiful SVG icon collection includes some of the most popular crypto projects and continues to expand.</p>
+                  <a href="icons.php" class="btn btn-link">Go to the icons</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="mb-5 icons-showcase">
-        <div class="container">
-
-          <div class="row justify-content-end">
-            <div class="col-md-8">
-              <img class="img-fluid" src="img/icons-img.png">
-            </div>
-            <div class="col-md-4">
-              <h1 class="mb-4">Icons</h1>
-              <p class="mb-5">This beautiful SVG icon collection includes some of the most popular crypto projects and continues to expand.</p>
-              <a href="icons.php" class="btn btn-primary btn-lg">Go to the icons</a>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6 d-flex align-items-center flex-column justify-content-center">
+                      <h3>Crypto Font</h3>
+                      <p class="mb-2">Crypto font is the original collection of more than 1500 icons that you can use for free in all your crypto projects.</p>
+                      <a href="font.php" class="btn btn-link">Go to the font</a>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center flex-column">
+                      <div class="font-showcase d-flex justify-content-center align-items-center mb-4">
+                        <i id="font-target" class="cf cf-btc xlarge"></i>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <div id="#6C7488" class="radio gray" onclick="changeColor(this)"></div>
+                        <div id="#1A1A1A" class="radio black" onclick="changeColor(this)"></div>
+                        <div id="#F2A900" class="radio yellow" onclick="changeColor(this)"></div>
+                        <div id="#3EC144" class="radio green" onclick="changeColor(this)"></div>
+                        <div id="#1A9BFC" class="radio blue" onclick="changeColor(this)"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

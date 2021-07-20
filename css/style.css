@@ -33,8 +33,8 @@ a {
 img {
   vertical-align: unset;
 }
-.mb-15 {
-  margin-bottom: 15rem;
+.mb-10 {
+  margin-bottom: 10rem;
 }
 .white {
   color: #FFF;
@@ -256,10 +256,12 @@ footer {
   background-size: cover;
 }
 .font-showcase {
-  height: 300px;
+  height: 100%;
   width: 100%;
   background-image: url('../img/checker.png');
   background-size: cover;
+  background-size: 150px 150px;
+  padding: 15px;
 }
 .font-section {
   height: 400px;
@@ -270,14 +272,14 @@ footer {
   background-image: url('../img/utils-img.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: bottom;
 }
 .icons-showcase {
   height: 600px;
-  /* background-image: url('../img/icons-img.png');
+  background-image: url('../img/icons-img.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left; */
+  background-position: bottom;
 }
 
 .expand {
