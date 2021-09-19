@@ -18,6 +18,10 @@
     <meta property="og:title" content="Cryptofonts" />
     <meta property="og:description" content="A crisp webfont icons and svg logos for your favourite cryptocurrencies. Featuring 974 icons." />
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 61408138d449c62de2996b01cd5aa7f14d4597e7
     <title>CryptoFont - Cryptocurrency icons and webfont</title>
 
     <?php include('include/favicons.php') ?>
