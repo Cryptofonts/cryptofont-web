@@ -7,9 +7,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A crisp webfont icons and svg for your favourite cryptocurrencies. Featuring 974 icons.">
-    <meta name="keywords" content="icons, vector icons, svg icons, free icons, icon font, webfont, desktop icons, svg, font awesome, font awesome free, font awesome pro">
+    <meta name="description" content="A crisp webfont icons and svg logos for your favourite cryptocurrencies. Featuring 974 icons.">
+    <meta name="keywords" content="icons, logos, crypto logo, vector icons, svg icons, free icons, icon font, webfont, desktop icons, svg, font awesome, font awesome free, font awesome pro">
     <meta name="author" content="Fabio Monzani">
+
+    <meta property="og:site_name" content="Cryptofonts" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://www.cryptofonts.com/img/card.png" />
+    <meta property="og:url" content="https://cryptofonts.com" />
+    <meta property="og:title" content="Cryptofonts" />
+    <meta property="og:description" content="A crisp webfont icons and svg logos for your favourite cryptocurrencies. Featuring 974 icons." />
 
     <title>CryptoFont - Cryptocurrency icons and webfont</title>
 
