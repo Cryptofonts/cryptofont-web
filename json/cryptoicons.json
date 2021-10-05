@@ -736,8 +736,8 @@
   },
   {
     "name":"Dentacoin",
-    "image": "dtn.svg",
-    "ticker":"dtn"
+    "image": "dcn.svg",
+    "ticker":"dcn"
   },
   {
     "name":"Decred",
@@ -1360,9 +1360,9 @@
     "ticker":"isusd"
   },
   {
-    "name":"isudc",
-    "image": "isudc.svg",
-    "ticker":"isudc"
+    "name":"iusdc",
+    "image": "iusdc.svg",
+    "ticker":"iusdc"
   },
   {
     "name":"iwbtc",
