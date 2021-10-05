@@ -176,6 +176,7 @@
                   <p class="mb-2">Create beautiful dApps with our utility font. Every icon is professionally designed and pixel perfect at every resolution.</p>
                   <a href="utils.php" class="btn btn-link">Go to the font</a>
                 </div>
+                <div class="bg-utils-showcase"></div>
               </div>
             </div>
             <div class="col-md-6">
@@ -185,6 +186,7 @@
                   <p class="mb-2">This beautiful SVG icon collection includes some of the most popular crypto projects and continues to expand.</p>
                   <a href="icons.php" class="btn btn-link">Go to the icons</a>
                 </div>
+                <div class="bg-icons-showcase"></div>
               </div>
             </div>
             <div class="col">

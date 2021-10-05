@@ -269,13 +269,19 @@ footer {
 
 .utils-showcase {
   height: 600px;
+}
+.bg-utils-showcase {
+  min-height: 70%;
   background-image: url('../img/utils-img.png');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: right;
 }
 .icons-showcase {
   height: 600px;
+}
+.bg-icons-showcase {
+  min-height: 70%;
   background-image: url('../img/icons-img.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -319,6 +325,11 @@ footer {
 }
 .blue {
   background-color: #1A9BFC;
+}
+
+.badge-outline {
+  border-radius: 4px;
+  border: 1px solid #1A1A1A;
 }
 
 @media (max-width: 768px) {
