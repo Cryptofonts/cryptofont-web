@@ -52,7 +52,7 @@
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css">
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css?v=1.0">
     <!-- Inter font -->
@@ -352,9 +352,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/bootstrap-4.5.0/js/jquery-3.5.1.min.js"></script>
+    <script src="vendors/bootstrap-4.5.0/js/popper.min.js"></script>
+    <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
 
     <script>
     function changeColor(el) {
