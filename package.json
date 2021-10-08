@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.php",
   "scripts": {
-    "build": "purgecss --css vendors/bootstrap-4.5.0/css/bootstrap.min.css --content *.html --output css",
+    "build": "purgecss -c purgecss.config.js -o css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
