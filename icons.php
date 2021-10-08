@@ -141,7 +141,7 @@
             </button>
           </div>
             <div class="modal-body text-center">
-              <img id="iconDetail" src="" height="200">
+              <img id="iconDetail" src="" height="200" alt="current selected icon">
               <div class="row justify-content-center mt-5">
                 <a download='' id="iconDownload" href="" class="btn btn-primary">Download SVG</a>
               </div>

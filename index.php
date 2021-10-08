@@ -91,7 +91,7 @@
           <div class="row">
             <div class="col-md-6">
               <p class="mb-5">Crypto Fonts gives you scalable vector icons that can instantly be customized by size, color, shadow, and anything that can be done with the power of CSS.</p>
-              <img class="img-fluid mb-5" src="img/bitcoin-vector.svg">
+              <img class="img-fluid mb-5" src="img/bitcoin-vector.svg" alt="bitcoin logo">
             </div>
             <div class="col-md-6">
               <div class="row">
@@ -166,27 +166,27 @@
 
           <div class="row text-center">
             <div class="col-md-2 col-6">
-              <img src="img/icon-sketch.svg" height="70px">
+              <img src="img/icon-sketch.svg" height="70px" alt="sketch icon">
               <p class="mt-3 mb-4">Sketch App</p>
             </div>
             <div class="col-md-2 col-6">
-              <img src="img/icon-photoshop.svg" height="70px">
+              <img src="img/icon-photoshop.svg" height="70px" alt="photoshop icon">
               <p class="mt-3 mb-4">Photoshop</p>
             </div>
             <div class="col-md-2 col-6">
-              <img src="img/icon-illustrator.svg" height="70px">
+              <img src="img/icon-illustrator.svg" height="70px" alt="illustrator icon">
               <p class="mt-3 mb-4">Illustrator</p>
             </div>
             <div class="col-md-2 col-6">
-              <img src="img/icon-xd.svg" height="70px">
+              <img src="img/icon-xd.svg" height="70px" alt="adobe xd icon">
               <p class="mt-3 mb-4">Adobe XD</p>
             </div>
             <div class="col-md-2 col-6">
-              <img src="img/icon-figma.svg" height="70px">
+              <img src="img/icon-figma.svg" height="70px" alt="figma icon">
               <p class="mt-3 mb-4">Figma</p>
             </div>
             <div class="col-md-2 col-6">
-              <img src="img/icon-invisio.svg" height="70px">
+              <img src="img/icon-invisio.svg" height="70px" alt="invisio studio icon">
               <p class="mt-3 mb-4">InVision Studio</p>
             </div>
           </div>
@@ -276,7 +276,7 @@
               <p>Copy the entire  <span class="fad fa-folder"></span> <strong>webfonts</strong> folder and the  <span class="fad fa-file"></span> <strong>cryptofont.css</strong> into your project’s static assets directory (or where ever you prefer to keep front end assets or vendor stuff).</p>
             </div>
             <div class="col-md-6 text-center">
-              <img src="img/icon-transfer.svg">
+              <img src="img/icon-transfer.svg" alt="transfer files">
             </div>
           </div>
 
