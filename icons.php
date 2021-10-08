@@ -52,7 +52,7 @@
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.css?v=1.0">
     <!-- Inter font -->
