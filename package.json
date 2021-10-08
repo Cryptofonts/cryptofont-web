@@ -1,0 +1,23 @@
+{
+  "name": "cryptofonts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "build": "purgecss --css vendors/bootstrap-4.5.0/css/bootstrap.min.css --content *.html --output css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monzanifabio/cryptofont-web-v2.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/monzanifabio/cryptofont-web-v2/issues"
+  },
+  "homepage": "https://github.com/monzanifabio/cryptofont-web-v2#readme",
+  "dependencies": {
+    "purgecss": "^4.0.3"
+  }
+}
