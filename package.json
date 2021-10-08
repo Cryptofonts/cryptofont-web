@@ -5,6 +5,7 @@
   "main": "index.php",
   "scripts": {
     "build": "purgecss -c purgecss.config.js -o css",
+    "mini": "cssnano css/style.css css/style.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/monzanifabio/cryptofont-web-v2#readme",
   "dependencies": {
+    "cssnano": "^5.0.8",
+    "cssnano-cli": "^1.0.5",
     "purgecss": "^4.0.3"
   }
 }
