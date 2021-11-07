@@ -43,7 +43,7 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1>High Quality Cryptocurrencies Icons</h1>
-        <p class="lead">The complete set of _ SVG icons.</p>
+        <p class="lead" id="totalCount">The complete set of _ SVG icons.</p>
         <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download All Icons</a>
       </div>
     </div>
@@ -94,13 +94,15 @@
       $.getJSON("json/cryptoicons.json",
       function (data) {
         var icon = '';
+        //Get the total number of icons in the JSON
+        $('#totalCount').text("The complete set of " + data.length + " SVG icons.")
         // ITERATING THROUGH OBJECTS
         $.each(data, function (key, value) {
 
           //CONSTRUCTION OF ROWS HAVING
           // DATA FROM JSON OBJECT
           icon += '<div id="' + value.ticker + '" class="col-md-2 col-6 text-center expand mb-5" onclick="getDetails(this)">';
-          icon += '<img loading="lazy" src="img/icons/' + value.image + '" height="50" alt="' + value.ticker + '">';
+          icon += '<img loading="lazy" src="img/icons/' + value.image + '" height="60" alt="' + value.ticker + '">';
           icon += '<p class="text-muted mb-0">' + value.name + '</p>';
           icon += '<span class="badge badge-outline text-uppercase">' + value.ticker + '</span>';
           icon += '</div>';
