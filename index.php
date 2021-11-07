@@ -78,7 +78,7 @@
 
     <div class="hero">
       <div class="hero-text">
-        <h1 class="mb-4">Beautifully crafted cryptocurrencies font and icons for your projects.</h1>
+        <h1 class="mb-4">Beautifully crafted cryptocurrencies fonts and icons for your projects.</h1>
         <h2>1500+ Open-source CSS and SVG Icons</h2>
         <a href="#get-started" class="btn btn-primary btn-lg mr-3 mt-3">Getting started</a>
         <a href="font.php" class="btn btn-outline-primary btn-lg mt-3">Show me the font</a>
