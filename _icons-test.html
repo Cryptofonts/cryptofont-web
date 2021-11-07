@@ -100,7 +100,7 @@
           //CONSTRUCTION OF ROWS HAVING
           // DATA FROM JSON OBJECT
           icon += '<div id="' + value.ticker + '" class="col-md-2 col-6 text-center expand mb-5" onclick="getDetails(this)">';
-          icon += '<img loading="lazy" src="img/icons/' + value.image + '" height="50">';
+          icon += '<img loading="lazy" src="img/icons/' + value.image + '" height="50" alt="' + value.ticker + '">';
           icon += '<p class="text-muted mb-0">' + value.name + '</p>';
           icon += '<span class="badge badge-outline text-uppercase">' + value.ticker + '</span>';
           icon += '</div>';
