@@ -52,7 +52,7 @@
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css">
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.min.css?v=1.0">
     <!-- Inter font -->
@@ -65,8 +65,6 @@
     <link href="css/brands.min.css" rel="stylesheet">
     <!-- Cryptofonts -->
     <link href="css/cryptofont.css" rel="stylesheet">
-
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
   </head>
   <body>
@@ -83,11 +81,8 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1>High Quality Cryptocurrencies Icons</h1>
-        <p class="lead">The complete set of <?php echo $count; ?> SVG icons.</p>
-        <div class="d-flex align-items-center justify-content-between">
-          <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download All Icons</a>
-          <a class="github-button" href="https://github.com/monzanifabio/cryptoicons" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" data-show-count="true" aria-label="Star monzanifabio/cryptoicons on GitHub">Star</a>
-        </div>
+        <p class="lead" id="totalCount">The complete set of _ SVG icons.</p>
+        <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download All Icons</a>
       </div>
     </div>
 
@@ -100,40 +95,10 @@
     <section>
       <div class="container">
         <div class="row" id="list">
-          <!-- <h1 id="emptySearch" style="display: none;">Empty search</h1> -->
-          <?php
-          //get database account details
-          include('include/dbaccess.php');
-          include('include/images.php');
 
-          //create connection
-          $link = mysqli_connect($db_hostname,$db_username,$db_password,$db_database)
-              or die("cannot connect to database.");
-
-          //running SQL query
-          $query ="SELECT * FROM coloricon ORDER BY ticker";
-          $result=mysqli_query($link, $query)
-              or die("Failed to load data.");
-
-          //processing results
-          while($row = mysqli_fetch_assoc($result)){
-
-            $logoid = $row['id'];
-            echo "<div class='col-md-2 col-6 text-center expand'>";
-            // echo "<embed type='image/svg+xml' class='grow' src='" . $path . $row['ticker'] . ".svg' height='60'/>";
-            echo "<img loading='lazy' src='" . $path . $row['ticker'] . ".svg' height='60' id='" . $row['ticker'] . "' onclick='getDetails(this)' alt='" . $row['ticker'] . "'></img>";
-            echo "<p class='text-muted'>" . $row['ticker'] . "</p>";
-            echo "</div>";
-          }
-
-          ?>
         </div>
       </div>
     </section>
-
-    <?php include('include/footer.php') ?>
-
-    <?php include('include/donate.php') ?>
 
     <!-- Detail Modal -->
     <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -146,7 +111,7 @@
             </button>
           </div>
             <div class="modal-body text-center">
-              <img id="iconDetail" src="" height="200" alt="current selected icon">
+              <img id="iconDetail" src="" height="200">
               <div class="row justify-content-center mt-5">
                 <a download='' id="iconDownload" href="" class="btn btn-primary">Download SVG</a>
               </div>
@@ -155,24 +120,54 @@
       </div>
     </div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="vendors/bootstrap-4.5.0/js/jquery-3.5.1.min.js"></script>
+    <script src="vendors/bootstrap-4.5.0/js/popper.min.js"></script>
+    <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
 
     <script>
+    $(document).ready(function () {
+      // FETCHING DATA FROM JSON FILE
+      $.getJSON("json/cryptoicons.json",
+      function (data) {
+        var icon = '';
+        //Get the total number of icons in the JSON
+        $('#totalCount').text("The complete set of " + data.length + " SVG icons.")
+        // ITERATING THROUGH OBJECTS
+        $.each(data, function (key, value) {
+
+          //CONSTRUCTION OF ROWS HAVING
+          // DATA FROM JSON OBJECT
+          icon += '<div id="' + value.ticker + '" class="col-md-2 col-6 text-center expand mb-5" onclick="getDetails(this)">';
+          icon += '<img loading="lazy" src="img/icons/' + value.image + '" height="60" alt="' + value.ticker + '">';
+          icon += '<p class="text-muted mb-0">' + value.name + '</p>';
+          icon += '<span class="badge badge-outline text-uppercase">' + value.ticker + '</span>';
+          icon += '</div>';
+        });
+
+        //INSERTING ROWS INTO TABLE
+        $('#list').append(icon);
+      });
+    });
+
     function searchTicker() {
         // Declare variables
         var input, filter, ul, li, a, i;
         input = document.getElementById('searchTicker');
-        filter = input.value.toUpperCase();
+        filter = input.value.toLowerCase();
         ul = document.getElementById("list");
         li = ul.getElementsByTagName('div');
 
         // Loop through all list items, and hide those who don't match the search query
         for (i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("p")[0];
-            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            b = li[i].getElementsByTagName("span")[0];
+            if (a.innerHTML.toLowerCase().indexOf(filter) > -1 || b.innerHTML.toLowerCase().indexOf(filter) > -1) {
                 li[i].style.display = "";
             } else {
                 li[i].style.display = "none";
-            }
+            };
         }
     }
 
@@ -188,11 +183,5 @@
     }
     </script>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="vendors/bootstrap-4.5.0/js/jquery-3.5.1.min.js"></script>
-    <script src="vendors/bootstrap-4.5.0/js/popper.min.js"></script>
-    <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
     </body>
     </html>
