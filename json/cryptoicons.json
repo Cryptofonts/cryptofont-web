@@ -2435,6 +2435,11 @@
     "ticker":"rsr"
   },
   {
+    "name":"Reserve",
+    "image": "rsv.svg",
+    "ticker":"rsv"
+  },
+  {
     "name":"THORChain",
     "image": "rune.svg",
     "ticker":"rune"
