@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-md-3 text-center mb-4">
         <img class="opacity-50" src="img/logo.svg" height="60px">
       </div>
@@ -27,12 +27,12 @@
     </div>
     <div class="row">
       <div class="col text-center">
-        <p class="small opacity-50">Made with <span class="fad fa-heart"></span> around the world</p>
+        <p class="small opacity-50">Made with <span class="fad fa-heart"></span> by <a href="https://fabiomonzani.com" target="_blank">Fabio Monzani</a> and other people around the world</p>
       </div>
     </div>
     <div class="row">
       <div class="col text-center">
-        <p class="small opacity-50">All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.</p>
+        <p class="tiny opacity-50">All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.</p>
       </div>
     </div>
   </div>
