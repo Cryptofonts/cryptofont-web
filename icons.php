@@ -100,6 +100,10 @@
       </div>
     </section>
 
+    <?php include('include/footer.php') ?>
+
+    <?php include('include/donate.php') ?>
+
     <!-- Detail Modal -->
     <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
