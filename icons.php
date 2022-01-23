@@ -54,7 +54,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css">
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.1">
+    <link rel="stylesheet" href="css/style.min.css?v=1.2">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
