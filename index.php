@@ -57,7 +57,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.0">
+    <link rel="stylesheet" href="css/style.min.css?v=1.1">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,7 +82,7 @@
     <div class="hero">
       <div class="hero-text">
         <h1 class="mb-4">Beautifully crafted cryptocurrencies fonts and icons for your projects.</h1>
-        <h2>1500+ Open-source CSS and SVG Icons</h2>
+        <h2>Cryptofonts is the biggest open-source library with more than 1500 CSS and SVG Icons</h2>
         <a href="#get-started" class="btn btn-primary btn-lg mr-3 mt-3">Getting started</a>
         <a href="font.php" class="btn btn-outline-primary btn-lg mt-3">Show me the font</a>
       </div>
