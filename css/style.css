@@ -114,6 +114,7 @@ img {
   background-position: right, top;
   position: relative;
   margin-bottom: 80px;
+  background-attachment: scroll, fixed;
 }
 .hero-text {
   position: absolute;

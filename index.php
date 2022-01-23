@@ -59,7 +59,7 @@
     <!-- Development -->
     <!-- <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css"> -->
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.2">
+    <link rel="stylesheet" href="css/style.min.css?v=1.3">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -367,8 +367,22 @@
       var id = $(el).attr("id");
       console.log(id);
       $("#font-target").css("color", id);
-
     }
+
+    //Jumbotron parallax effect
+    var parallax = document.querySelectorAll(".hero");
+    var	speed = -0.5;
+
+    window.onscroll = function() {
+      [].slice.call(parallax).forEach(function(el, i) {
+
+        var windowYOffset = window.pageYOffset,
+          elBackgrounPos = "50% " + (windowYOffset * speed + i * 200) + "px";
+
+        el.style.backgroundPosition = elBackgrounPos;
+
+      });
+    };
     </script>
   </body>
 </html>
