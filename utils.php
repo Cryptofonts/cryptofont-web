@@ -113,7 +113,7 @@
           while($row = mysqli_fetch_assoc($result)){
 
             echo "<div class='col-md-2 col-6 text-center expand'>";
-            echo "<i class='cfu-" . $row['ticker'] . " medium' id='" . $row['ticker'] . "' onclick='getDetails(this)'></i>";
+            echo "<i class='cfu-" . $row['ticker'] . " icon-small' id='" . $row['ticker'] . "' onclick='getDetails(this)'></i>";
             echo "<p class='text-muted'>cfu-" . $row['ticker'] . "</p>";
             echo "</div>";
           }
