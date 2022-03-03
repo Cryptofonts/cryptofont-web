@@ -100,6 +100,11 @@
     "ticker":"aleph"
   },
   {
+    "name":"Alchemix",
+    "image": "alcx.svg",
+    "ticker":"alcx"
+  },
+  {
     "name":"Algorand",
     "image": "algo.svg",
     "ticker":"algo"
@@ -330,6 +335,11 @@
     "ticker":"bel"
   },
   {
+    "name":"Beta Finance",
+    "image": "beta.svg",
+    "ticker":"beta"
+  },
+  {
     "name":"BitForex Token",
     "image": "bf.svg",
     "ticker":"bf"
@@ -545,6 +555,11 @@
     "ticker":"cel"
   },
   {
+    "name":"Celo",
+    "image": "celo.svg",
+    "ticker":"celo"
+  },
+  {
     "name":"Celer Network",
     "image": "celr.svg",
     "ticker":"celr"
@@ -743,6 +758,11 @@
     "name":"CyberVeinToken",
     "image": "cvt.svg",
     "ticker":"cvt"
+  },
+  {
+    "name":"Convex Finance",
+    "image": "cvx.svg",
+    "ticker":"cvx"
   },
   {
     "name":"cWBTC",
@@ -955,6 +975,11 @@
     "ticker":"edo"
   },
   {
+    "name":"Efinity Token",
+    "image": "efi.svg",
+    "ticker":"efi"
+  },
+  {
     "name":"Effect.AI",
     "image": "efx.svg",
     "ticker":"efx"
@@ -1138,6 +1163,16 @@
     "name":"Fortuna",
     "image": "fota.svg",
     "ticker":"fota"
+  },
+  {
+    "name":"Shapeshift Token",
+    "image": "fox.svg",
+    "ticker":"fox"
+  },
+  {
+    "name":"Frax",
+    "image": "frax.svg",
+    "ticker":"frax"
   },
   {
     "name":"Ferrum Network",
@@ -1325,6 +1360,11 @@
     "ticker":"hex"
   },
   {
+    "name":"Highstreet",
+    "image": "high.svg",
+    "ticker":"high"
+  },
+  {
     "name":"Hive",
     "image": "hive.svg",
     "ticker":"hive"
@@ -1505,9 +1545,19 @@
     "ticker":"jnt"
   },
   {
+    "name":"Juno",
+    "image": "juno.svg",
+    "ticker":"juno"
+  },
+  {
     "name":"Jarvis Network",
     "image": "jst.svg",
     "ticker":"jst"
+  },
+  {
+    "name":"Kadena",
+    "image": "kda.svg",
+    "ticker":"kda"
   },
   {
     "name":"Kava.io",
@@ -1580,6 +1630,11 @@
     "ticker":"lba"
   },
   {
+    "name":"LCX",
+    "image": "lcx.svg",
+    "ticker":"lcx"
+  },
+  {
     "name":"Lido DAO",
     "image": "ldo.svg",
     "ticker":"ldo"
@@ -1623,6 +1678,11 @@
     "name":"Tokenlon",
     "image": "lon.svg",
     "ticker":"lon"
+  },
+  {
+    "name":"LooksRare",
+    "image": "looks.svg",
+    "ticker":"looks"
   },
   {
     "name":"Loom Network",
@@ -1703,6 +1763,11 @@
     "name":"Decentraland",
     "image": "mana.svg",
     "ticker":"mana"
+  },
+  {
+    "name":"Marscoin",
+    "image": "mars.svg",
+    "ticker":"mars"
   },
   {
     "name":"MATH",
@@ -1793,6 +1858,11 @@
     "name":"Melon",
     "image": "mln.svg",
     "ticker":"mln"
+  },
+  {
+    "name":"Mango",
+    "image": "mngo.svg",
+    "ticker":"mngo"
   },
   {
     "name":"Modum",
@@ -1930,6 +2000,11 @@
     "ticker":"nexxo"
   },
   {
+    "name":"APENFT",
+    "image": "nft.svg",
+    "ticker":"nft"
+  },
+  {
     "name":"NAGA",
     "image": "ngc.svg",
     "ticker":"ngc"
@@ -2030,6 +2105,11 @@
     "ticker":"ogn"
   },
   {
+    "name":"Olympus",
+    "image": "ohm.svg",
+    "ticker":"ohm"
+  },
+  {
     "name":"OKB",
     "image": "okb.svg",
     "ticker":"okb"
@@ -2083,6 +2163,11 @@
     "name":"Orion Protocol",
     "image": "orn.svg",
     "ticker":"orn"
+  },
+  {
+    "name":"Osmosis",
+    "image": "osmo.svg",
+    "ticker":"osmo"
   },
   {
     "name":"OST",
@@ -2220,6 +2305,11 @@
     "ticker":"poe"
   },
   {
+    "name":"Pocket Network",
+    "image": "pokt.svg",
+    "ticker":"pokt"
+  },
+  {
     "name":"Polkastarter",
     "image": "pols.svg",
     "ticker":"pols"
@@ -2338,6 +2428,11 @@
     "name":"Qtum",
     "image": "qtum.svg",
     "ticker":"qtum"
+  },
+  {
+    "name":"Quickswap",
+    "image": "quick.svg",
+    "ticker":"quick"
   },
   {
     "name":"r",
@@ -2590,6 +2685,11 @@
     "ticker":"sol"
   },
   {
+    "name":"Sovryn",
+    "image": "sov.svg",
+    "ticker":"sov"
+  },
+  {
     "name":"Phantasma",
     "image": "soul.svg",
     "ticker":"soul"
@@ -2840,6 +2940,11 @@
     "ticker":"tusd"
   },
   {
+    "name":"Trust Wallet Token",
+    "image": "twt.svg",
+    "ticker":"twt"
+  },
+  {
     "name":"Ubiq",
     "image": "ubq.svg",
     "ticker":"ubq"
@@ -2898,6 +3003,11 @@
     "name":"USD Coin",
     "image": "usdc.svg",
     "ticker":"usdc"
+  },
+  {
+    "name":"Pax Dollar",
+    "image": "usdp.svg",
+    "ticker":"usdp"
   },
   {
     "name":"Stably USD",
@@ -3098,6 +3208,11 @@
     "name":"NEM",
     "image": "xem.svg",
     "ticker":"xem"
+  },
+  {
+    "name":"Haven",
+    "image": "xhv.svg",
+    "ticker":"xhv"
   },
   {
     "name":"Mixin",
