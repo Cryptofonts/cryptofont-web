@@ -27,7 +27,7 @@
     </div>
     <div class="row">
       <div class="col text-center">
-        <p class="small opacity-50">Made with <span class="fad fa-heart"></span> by <a href="https://fabiomonzani.com" target="_blank">Fabio Monzani</a> and other people around the world</p>
+        <p class="small opacity-50">Made with <span class="fad fa-heart"></span> by <a class="fabiomonzani" href="https://fabiomonzani.com" target="_blank">Fabio Monzani</a> and other people around the world</p>
       </div>
     </div>
     <div class="row">
