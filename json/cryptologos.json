@@ -1,0 +1,106 @@
+[
+  {
+    "name":"alchemy",
+    "image": "alchemy.svg"
+  },
+  {
+    "name":"argent",
+    "image": "argent.svg"
+  },
+  {
+    "name":"binance",
+    "image": "binance.svg"
+  },
+  {
+    "name":"bisq",
+    "image": "bisq.svg"
+  },
+  {
+    "name":"bitfinex",
+    "image": "bitfinex.svg"
+  },
+  {
+    "name":"bithumb",
+    "image": "bithumb.svg"
+  },
+  {
+    "name":"bitmex",
+    "image": "bitmex.svg"
+  },
+  {
+    "name":"blockchain.com",
+    "image": "blockchain.com.svg"
+  },
+  {
+    "name":"compound",
+    "image": "compound.svg"
+  },
+  {
+    "name":"coinbase",
+    "image": "coinbase.svg"
+  },
+  {
+    "name":"consensys",
+    "image": "consensys.svg"
+  },
+  {
+    "name":"dydx",
+    "image": "dydx.svg"
+  },
+  {
+    "name":"exodus",
+    "image": "exodus.svg"
+  },
+  {
+    "name":"frame",
+    "image": "frame.svg"
+  },
+  {
+    "name":"fulcrum",
+    "image": "fulcrum.svg"
+  },
+  {
+    "name":"hitbtc",
+    "image": "hitbtc.svg"
+  },
+  {
+    "name":"kraken",
+    "image": "kraken.svg"
+  },
+  {
+    "name":"ledger",
+    "image": "ledger.svg"
+  },
+  {
+    "name":"metamask",
+    "image": "metamask.svg"
+  },
+  {
+    "name":"mycrypto",
+    "image": "mycrypto.svg"
+  },
+  {
+    "name":"nuo",
+    "image": "nuo.svg"
+  },
+  {
+    "name":"opensea",
+    "image": "opensea.svg"
+  },
+  {
+    "name":"phantom",
+    "image": "phantom.svg"
+  },
+  {
+    "name":"trust-wallet",
+    "image": "trust-wallet.svg"
+  },
+  {
+    "name":"umbrel",
+    "image": "umbrel.svg"
+  },
+  {
+    "name":"walletconnect",
+    "image": "walletconnect.svg"
+  }
+]
