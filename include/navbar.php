@@ -26,6 +26,10 @@
       <li class="nav-item">
         <a class="nav-link" href="icons.php">Icons</a>
       </li>
+      <li class="nav-item notification">
+        <a class="nav-link" href="brands.php">Brands</a>
+        <div class="badge"></div>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/monzanifabio/cryptofont" target="_blank"><span class="fab fa-github"></span> Github</a>
       </li>
