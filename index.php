@@ -59,7 +59,7 @@
     <!-- Development -->
     <!-- <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css"> -->
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.6">
+    <link rel="stylesheet" href="css/style.min.css?v=1.7">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,8 +86,13 @@
         <h1 class="mb-4">Beautifully crafted cryptocurrencies fonts and icons for your projects.</h1>
         <h2 class="mb-4">Cryptofonts is the biggest open-source library with more than 1500 CSS and SVG Icons</h2>
         <p><img class="mx-2 align-middle" src="img/check.svg" height="16"/>No signup <img class="mx-2 align-middle" src="img/check.svg" height="16"/>SVG and Fonts <img class="mx-2 align-middle" src="img/check.svg" height="16"/>Developer friendly <img class="mx-2 align-middle" src="img/check.svg" height="16"/>GPL License</p>
-        <a href="#get-started" class="btn btn-primary btn-lg mr-3 mt-3">Getting started</a>
-        <a href="font.php" class="btn btn-outline-primary btn-lg mt-3">Show me the font</a>
+        <div class="">
+          <a href="#get-started" class="btn btn-primary btn-lg mr-3 mt-3">Getting started</a>
+          <a href="font.php" class="btn btn-outline-primary btn-lg mt-3">Show me the font</a>
+        </div>
+        <div class="mt-3">
+          <a href="https://www.producthunt.com/posts/cryptofonts-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cryptofonts&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=335323&theme=light" alt="Cryptofonts - Beautifully&#0032;crafted&#0032;crypto&#0032;fonts&#0032;and&#0032;icons&#0032;for&#0032;your&#0032;projects | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+        </div>
       </div>
     </div>
 

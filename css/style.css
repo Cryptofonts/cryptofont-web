@@ -218,7 +218,7 @@ DROPDOWONS
 
 .hero-text {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 5%;
   width: 50%;
 }
@@ -483,6 +483,7 @@ MOBILE
   }
 
   .hero-text {
+    top: 20%;
     width: 80%;
   }
 
