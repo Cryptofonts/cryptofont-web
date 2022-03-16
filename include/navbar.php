@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
   <a class="navbar-brand" href="index.php">
-    <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="" loading="lazy">
-    <strong>Cryptofonts</strong>
+    <img src="img/logo-squircle.svg" width="36" height="36" class="d-inline-block align-top mr-2" alt="" loading="lazy">
+    <strong class="align-text-top">Cryptofonts</strong>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
