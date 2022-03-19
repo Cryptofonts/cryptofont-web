@@ -40,8 +40,20 @@
     "image": "coinbase.svg"
   },
   {
+    "name":"coingecko",
+    "image": "coingecko.svg"
+  },
+  {
+    "name":"coinmarketcap",
+    "image": "coinmarketcap.svg"
+  },
+  {
     "name":"consensys",
     "image": "consensys.svg"
+  },
+  {
+    "name":"digifox",
+    "image": "digifox.svg"
   },
   {
     "name":"dydx",
@@ -52,12 +64,24 @@
     "image": "exodus.svg"
   },
   {
+    "name":"fortmatic",
+    "image": "fortmatic.svg"
+  },
+  {
     "name":"frame",
     "image": "frame.svg"
   },
   {
+    "name":"ftx",
+    "image": "ftx.svg"
+  },
+  {
     "name":"fulcrum",
     "image": "fulcrum.svg"
+  },
+  {
+    "name":"gate.io",
+    "image": "gate.io.svg"
   },
   {
     "name":"hitbtc",
@@ -66,6 +90,14 @@
   {
     "name":"kraken",
     "image": "kraken.svg"
+  },
+  {
+    "name":"kucoin",
+    "image": "kucoin.svg"
+  },
+  {
+    "name":"instadapp",
+    "image": "instadapp.svg"
   },
   {
     "name":"ledger",
@@ -102,5 +134,13 @@
   {
     "name":"walletconnect",
     "image": "walletconnect.svg"
+  },
+  {
+    "name":"zapper",
+    "image": "zapper.svg"
+  },
+  {
+    "name":"zerion",
+    "image": "zerion.svg"
   }
 ]
