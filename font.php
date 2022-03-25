@@ -67,6 +67,8 @@
     <link href="css/cryptofont.css" rel="stylesheet">
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Gumroad script -->
+    <script src="https://gumroad.com/js/gumroad.js"></script>
 
   </head>
   <body>
@@ -85,7 +87,10 @@
         <h1>High Quality Web Font</h1>
         <p class="lead">The complete set of <?php echo $count; ?> open source cryptocurrencies icons crafted for designers and developers.</p>
         <div class="d-flex align-items-center justify-content-between">
-          <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download Webfont</a>
+          <div>
+            <a class="btn btn-primary" href="https://cryptofonts.gumroad.com/l/cryptofonts-webfont"><span class="fad fa-shopping-cart"></span> Buy Cryptofonts on Gumroad</a>
+            <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-outline-primary"><span class="fad fa-folder-download"></span> Download Webfont</a>
+          </div>
           <a class="github-button" href="https://github.com/monzanifabio/cryptofont" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" data-show-count="true" aria-label="Star monzanifabio/cryptofont on GitHub">Star</a>
         </div>
       </div>
