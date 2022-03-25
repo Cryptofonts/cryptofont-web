@@ -244,6 +244,7 @@ DROPDOWONS
 .get-started {
   background-color: #F5F8FF;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .terminal {
@@ -298,6 +299,18 @@ CODE BLOCKS
 
 .link {
   color: #98c379;
+}
+
+/* =============================================================================
+FEATURED
+============================================================================= */
+.feature-logo {
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+
+.feature-logo:hover {
+  filter: grayscale(0%);
 }
 
 /* =============================================================================

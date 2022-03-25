@@ -59,7 +59,7 @@
     <!-- Development -->
     <!-- <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css"> -->
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.7">
+    <link rel="stylesheet" href="css/style.min.css?v=1.8">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -354,6 +354,16 @@
           </div>
         </div>
       </section>
+
+      <section class="get-started text-center">
+        <div class="container">
+          <h1 class="mb-4">Featured on</h1>
+          <div class="d-flex justify-content-center">
+            <a href="https://tldr.tech/crypto/newsletter/2022-03-16" target="_blank"><img class="feature-logo" src="img/feat-tldr-logo.png" width="150" alt="tldr newsletter logo"></a>
+          </div>
+        </div>
+      </section>
+
       <section class="section-footer">
       </section>
 
