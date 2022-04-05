@@ -355,6 +355,11 @@
     "ticker":"bix"
   },
   {
+    "name":"BlackCoin",
+    "image": "blk.svg",
+    "ticker":"blk"
+  },
+  {
     "name":"Blocknet",
     "image": "block.svg",
     "ticker":"block"
@@ -1193,6 +1198,11 @@
     "name":"FToken",
     "image": "ft.svg",
     "ticker":"ft"
+  },
+  {
+    "name":"Feathercoin",
+    "image": "ftc.svg",
+    "ticker":"ftc"
   },
   {
     "name":"Fantom",
