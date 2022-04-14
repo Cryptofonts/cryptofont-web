@@ -114,9 +114,18 @@ CARDS
   color: #AEBCCC;
 }
 
+h3 .fab {
+  font-size: inherit;
+  margin: 0;
+}
+
 .fa-html5, .fa-github {
   margin: 0;
   font-size: 1rem;
+}
+
+.terminal .card-body {
+  padding-top: 0 !important;
 }
 
 .card-body>p {

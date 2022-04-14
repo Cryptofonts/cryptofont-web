@@ -279,6 +279,20 @@
             </div>
           </div>
 
+          <h3><span class="fab fa-npm"></span> Install with npm</h3>
+          <div class="card terminal">
+            <div class="card-header">
+              <ul class="list-inline">
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>$ npm i @cryptofonts/cryptofont</p>
+            </div>
+          </div>
+
           <h3><span class="fad fa-hand-holding-box"></span> The manual way</h3>
           <p>Grap a copy of the latest version of Crypto Fonts and use it alongside your source code.</p>
           <div class="row mt-5">
