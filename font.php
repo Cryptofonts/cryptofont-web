@@ -64,7 +64,7 @@
     <link href="css/duotone.min.css" rel="stylesheet">
     <link href="css/brands.min.css" rel="stylesheet">
     <!-- Cryptofonts -->
-    <link href="css/cryptofont.css" rel="stylesheet">
+    <link href="css/cryptofont.css?v=1.4.0" rel="stylesheet">
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Gumroad script -->
