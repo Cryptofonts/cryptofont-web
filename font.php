@@ -144,7 +144,7 @@
           <div class="modal-header">
             <h5 class="modal-title text-uppercase" id="modalTitle"></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
+              <img src="img/icon-close.svg" height="30" alt="icon close">
             </button>
           </div>
             <div class="modal-body text-center">
