@@ -55,11 +55,11 @@
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=1.1">
     <!-- Development -->
     <!-- <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css"> -->
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.9">
+    <link rel="stylesheet" href="css/style.min.css?v=2.0">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -373,8 +373,9 @@
         <div class="container">
           <h1 class="mb-4">Featured on</h1>
           <div class="d-flex justify-content-center align-items-center">
-            <a href="https://www.producthunt.com/posts/cryptofonts-2" target="_blank"><img class="feature-logo" src="img/feat-product-hunt-logo.png" height="100" alt="tldr newsletter logo"></a>
-            <a href="https://tldr.tech/crypto/newsletter/2022-03-16" target="_blank"><img class="feature-logo" src="img/feat-tldr-logo.png" width="150" alt="tldr newsletter logo"></a>
+            <a class="mx-4" href="https://www.producthunt.com/posts/cryptofonts-2" target="_blank"><img class="feature-logo" src="img/feat-product-hunt-logo.png" height="100" alt="tldr newsletter logo"></a>
+            <a class="mx-4" href="https://tldr.tech/crypto/newsletter/2022-03-16" target="_blank"><img class="feature-logo" src="img/feat-tldr-logo.png" width="150" alt="tldr newsletter logo"></a>
+            <a class="mx-4" href="https://tympanus.net/codrops/" target="_blank"><img class="feature-logo" src="img/feat-codrops-logo.svg" width="150" alt="codrops logo"></a>
           </div>
         </div>
       </section>
