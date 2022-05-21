@@ -372,7 +372,7 @@
       <section class="get-started text-center">
         <div class="container">
           <h1 class="mb-4">Featured on</h1>
-          <div class="d-flex justify-content-center align-items-center">
+          <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center">
             <a class="mx-4" href="https://www.producthunt.com/posts/cryptofonts-2" target="_blank"><img class="feature-logo" src="img/feat-product-hunt-logo.png" height="100" alt="tldr newsletter logo"></a>
             <a class="mx-4" href="https://tldr.tech/crypto/newsletter/2022-03-16" target="_blank"><img class="feature-logo" src="img/feat-tldr-logo.png" width="150" alt="tldr newsletter logo"></a>
             <a class="mx-4" href="https://tympanus.net/codrops/" target="_blank"><img class="feature-logo" src="img/feat-codrops-logo.svg" width="150" alt="codrops logo"></a>
