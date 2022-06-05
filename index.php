@@ -32,6 +32,17 @@
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
 
+    <!-- Clearbit script -->
+    <script type="text/javascript">
+      (function (d, u, h, s) {
+        h = d.getElementsByTagName('head')[0];
+        s = d.createElement('script');
+        s.async = 1;
+        s.src = u + new Date().getTime();
+        h.appendChild(s);
+      })(document, 'https://grow.clearbitjs.com/api/pixel.js?v=');
+    </script>
+
     <!-- Mailchip -->
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0c7130b5fd29e05bea0c56b72/5e2ca2d2f6ed7f5e4ef8f1b4c.js");</script>
 
