@@ -68,7 +68,7 @@
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Gumroad script -->
-    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <!-- <script src="https://gumroad.com/js/gumroad.js"></script> -->
 
   </head>
   <body>
