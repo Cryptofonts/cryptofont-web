@@ -66,7 +66,7 @@
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css?v=1.1">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=1.2">
     <!-- Development -->
     <!-- <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css"> -->
     <!-- Custome CSS -->
@@ -272,8 +272,9 @@
         <div class="container">
           <h1 class="mb-4">Get Started</h1>
           <h3><span class="fad fa-rabbit-fast"></span> Quick start</h3>
-          <p>Looking to quickly add Cryptofonts to your project? Use CryptofontsCDN<br>
+          <p class="mb-2">Looking to quickly add Cryptofonts to your project? Use CryptofontsCDN<br>
             Copy-paste the stylesheet <code>&lt;link&gt;</code> into your <code>&lt;head&gt;</code> before all other stylesheets to load our CSS.</p>
+            <a href="getting-started-template.zip" class="btn btn-link mb-2 pl-0"><span class="fad fa-folder-download"></span> Download the template</a>
           <div class="card terminal">
             <div class="card-header">
               <ul class="list-inline">
