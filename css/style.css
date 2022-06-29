@@ -69,6 +69,10 @@ UTILITIES
   color: #6C7488;
 }
 
+.small {
+  font-size: 0.8rem
+}
+
 .medium {
   font-size: 3rem;
   color: #6C7488;
@@ -89,6 +93,10 @@ UTILITIES
 /* =============================================================================
 BUTTONS
 ============================================================================= */
+button:focus {
+  outline: none;
+}
+
 .btn-primary {
   border-radius: 8px;
 }
@@ -401,6 +409,12 @@ FORMS
   /* Firefox 19+ */
   color: #AEBCCC;
   font-size: 1rem;
+}
+
+.input-search {
+  position: sticky;
+  top: 150px;
+  z-index: 999;
 }
 
 #tickerDetail, #iconDetail {

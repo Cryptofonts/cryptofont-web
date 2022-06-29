@@ -52,9 +52,9 @@
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=1.1">
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.6">
+    <link rel="stylesheet" href="css/style.min.css?v=1.7">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -96,7 +96,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container input-search">
       <div class="input-group input-group-lg">
         <input type="text" id="searchTicker" onkeyup="searchTicker()"class="form-control" placeholder="Search icons..." autofocus autocomplete="off">
       </div>
@@ -130,6 +130,12 @@
 
           ?>
         </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="lead">Can't find what you were looking for?</p>
+            <a class="btn btn-primary" href="https://forms.gle/b3LQr8JeTJi7SRdQ6" target="_blank">Request a new icon</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -151,8 +157,12 @@
               <i class="" id="tickerDetail"></i>
               <h2 class="mt-5">Icon Font Usage</h2>
               <div class="form-inline justify-content-center">
-                <p id="tickerHtml"></p>
-                <!-- <a class="badge badge-light mb-3" onclick="copy('#tickerHtml')"><img src="img/clipboard-regular.svg" height="16"></a> -->
+                <div class="card bg-light p-2">
+                  <div class="d-flex align-items-center">
+                    <code class="m-0" id="tickerHtml"></code>
+                    <!-- <a class="badge badge-light ml-3" onclick="copy('#tickerHtml')"><img src="img/clipboard-regular.svg" height="16"></a> -->
+                  </div>
+                </div>
               </div>
             </div>
         </div>

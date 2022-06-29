@@ -54,7 +54,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css">
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.6">
+    <link rel="stylesheet" href="css/style.min.css?v=1.7">
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container input-search">
       <div class="input-group input-group-lg">
         <input type="text" id="searchTicker" onkeyup="searchTicker()"class="form-control" placeholder="Search icons..." autofocus autocomplete="off">
       </div>
@@ -94,8 +94,12 @@
 
     <section>
       <div class="container">
-        <div class="row" id="list">
-
+        <div class="row" id="list"></div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="lead">Can't find what you were looking for?</p>
+            <a class="btn btn-primary" href="https://forms.gle/b3LQr8JeTJi7SRdQ6" target="_blank">Request a new icon</a>
+          </div>
         </div>
       </div>
     </section>
@@ -103,6 +107,7 @@
     <?php include('include/footer.php') ?>
 
     <?php include('include/donate.php') ?>
+    <?php include('include/donate-small.php') ?>
 
     <!-- Detail Modal -->
     <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -119,6 +124,7 @@
               <div class="row justify-content-center mt-5">
                 <a download='' id="iconDownload" href="" class="btn btn-primary">Download SVG</a>
               </div>
+              <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-link mt-2">Download All Icons</a>
             </div>
         </div>
       </div>
@@ -185,6 +191,11 @@
       $('#iconDetail').attr('src', newSrc);
       $('#iconDownload').attr('href', newSrc).attr('download', name);
     }
+
+    $('#iconDownload').click(function(){
+      $('#detailModal').modal('hide');
+      $('#donateModalSmall').modal();
+    });
     </script>
 
     </body>
