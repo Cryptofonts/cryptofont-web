@@ -14,7 +14,7 @@
       <div class="col-md-3 col-3">
         <ul class="footer-list">
           <li>Legal</li>
-          <li><a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">License</a></li>
+          <li><a href="license.php">License</a></li>
         </ul>
       </div>
       <div class="col-md-3 col-3">
