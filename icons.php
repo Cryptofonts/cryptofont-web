@@ -82,6 +82,7 @@
       <div class="container">
         <h1>High Quality Cryptocurrencies Icons</h1>
         <p class="lead" id="totalCount">The complete set of _ SVG icons.</p>
+        <a class="btn btn-primary" href="https://cryptofonts.gumroad.com/l/cryptoicons"><span class="fad fa-shopping-cart"></span> Buy Cryptoicons on Gumroad</a>
         <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download All Icons</a>
       </div>
     </div>
