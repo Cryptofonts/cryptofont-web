@@ -142,5 +142,9 @@
   {
     "name":"zerion",
     "image": "zerion.svg"
+  },
+  {
+    "name":"lens",
+    "image": "lens.svg"
   }
 ]
