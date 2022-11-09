@@ -52,7 +52,7 @@
     <?php include('include/social.php') ?>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="vendors/bootstrap-4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=1.1">
     <!-- Custome CSS -->
     <link rel="stylesheet" href="css/style.min.css?v=1.7">
     <!-- Inter font -->
@@ -64,7 +64,11 @@
     <link href="css/duotone.min.css" rel="stylesheet">
     <link href="css/brands.min.css" rel="stylesheet">
     <!-- Cryptofonts -->
-    <link href="css/cryptofont.css" rel="stylesheet">
+    <link href="css/cryptofont.css?v=1.4.0" rel="stylesheet">
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Gumroad script -->
+    <script src="https://gumroad.com/js/gumroad.js"></script>
 
   </head>
   <body>
@@ -74,16 +78,27 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <?php
-      include('include/navbar.php');
-      include('include/getcount.php');
-     ?>
+    include('include/navbar.php');
+    include('include/getfontcount.php')
+    ?>
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1>High Quality Cryptocurrencies Icons</h1>
-        <p class="lead" id="totalCount">The complete set of _ SVG icons.</p>
-        <a class="btn btn-primary" href="https://cryptofonts.gumroad.com/l/cryptoicons"><span class="fad fa-shopping-cart"></span> Buy Cryptoicons on Gumroad</a>
-        <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-primary"><span class="fad fa-folder-download"></span> Download All Icons</a>
+        <h1>High Quality Web Font</h1>
+        <p class="lead m-0">The complete set of <?php echo $count; ?> open source cryptocurrencies icons crafted for designers and developers.</p>
+        <div class="d-flex align-items-end justify-content-between">
+          <div>
+            <a class="btn btn-primary mt-3" href="https://cryptofonts.gumroad.com/l/cryptofonts-webfont"><span class="fad fa-shopping-cart"></span> Buy Cryptofonts on Gumroad</a>
+            <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary mt-3"><span class="fad fa-folder-download"></span> Download Webfont</a>
+          </div>
+          <a class="github-button" href="https://github.com/monzanifabio/cryptofont" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" data-show-count="true" aria-label="Star monzanifabio/cryptofont on GitHub">Star</a>
+        </div>
+        <div>
+          <p class="small opacity-50 mb-2">Also available for:</p>
+          <div>
+            <a href="https://pub.dev/packages/cryptofont" target="_blank"><img src="./img/flutter-logo.svg" height="36" alt="flutter-logo"></a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -95,7 +110,32 @@
 
     <section>
       <div class="container">
-        <div class="row" id="list"></div>
+        <div class="row" id="list">
+          <!-- <h1 id="emptySearch" style="display: none;">Empty search</h1> -->
+          <?php
+          //get database account details
+          include('include/dbaccess.php');
+
+          //create connection
+          $link = mysqli_connect($db_hostname,$db_username,$db_password,$db_database)
+              or die("cannot connect to database.");
+
+          //running SQL query
+          $query ="SELECT * FROM fontcase ORDER BY ticker";
+          $result=mysqli_query($link, $query)
+              or die("Failed to load data.");
+
+          //processing results
+          while($row = mysqli_fetch_assoc($result)){
+
+            echo "<div class='col-md-2 col-6 text-center expand'>";
+            echo "<i class='cf cf-" . $row['ticker'] . " large' id='" . $row['ticker'] . "' onclick='getDetails(this)'></i>";
+            echo "<p class='text-muted'>cf-" . $row['ticker'] . "</p>";
+            echo "</div>";
+          }
+
+          ?>
+        </div>
         <div class="row">
           <div class="col-12 text-center">
             <p class="lead">Can't find what you were looking for?</p>
@@ -108,7 +148,6 @@
     <?php include('include/footer.php') ?>
 
     <?php include('include/donate.php') ?>
-    <?php include('include/donate-small.php') ?>
 
     <!-- Detail Modal -->
     <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -121,83 +160,61 @@
             </button>
           </div>
             <div class="modal-body text-center">
-              <img id="iconDetail" src="" height="200">
-              <div class="row justify-content-center mt-5">
-                <a download='' id="iconDownload" href="" class="btn btn-primary">Download SVG</a>
+              <i class="" id="tickerDetail"></i>
+              <h2 class="mt-5">Icon Font Usage</h2>
+              <div class="form-inline justify-content-center">
+                <div class="card bg-light p-2">
+                  <div class="d-flex align-items-center">
+                    <code class="m-0" id="tickerHtml"></code>
+                    <!-- <a class="badge badge-light ml-3" onclick="copy('#tickerHtml')"><img src="img/clipboard-regular.svg" height="16"></a> -->
+                  </div>
+                </div>
               </div>
-              <a href="https://github.com/monzanifabio/cryptoicons/releases" target="_blank" class="btn btn-link mt-2">Download All Icons</a>
             </div>
         </div>
       </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="vendors/bootstrap-4.5.0/js/jquery-3.5.1.min.js"></script>
-    <script src="vendors/bootstrap-4.5.0/js/popper.min.js"></script>
-    <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
 
     <script>
-    $(document).ready(function () {
-      // FETCHING DATA FROM JSON FILE
-      $.getJSON("json/cryptoicons.json",
-      function (data) {
-        var icon = '';
-        //Get the total number of icons in the JSON
-        $('#totalCount').text("The complete set of " + data.length + " SVG icons.")
-        // ITERATING THROUGH OBJECTS
-        $.each(data, function (key, value) {
-
-          //CONSTRUCTION OF ROWS HAVING
-          // DATA FROM JSON OBJECT
-          icon += '<div id="' + value.ticker + '" class="col-md-2 col-6 text-center expand mb-5" onclick="getDetails(this)">';
-          icon += '<img loading="lazy" src="img/icons/' + value.image + '" height="60" alt="' + value.ticker + '">';
-          icon += '<p class="text-muted mb-0">' + value.name + '</p>';
-          icon += '<span class="badge badge-outline text-uppercase">' + value.ticker + '</span>';
-          icon += '</div>';
-        });
-
-        //INSERTING ROWS INTO TABLE
-        $('#list').append(icon);
-      });
-    });
-
     function searchTicker() {
         // Declare variables
         var input, filter, ul, li, a, i;
         input = document.getElementById('searchTicker');
-        filter = input.value.toLowerCase();
+        filter = input.value.toUpperCase();
         ul = document.getElementById("list");
         li = ul.getElementsByTagName('div');
 
         // Loop through all list items, and hide those who don't match the search query
         for (i = 0; i < li.length; i++) {
             a = li[i].getElementsByTagName("p")[0];
-            b = li[i].getElementsByTagName("span")[0];
-            if (a.innerHTML.toLowerCase().indexOf(filter) > -1 || b.innerHTML.toLowerCase().indexOf(filter) > -1) {
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
                 li[i].style.display = "";
             } else {
                 li[i].style.display = "none";
-            };
+            }
         }
     }
 
     function getDetails(ticker) {
       var name = $(ticker).attr('id');
-      var newSrc = "img/icons/" + name + ".svg";
       console.log(name);
 
       $('#detailModal').modal();
-      $('#modalTitle').html('<img src="img/icons/'+ name + '.svg" height="16"> ' + name);
-      $('#iconDetail').attr('src', newSrc);
-      $('#iconDownload').attr('href', newSrc).attr('download', name);
+      $('#tickerDetail').removeClass();
+      $('#modalTitle').html("<i class='cf cf-" + name + "'></i> " + name);
+      $('#tickerDetail').addClass("cf cf-" + name + " xlarge");
+      $('#tickerHtml').text('<i class="cf cf-' + name + '"></i>');
+      $('#tickerTitle').addClass("cf cf-" + name);
     }
 
-    $('#iconDownload').click(function(){
-      $('#detailModal').modal('hide');
-      $('#donateModalSmall').modal();
-    });
     </script>
 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="vendors/bootstrap-4.5.0/js/jquery-3.5.1.min.js"></script>
+    <script src="vendors/bootstrap-4.5.0/js/popper.min.js"></script>
+    <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
     </body>
     </html>

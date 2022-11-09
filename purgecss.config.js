@@ -1,7 +1,6 @@
 module.exports = {
   content: [
-    '*.php',
-    'include/*.php'
+    '*.html'
   ],
   css: [
     'vendors/bootstrap-4.5.0/css/bootstrap.min.css',

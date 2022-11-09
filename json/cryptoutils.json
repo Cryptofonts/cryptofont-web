@@ -1,0 +1,259 @@
+
+[
+{
+    "id": "1",
+    "ticker": "add"
+},
+{
+    "id": "2",
+    "ticker": "app-menu"
+},
+{
+    "id": "3",
+    "ticker": "bar-chart"
+},
+{
+    "id": "4",
+    "ticker": "bell"
+},
+{
+    "id": "5",
+    "ticker": "block-explorer"
+},
+{
+    "id": "6",
+    "ticker": "block"
+},
+{
+    "id": "7",
+    "ticker": "broadcast"
+},
+{
+    "id": "8",
+    "ticker": "candles-chart"
+},
+{
+    "id": "9",
+    "ticker": "checklist"
+},
+{
+    "id": "10",
+    "ticker": "copy"
+},
+{
+    "id": "11",
+    "ticker": "dapps"
+},
+{
+    "id": "12",
+    "ticker": "denied"
+},
+{
+    "id": "13",
+    "ticker": "edit"
+},
+{
+    "id": "14",
+    "ticker": "exchange-2"
+},
+{
+    "id": "15",
+    "ticker": "exchange-3"
+},
+{
+    "id": "16",
+    "ticker": "exchange-4"
+},
+{
+    "id": "17",
+    "ticker": "exchange-token-1"
+},
+{
+    "id": "18",
+    "ticker": "exchange-token-2"
+},
+{
+    "id": "19",
+    "ticker": "exchange-token-3"
+},
+{
+    "id": "20",
+    "ticker": "exchange"
+},
+{
+    "id": "21",
+    "ticker": "finance-chart"
+},
+{
+    "id": "22",
+    "ticker": "gas-station"
+},
+{
+    "id": "23",
+    "ticker": "gas"
+},
+{
+    "id": "24",
+    "ticker": "hardware-wallet"
+},
+{
+    "id": "25",
+    "ticker": "hardware"
+},
+{
+    "id": "26",
+    "ticker": "info"
+},
+{
+    "id": "27",
+    "ticker": "key"
+},
+{
+    "id": "28",
+    "ticker": "like"
+},
+{
+    "id": "29",
+    "ticker": "link"
+},
+{
+    "id": "30",
+    "ticker": "liquidity"
+},
+{
+    "id": "31",
+    "ticker": "list"
+},
+{
+    "id": "32",
+    "ticker": "lock"
+},
+{
+    "id": "33",
+    "ticker": "mining"
+},
+{
+    "id": "34",
+    "ticker": "moeny-time"
+},
+{
+    "id": "35",
+    "ticker": "network-1"
+},
+{
+    "id": "36",
+    "ticker": "network"
+},
+{
+    "id": "37",
+    "ticker": "nft"
+},
+{
+    "id": "38",
+    "ticker": "notification"
+},
+{
+    "id": "39",
+    "ticker": "open-out"
+},
+{
+    "id": "40",
+    "ticker": "pie-chart"
+},
+{
+    "id": "41",
+    "ticker": "qr-code"
+},
+{
+    "id": "42",
+    "ticker": "rank"
+},
+{
+    "id": "43",
+    "ticker": "receive"
+},
+{
+    "id": "44",
+    "ticker": "remove"
+},
+{
+    "id": "45",
+    "ticker": "scan-dapp"
+},
+{
+    "id": "46",
+    "ticker": "scan-qr"
+},
+{
+    "id": "47",
+    "ticker": "scan"
+},
+{
+    "id": "48",
+    "ticker": "search"
+},
+{
+    "id": "49",
+    "ticker": "secure-password"
+},
+{
+    "id": "50",
+    "ticker": "secure"
+},
+{
+    "id": "51",
+    "ticker": "send-in"
+},
+{
+    "id": "52",
+    "ticker": "send"
+},
+{
+    "id": "53",
+    "ticker": "settings-cog"
+},
+{
+    "id": "54",
+    "ticker": "settings-slider"
+},
+{
+    "id": "55",
+    "ticker": "signature"
+},
+{
+    "id": "56",
+    "ticker": "success"
+},
+{
+    "id": "57",
+    "ticker": "bubble-text"
+},
+{
+    "id": "58",
+    "ticker": "time"
+},
+{
+    "id": "59",
+    "ticker": "tokens"
+},
+{
+    "id": "60",
+    "ticker": "user"
+},
+{
+    "id": "61",
+    "ticker": "users"
+},
+{
+    "id": "62",
+    "ticker": "wallet"
+},
+{
+    "id": "63",
+    "ticker": "bubble-warning"
+},
+{
+    "id": "64",
+    "ticker": "warning"
+}
+]

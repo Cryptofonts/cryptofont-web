@@ -26,8 +26,11 @@
       <li class="nav-item">
         <a class="nav-link" href="icons.php">Icons</a>
       </li>
-      <li class="nav-item notification">
+      <li class="nav-item">
         <a class="nav-link" href="brands.php">Brands</a>
+      </li>
+      <li class="nav-item notification">
+        <a class="nav-link" href="https://cryptofonts.notion.site/Cryptofonts-Docs-71005f48b6be44b0b88a7197bd75d319" target="_blank">Docs</a>
         <div class="badge"></div>
       </li>
       <li class="nav-item">

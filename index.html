@@ -62,8 +62,31 @@
 
     <title>CryptoFont - Cryptocurrency icons and webfont</title>
 
-    <?php include('include/favicons.php') ?>
-    <?php include('include/social.php') ?>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:site_name" content="CryptoFonts" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.cryptofonts.com/img/card.png" />
+    <meta property="og:url" content="https://www.cryptofonts.com/" />
+    <meta property="og:title" content="CryptoFonts" />
+    <meta property="og:description" content="We create beautiful and crisp cryptocurrency webfonts, icons and SVG " />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@CryptoFonts" />
+    <meta property="og:url" content="https://www.cryptofonts.com/" />
+    <meta property="og:title" content="CryptoFonts" />
+    <meta property="og:description" content="We create beautiful and crisp cryptocurrency webfonts, icons and SVG " />
+    <meta property="og:image" content="https://www.cryptofonts.com/img/card.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css?v=1.2">
@@ -90,7 +113,55 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K769Q5P"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <?php include('include/navbar.php') ?>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo-squircle.svg" width="36" height="36" class="d-inline-block align-top mr-2" alt="" loading="lazy">
+        <strong class="align-text-top">Cryptofonts</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#get-started">Get started</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="font.html">Font</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Fonts
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="font.html">Crypto Font</a>
+              <a class="dropdown-item" href="utils.html">Utility Font</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="icons.html">Icons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="brands.html">Brands</a>
+          </li>
+          <li class="nav-item notification">
+            <a class="nav-link" href="https://cryptofonts.notion.site/Cryptofonts-Docs-71005f48b6be44b0b88a7197bd75d319" target="_blank">Docs</a>
+            <div class="badge"></div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/monzanifabio/cryptofont" target="_blank"><span class="fab fa-github"></span> Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#donateModal">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="https://forms.gle/b3LQr8JeTJi7SRdQ6" target="_blank">Request form</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
 
     <div class="hero">
       <div class="hero-text">
@@ -99,7 +170,7 @@
         <p><img class="mx-2 align-middle" src="img/check.svg" height="16"/>No signup <img class="mx-2 align-middle" src="img/check.svg" height="16"/>SVG and Fonts <img class="mx-2 align-middle" src="img/check.svg" height="16"/>Developer friendly <img class="mx-2 align-middle" src="img/check.svg" height="16"/>GPL License</p>
         <div class="">
           <a href="#get-started" class="btn btn-primary btn-lg mr-3 mt-3">Getting started</a>
-          <a href="font.php" class="btn btn-outline-primary btn-lg mt-3">Show me the font</a>
+          <a href="font.html" class="btn btn-outline-primary btn-lg mt-3">Show me the font</a>
         </div>
         <div class="mt-3">
           <a href="https://www.producthunt.com/posts/cryptofonts-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cryptofonts&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=335323&theme=light" alt="Cryptofonts - Beautifully&#0032;crafted&#0032;crypto&#0032;fonts&#0032;and&#0032;icons&#0032;for&#0032;your&#0032;projects | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
@@ -176,7 +247,7 @@
         </div>
 
         <div class="row justify-content-center mt-5 mb-5">
-          <a href="font.php" class="btn btn-primary btn-lg">Show me the font</a>
+          <a href="font.html" class="btn btn-primary btn-lg">Show me the font</a>
         </div>
       </div>
     </section>
@@ -224,7 +295,7 @@
                 <div class="card-body">
                   <h3>Utility Font</h3>
                   <p class="mb-2">Create beautiful dApps with our utility font. Every icon is professionally designed and pixel perfect at every resolution.</p>
-                  <a href="utils.php" class="btn btn-link">Go to the font</a>
+                  <a href="utils.html" class="btn btn-link">Go to the font</a>
                 </div>
                 <div class="bg-utils-showcase"></div>
               </div>
@@ -234,7 +305,7 @@
                 <div class="card-body">
                   <h3>Icons</h3>
                   <p class="mb-2">This beautiful SVG icon collection includes some of the most popular crypto projects and continues to expand.</p>
-                  <a href="icons.php" class="btn btn-link">Go to the icons</a>
+                  <a href="icons.html" class="btn btn-link">Go to the icons</a>
                 </div>
                 <div class="bg-icons-showcase"></div>
               </div>
@@ -246,7 +317,7 @@
                     <div class="col-md-6 d-flex align-items-center flex-column justify-content-center">
                       <h3>Crypto Font</h3>
                       <p class="mb-2">Crypto font is the original collection of more than 1500 icons that you can use for free in all your crypto projects.</p>
-                      <a href="font.php" class="btn btn-link">Go to the font</a>
+                      <a href="font.html" class="btn btn-link">Go to the font</a>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center flex-column">
                       <div class="font-showcase d-flex justify-content-center align-items-center mb-4">
@@ -374,6 +445,15 @@
               </div>
               </div>
             </div>
+
+            <h3><span class="fad fa-tools"></span> Other implementations</h3>
+            <div class="mt-5">
+              <div class="d-flex flex-column">
+                <a href="https://pub.dev/packages/cryptofont" target="_blank"><img src="./img/flutter-logo.svg" height="48" alt="flutter-logo"></a>
+                <p class="small opacity-50">Flutter</p>
+              </div>
+            </div>
+
             <div class="row justify-content-center mt-5">
               <a href="https://github.com/monzanifabio/cryptofont/releases" target="_blank" class="btn btn-primary btn-lg">Get started with Cryptofonts</a>
             </div>
@@ -395,9 +475,98 @@
       <section class="section-footer">
       </section>
 
-      <?php include('include/footer.php') ?>
+    <footer>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3 text-center mb-4">
+            <img class="opacity-50" src="img/logo.svg" height="60px">
+          </div>
+          <div class="col-md-3 col-3">
+            <ul class="footer-list">
+              <li>Social</li>
+              <li><a href="https://twitter.com/cryptofonts?lang=en" target="_blank">Twitter</a></li>
+              <li><a href="https://t.me/cryptofonts" target="_blank">Telegram</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-3">
+            <ul class="footer-list">
+              <li>Legal</li>
+              <li><a href="license.html">License</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-3">
+            <ul class="footer-list">
+              <li>Developers</li>
+              <li><a href="https://github.com/monzanifabio/cryptofont" target="_blank">Github</a></li>
+              <li><a href="https://gitcoin.co/grants/720/crypto-fonts" target="_blank">Gitcoin</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p class="small opacity-50">Made with <span class="fad fa-heart"></span> by <a class="fabiomonzani" href="https://fabiomonzani.com" target="_blank">Fabio Monzani</a> and other people around the world</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <p class="tiny opacity-50">All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-      <?php include('include/donate.php') ?>
+
+    <!-- Donate Modal -->
+    <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cryptofonts is a one man project.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <img src="img/icon-close.svg" height="30" alt="icon close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="mb-5">Creating all these beautiful icons takes time and money.<br>
+            If you think that my work has any value to you, or you like my icons, a small donation would be really appreciated.
+            This would motivate me to create more icons and keep the project going.</p>
+
+            <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Wallet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Gitcoin</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="cf cf-btc"></i> Bitcoin</a>
+              </li> -->
+            </ul>
+            <div class="tab-content text-center" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p class="mt-4">Even 1 DAI would make the difference</p>
+                <img class="qrcode" src="img/eth-address.svg" width="150">
+                <p><span class="badge badge-pill badge-light">0xFC72b32F2f7caFCa4d5d99c031f4B8F9579c18b6</span></p>
+                <span class="badge badge-light"><i class="cf cf-eth"></i> Ethereum</span>
+                <span class="badge badge-light"><i class="cf cf-bnb"></i> BSC</span>
+                <span class="badge badge-light"><i class="cf cf-matic"></i> Polygon</span>
+              </div>
+              <div class="tab-pane fade text-center" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p class="mt-4"><a href="https://gitcoin.co/grants/720/crypto-fonts">Donate on Gitcoin by sponsoring my grant</a></p>
+                <img src="img/gitcoin-logo.svg" height="150">
+              </div>
+              <!-- <div class="tab-pane fade text-center" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p class="mt-4">I know transactions cost are high, but if you feel generous here's my Bitcoin address</p>
+              </div> -->
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Nah, thanks</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

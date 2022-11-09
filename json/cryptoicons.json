@@ -1100,6 +1100,11 @@
     "ticker":"etz"
   },
   {
+    "name":"Ethereum Name Service",
+    "image": "ens.svg",
+    "ticker":"ens"
+  },
+  {
     "name":"Everex",
     "image": "evx.svg",
     "ticker":"evx"
@@ -3358,5 +3363,285 @@
     "name":"0x",
     "image": "zrx.svg",
     "ticker":"zrx"
+  },
+  {
+    "name":"Aptos",
+    "image": "apt.svg",
+    "ticker":"apt"
+  },
+  {
+    "name":"Astroport.fi",
+    "image": "astro.svg",
+    "ticker":"astro"
+  },
+  {
+    "name":"Casper Network",
+    "image": "cspr.svg",
+    "ticker":"cspr"
+  },
+  {
+    "name":"Everdome",
+    "image": "dome.svg",
+    "ticker":"dome"
+  },
+  {
+    "name":"dYdX",
+    "image": "dydx.svg",
+    "ticker":"dydx"
+  },
+  {
+    "name":"Flare",
+    "image": "1flr.svg",
+    "ticker":"1flr"
+  },
+  {
+    "name":"Tenset",
+    "image": "10set.svg",
+    "ticker":"10set"
+  },
+  {
+    "name":"Acala",
+    "image": "aca.svg",
+    "ticker":"aca"
+  },
+  {
+    "name":"Alchemix USD",
+    "image": "alusd.svg",
+    "ticker":"alusd"
+  },
+  {
+    "name":"ApeCoin",
+    "image": "ape.svg",
+    "ticker":"ape"
+  },
+  {
+    "name":"Assemble Protocol",
+    "image": "asm.svg",
+    "ticker":"asm"
+  },
+  {
+    "name":"Audius",
+    "image": "audio.svg",
+    "ticker":"audio"
+  },
+  {
+    "name":"Baby Doge Coin",
+    "image": "babydoge.svg",
+    "ticker":"babydoge"
+  },
+  {
+    "name":"Biconomy",
+    "image": "bico.svg",
+    "ticker":"bico"
+  },
+  {
+    "name":"BitDAO",
+    "image": "bit-2.svg",
+    "ticker":"bit"
+  },
+  {
+    "name":"Bitrue Coin",
+    "image": "btr.svg",
+    "ticker":"btr"
+  },
+  {
+    "name":"Chromia",
+    "image": "chr.svg",
+    "ticker":"chr"
+  },
+  {
+    "name":"DAO Maker",
+    "image": "dao.svg",
+    "ticker":"dao"
+  },
+  {
+    "name":"Depth",
+    "image": "dep.svg",
+    "ticker":"dep"
+  },
+  {
+    "name":"DIA",
+    "image": "dia.svg",
+    "ticker":"dia"
+  },
+  {
+    "name":"Everscale",
+    "image": "ever.svg",
+    "ticker":"ever"
+  },
+  {
+    "name":"Evmos",
+    "image": "evmos.svg",
+    "ticker":"evmos"
+  },
+  {
+    "name":"FLEX Coin",
+    "image": "flex.svg",
+    "ticker":"flex"
+  },
+  {
+    "name":"Flux",
+    "image": "flux.svg",
+    "ticker":"flux"
+  },
+  {
+    "name":"Galxe",
+    "image": "gal.svg",
+    "ticker":"gal"
+  },
+  {
+    "name":"GMX",
+    "image": "gmx.svg",
+    "ticker":"gmx"
+  },
+  {
+    "name":"Illuvium",
+    "image": "ilv.svg",
+    "ticker":"ilv"
+  },
+  {
+    "name":"Bitkub Coin",
+    "image": "kub.svg",
+    "ticker":"kub"
+  },
+  {
+    "name":"Liquity USD",
+    "image": "lusd.svg",
+    "ticker":"lusd"
+  },
+  {
+    "name":"Metis",
+    "image": "metis.svg",
+    "ticker":"metis"
+  },
+  {
+    "name":"Maiar DEX",
+    "image": "mex.svg",
+    "ticker":"mex"
+  },
+  {
+    "name":"MAI",
+    "image": "mimatic.svg",
+    "ticker":"mimatic"
+  },
+  {
+    "name":"AssetMantle",
+    "image": "mntl.svg",
+    "ticker":"mntl"
+  },
+  {
+    "name":"Morpheus Network",
+    "image": "mnw.svg",
+    "ticker":"mnw"
+  },
+  {
+    "name":"Optimism",
+    "image": "op.svg",
+    "ticker":"op"
+  },
+  {
+    "name":"Vulcan Forged",
+    "image": "pyr.svg",
+    "ticker":"pyr"
+  },
+  {
+    "name":"Radio Caca",
+    "image": "raca.svg",
+    "ticker":"raca"
+  },
+  {
+    "name":"Rally",
+    "image": "rly.svg",
+    "ticker":"rly"
+  },
+  {
+    "name":"Render",
+    "image": "rndr.svg",
+    "ticker":"rndr"
+  },
+  {
+    "name":"Sapphire",
+    "image": "sapp.svg",
+    "ticker":"sapp"
+  },
+  {
+    "name":"Safe Haven",
+    "image": "sha.svg",
+    "ticker":"sha"
+  },
+  {
+    "name":"Smooth Love Potion",
+    "image": "slp.svg",
+    "ticker":"slp"
+  },
+  {
+    "name":"Spiking",
+    "image": "spike.svg",
+    "ticker":"spike"
+  },
+  {
+    "name":"SSV Network",
+    "image": "ssv.svg",
+    "ticker":"ssv"
+  },
+  {
+    "name":"Startgate Finance",
+    "image": "stg.svg",
+    "ticker":"stg"
+  },
+  {
+    "name":"Strike",
+    "image": "strk.svg",
+    "ticker":"strk"
+  },
+  {
+    "name":"Sweatcoin",
+    "image": "sweat.svg",
+    "ticker":"sweat"
+  },
+  {
+    "name":"Synapse",
+    "image": "syn.svg",
+    "ticker":"syn"
+  },
+  {
+    "name":"Tyzen",
+    "image": "tyzen.svg",
+    "ticker":"tyzen"
+  },
+  {
+    "name":"USDD",
+    "image": "usdd.svg",
+    "ticker":"usdd"
+  },
+  {
+    "name":"VVS Finance",
+    "image": "vvs.svg",
+    "ticker":"vvs"
+  },
+  {
+    "name":"Warp Finance",
+    "image": "warp.svg",
+    "ticker":"warp"
+  },
+  {
+    "name":"Chain",
+    "image": "xcn.svg",
+    "ticker":"xcn"
+  },
+  {
+    "name":"eCash",
+    "image": "xec.svg",
+    "ticker":"xec"
+  },
+  {
+    "name":"Proton",
+    "image": "xpr.svg",
+    "ticker":"xpr"
+  },
+  {
+    "name":"ZoidPay",
+    "image": "zpay.svg",
+    "ticker":"zpay"
   }
 ]
