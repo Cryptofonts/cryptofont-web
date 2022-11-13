@@ -420,9 +420,19 @@
     "ticker":"brd"
   },
   {
+    "name":"Bifrost",
+    "image": "bfc.svg",
+    "ticker":"bfc"
+  },
+  {
     "name":"Bitcoin",
     "image": "btc.svg",
     "ticker":"btc"
+  },
+  {
+    "name":"Agoric",
+    "image": "bld.svg",
+    "ticker":"bld"
   },
   {
     "name":"PieDAO BTC++",
@@ -575,9 +585,19 @@
     "ticker":"cennz"
   },
   {
+    "name":"CoinEx",
+    "image": "cet.svg",
+    "ticker":"cet"
+  },
+  {
     "name":"cETH",
     "image": "ceth.svg",
     "ticker":"ceth"
+  },
+  {
+    "name":"Centrifuge",
+    "image": "cfg.svg",
+    "ticker":"cfg"
   },
   {
     "name":"Conflux",
@@ -1100,6 +1120,11 @@
     "ticker":"etz"
   },
   {
+    "name":"Euro Coin",
+    "image": "euroc.svg",
+    "ticker":"euroc"
+  },
+  {
     "name":"Ethereum Name Service",
     "image": "ens.svg",
     "ticker":"ens"
@@ -1233,6 +1258,11 @@
     "name":"Flexacoin",
     "image": "fxc.svg",
     "ticker":"fxc"
+  },
+  {
+    "name":"Frax Share",
+    "image": "fxs.svg",
+    "ticker":"fxs"
   },
   {
     "name":"FuzeX",
