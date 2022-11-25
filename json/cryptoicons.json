@@ -3673,5 +3673,55 @@
     "name":"ZoidPay",
     "image": "zpay.svg",
     "ticker":"zpay"
+  },
+  {
+    "name":"Kiro",
+    "image": "kiro.svg",
+    "ticker":"kiro"
+  },
+  {
+    "name":"Mask Network",
+    "image": "mask.svg",
+    "ticker":"mask"
+  },
+  {
+    "name":"Merit Circle",
+    "image": "mc.svg",
+    "ticker":"mc"
+  },
+  {
+    "name":"Nerve Finance",
+    "image": "nrv.svg",
+    "ticker":"nrv"
+  },
+  {
+    "name":"PlatonCoin",
+    "image": "pltc.svg",
+    "ticker":"pltc"
+  },
+  {
+    "name":"Prom",
+    "image": "prom.svg",
+    "ticker":"prom"
+  },
+  {
+    "name":"Ribbon Finance",
+    "image": "rbn.svg",
+    "ticker":"rbn"
+  },
+  {
+    "name":"sETH2",
+    "image": "seth2.svg",
+    "ticker":"seth2"
+  },
+  {
+    "name":"SafeMoon",
+    "image": "sfm.svg",
+    "ticker":"sfm"
+  },
+  {
+    "name":"Nano",
+    "image": "xno.svg",
+    "ticker":"xno"
   }
 ]
