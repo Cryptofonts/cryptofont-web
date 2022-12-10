@@ -3723,5 +3723,95 @@
     "name":"Nano",
     "image": "xno.svg",
     "ticker":"xno"
+  },
+  {
+    "name":"XAI Stablecoin",
+    "image": "xai.svg",
+    "ticker":"xai"
+  },
+  {
+    "name":"EZZY Game",
+    "image": "ezy.svg",
+    "ticker":"ezy"
+  },
+  {
+    "name":"Snowflake",
+    "image": "$snow.svg",
+    "ticker":"$snow"
+  },
+  {
+    "name":"LunaOne",
+    "image": "xln.svg",
+    "ticker":"xln"
+  },
+  {
+    "name":"OPX Finance",
+    "image": "opx.svg",
+    "ticker":"opx"
+  },
+  {
+    "name":"Parrotly",
+    "image": "pbirb.svg",
+    "ticker":"pbirb"
+  },
+  {
+    "name":"Lodestar",
+    "image": "lode.svg",
+    "ticker":"lode"
+  },
+  {
+    "name":"Crolend",
+    "image": "crd.svg",
+    "ticker":"crd"
+  },
+  {
+    "name":"Metano",
+    "image": "metano.svg",
+    "ticker":"metano"
+  },
+  {
+    "name":"Proof of Memes",
+    "image": "pom.svg",
+    "ticker":"pom"
+  },
+  {
+    "name":"Reach DAO",
+    "image": "$read.svg",
+    "ticker":"$read"
+  },
+  {
+    "name":"Uniqo",
+    "image": "uniqo.svg",
+    "ticker":"uniqo"
+  },
+  {
+    "name":"Persistence",
+    "image": "xprt.svg",
+    "ticker":"xprt"
+  },
+  {
+    "name":"Aleph Zero",
+    "image": "azero.svg",
+    "ticker":"azero"
+  },
+  {
+    "name":"Bitgert",
+    "image": "brise.svg",
+    "ticker":"brise"
+  },
+  {
+    "name":"EthereumPoW",
+    "image": "ethw.svg",
+    "ticker":"ethw"
+  },
+  {
+    "name":"Moonbeam",
+    "image": "glmr.svg",
+    "ticker":"glmr"
+  },
+  {
+    "name":"Nano",
+    "image": "xno.svg",
+    "ticker":"xno"
   }
 ]
