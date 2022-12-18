@@ -1,3817 +1,3937 @@
 [
   {
-    "name":"0xBitcoin",
+    "name": "0xBitcoin",
     "image": "0xbtc.svg",
-    "ticker":"0xbtc"
+    "ticker": "0xbtc"
   },
   {
-    "name":"1 Inch",
+    "name": "1 Inch",
     "image": "1inch.svg",
-    "ticker":"1inch"
+    "ticker": "1inch"
   },
   {
-    "name":"1st",
+    "name": "1st",
     "image": "1st.svg",
-    "ticker":"1st"
+    "ticker": "1st"
   },
   {
-    "name":"Aave",
+    "name": "Aave",
     "image": "aave.svg",
-    "ticker":"aave"
+    "ticker": "aave"
   },
   {
-    "name":"Abbc",
+    "name": "Abbc",
     "image": "abbc.svg",
-    "ticker":"abbc"
+    "ticker": "abbc"
   },
   {
-    "name":"Arcblock",
+    "name": "Arcblock",
     "image": "abt.svg",
-    "ticker":"abt"
+    "ticker": "abt"
   },
   {
-    "name":"ac3",
+    "name": "ac3",
     "image": "ac3.svg",
-    "ticker":"ac3"
+    "ticker": "ac3"
   },
   {
-    "name":"Achain",
+    "name": "Achain",
     "image": "act.svg",
-    "ticker":"act"
+    "ticker": "act"
   },
   {
-    "name":"Cardano",
+    "name": "Cardano",
     "image": "ada.svg",
-    "ticker":"ada"
+    "ticker": "ada"
   },
   {
-    "name":"Adbank",
+    "name": "Adbank",
     "image": "adb.svg",
-    "ticker":"adb"
+    "ticker": "adb"
   },
   {
-    "name":"AdEx",
+    "name": "AdEx",
     "image": "adx.svg",
-    "ticker":"adx"
+    "ticker": "adx"
   },
   {
-    "name":"Aeternity",
+    "name": "Aeternity",
     "image": "ae.svg",
-    "ticker":"ae"
+    "ticker": "ae"
   },
   {
-    "name":"Aeon",
+    "name": "Aeon",
     "image": "aeon.svg",
-    "ticker":"aeon"
+    "ticker": "aeon"
   },
   {
-    "name":"Aergo",
+    "name": "Aergo",
     "image": "aergo.svg",
-    "ticker":"aergo"
+    "ticker": "aergo"
   },
   {
-    "name":"SingularityNET",
+    "name": "SingularityNET",
     "image": "agi.svg",
-    "ticker":"agi"
+    "ticker": "agi"
   },
   {
-    "name":"Aion",
+    "name": "Aion",
     "image": "aion.svg",
-    "ticker":"aion"
+    "ticker": "aion"
   },
   {
-    "name":"AICHAIN",
+    "name": "AICHAIN",
     "image": "ait.svg",
-    "ticker":"ait"
+    "ticker": "ait"
   },
   {
-    "name":"Akropolis",
+    "name": "Akropolis",
     "image": "akro.svg",
-    "ticker":"akro"
+    "ticker": "akro"
   },
   {
-    "name":"Akash Network",
+    "name": "Akash Network",
     "image": "akt.svg",
-    "ticker":"akt"
+    "ticker": "akt"
   },
   {
-    "name":"Aleph.im",
+    "name": "Aleph.im",
     "image": "aleph.svg",
-    "ticker":"aleph"
+    "ticker": "aleph"
   },
   {
-    "name":"Alchemix",
+    "name": "Alchemix",
     "image": "alcx.svg",
-    "ticker":"alcx"
+    "ticker": "alcx"
   },
   {
-    "name":"Algorand",
+    "name": "Algorand",
     "image": "algo.svg",
-    "ticker":"algo"
+    "ticker": "algo"
   },
   {
-    "name":"ALIS",
+    "name": "ALIS",
     "image": "alis.svg",
-    "ticker":"alis"
+    "ticker": "alis"
   },
   {
-    "name":"Alpha Finance",
+    "name": "Alpha Finance",
     "image": "alpha.svg",
-    "ticker":"alpha"
+    "ticker": "alpha"
   },
   {
-    "name":"ALAX",
+    "name": "ALAX",
     "image": "alx.svg",
-    "ticker":"alx"
+    "ticker": "alx"
   },
   {
-    "name":"Ambrosus",
+    "name": "Ambrosus",
     "image": "amb.svg",
-    "ticker":"amb"
+    "ticker": "amb"
   },
   {
-    "name":"AMLT",
+    "name": "AMLT",
     "image": "amlt.svg",
-    "ticker":"amlt"
+    "ticker": "amlt"
   },
   {
-    "name":"AMP",
+    "name": "AMP",
     "image": "amp.svg",
-    "ticker":"amp"
+    "ticker": "amp"
   },
   {
-    "name":"Ampleforth",
+    "name": "Ampleforth",
     "image": "ampl.svg",
-    "ticker":"ampl"
+    "ticker": "ampl"
   },
   {
-    "name":"Anchor Protocol",
+    "name": "Anchor Protocol",
     "image": "anc.svg",
-    "ticker":"anc"
+    "ticker": "anc"
   },
   {
-    "name":"Aragon Court",
+    "name": "Aragon Court",
     "image": "anj.svg",
-    "ticker":"anj"
+    "ticker": "anj"
   },
   {
-    "name":"Ankr",
+    "name": "Ankr",
     "image": "ankr.svg",
-    "ticker":"ankr"
+    "ticker": "ankr"
   },
   {
-    "name":"Aragon",
+    "name": "Aragon",
     "image": "ant.svg",
-    "ticker":"ant"
+    "ticker": "ant"
   },
   {
-    "name":"Aphelion",
+    "name": "Aphelion",
     "image": "aph.svg",
-    "ticker":"aph"
+    "ticker": "aph"
   },
   {
-    "name":"Apollo Currency",
+    "name": "Apollo Currency",
     "image": "apl.svg",
-    "ticker":"apl"
+    "ticker": "apl"
   },
   {
-    "name":"AppCoins",
+    "name": "AppCoins",
     "image": "appc.svg",
-    "ticker":"appc"
+    "ticker": "appc"
   },
   {
-    "name":"APWine Finance",
+    "name": "APWine Finance",
     "image": "apw.svg",
-    "ticker":"apw"
+    "ticker": "apw"
   },
   {
-    "name":"APY.Finance",
+    "name": "APY.Finance",
     "image": "apy.svg",
-    "ticker":"apy"
+    "ticker": "apy"
   },
   {
-    "name":"Arweave",
+    "name": "Arweave",
     "image": "ar.svg",
-    "ticker":"ar"
+    "ticker": "ar"
   },
   {
-    "name":"Ardor",
+    "name": "Ardor",
     "image": "ardr.svg",
-    "ticker":"ardr"
+    "ticker": "ardr"
   },
   {
-    "name":"Ark",
+    "name": "Ark",
     "image": "ark.svg",
-    "ticker":"ark"
+    "ticker": "ark"
   },
   {
-    "name":"Armor",
+    "name": "Armor",
     "image": "armor.svg",
-    "ticker":"armor"
+    "ticker": "armor"
   },
   {
-    "name":"Aeron",
+    "name": "Aeron",
     "image": "arn.svg",
-    "ticker":"arn"
+    "ticker": "arn"
   },
   {
-    "name":"Arionum",
+    "name": "Arionum",
     "image": "aro.svg",
-    "ticker":"aro"
+    "ticker": "aro"
   },
   {
-    "name":"Pirate Chain",
+    "name": "Pirate Chain",
     "image": "arrr.svg",
-    "ticker":"arrr"
+    "ticker": "arrr"
   },
   {
-    "name":"AirSwap",
+    "name": "AirSwap",
     "image": "ast.svg",
-    "ticker":"ast"
+    "ticker": "ast"
   },
   {
-    "name":"Atonomi",
+    "name": "Atonomi",
     "image": "atmi.svg",
-    "ticker":"atmi"
+    "ticker": "atmi"
   },
   {
-    "name":"Cosmos",
+    "name": "Cosmos",
     "image": "atom.svg",
-    "ticker":"atom"
+    "ticker": "atom"
   },
   {
-    "name":"Auctus",
+    "name": "Auctus",
     "image": "auc.svg",
-    "ticker":"auc"
+    "ticker": "auc"
   },
   {
-    "name":"Aura Protocol",
+    "name": "Aura Protocol",
     "image": "aura.svg",
-    "ticker":"aura"
+    "ticker": "aura"
   },
   {
-    "name":"Auto",
+    "name": "Auto",
     "image": "auto.svg",
-    "ticker":"auto"
+    "ticker": "auto"
   },
   {
-    "name":"Avalanche",
+    "name": "Avalanche",
     "image": "avax.svg",
-    "ticker":"avax"
+    "ticker": "avax"
   },
   {
-    "name":"Atomic Wallet Coin",
+    "name": "Atomic Wallet Coin",
     "image": "awc.svg",
-    "ticker":"awc"
+    "ticker": "awc"
   },
   {
-    "name":"Axprire",
+    "name": "Axprire",
     "image": "axp.svg",
-    "ticker":"axp"
+    "ticker": "axp"
   },
   {
-    "name":"Basis Cash",
+    "name": "Basis Cash",
     "image": "bac.svg",
-    "ticker":"bac"
+    "ticker": "bac"
   },
   {
-    "name":"Balancer",
+    "name": "Balancer",
     "image": "bal.svg",
-    "ticker":"bal"
+    "ticker": "bal"
   },
   {
-    "name":"Band Protocol",
+    "name": "Band Protocol",
     "image": "band.svg",
-    "ticker":"band"
+    "ticker": "band"
   },
   {
-    "name":"Bao Finance",
+    "name": "Bao Finance",
     "image": "bao.svg",
-    "ticker":"bao"
+    "ticker": "bao"
   },
   {
-    "name":"Basic Attention Token",
+    "name": "Basic Attention Token",
     "image": "bat.svg",
-    "ticker":"bat"
+    "ticker": "bat"
   },
   {
-    "name":"BitBay",
+    "name": "BitBay",
     "image": "bay.svg",
-    "ticker":"bay"
+    "ticker": "bay"
   },
   {
-    "name":"BoolBerry",
+    "name": "BoolBerry",
     "image": "bbr.svg",
-    "ticker":"bbr"
+    "ticker": "bbr"
   },
   {
-    "name":"Bitcoin Diamond",
+    "name": "Bitcoin Diamond",
     "image": "bcd.svg",
-    "ticker":"bcd"
+    "ticker": "bcd"
   },
   {
-    "name":"Bitcoin Cash",
+    "name": "Bitcoin Cash",
     "image": "bch.svg",
-    "ticker":"bch"
+    "ticker": "bch"
   },
   {
-    "name":"Bitcoin Cash ABC",
+    "name": "Bitcoin Cash ABC",
     "image": "bcha.svg",
-    "ticker":"bcha"
+    "ticker": "bcha"
   },
   {
-    "name":"Bytecoin",
+    "name": "Bytecoin",
     "image": "bcn.svg",
-    "ticker":"bcn"
+    "ticker": "bcn"
   },
   {
-    "name":"BridgeCoin",
+    "name": "BridgeCoin",
     "image": "bco.svg",
-    "ticker":"bco"
+    "ticker": "bco"
   },
   {
-    "name":"Bella Protocol",
+    "name": "Bella Protocol",
     "image": "bel.svg",
-    "ticker":"bel"
+    "ticker": "bel"
   },
   {
-    "name":"Beta Finance",
+    "name": "Beta Finance",
     "image": "beta.svg",
-    "ticker":"beta"
+    "ticker": "beta"
   },
   {
-    "name":"BitForex Token",
+    "name": "BitForex Token",
     "image": "bf.svg",
-    "ticker":"bf"
+    "ticker": "bf"
   },
   {
-    "name":"Beefy.Finance",
+    "name": "Beefy.Finance",
     "image": "bifi.svg",
-    "ticker":"bifi"
+    "ticker": "bifi"
   },
   {
-    "name":"Bibox Token",
+    "name": "Bibox Token",
     "image": "bix.svg",
-    "ticker":"bix"
+    "ticker": "bix"
   },
   {
-    "name":"BlackCoin",
+    "name": "BlackCoin",
     "image": "blk.svg",
-    "ticker":"blk"
+    "ticker": "blk"
   },
   {
-    "name":"Blocknet",
+    "name": "Blocknet",
     "image": "block.svg",
-    "ticker":"block"
+    "ticker": "block"
   },
   {
-    "name":"Bloom",
+    "name": "Bloom",
     "image": "blt.svg",
-    "ticker":"blt"
+    "ticker": "blt"
   },
   {
-    "name":"Blue Protocol",
+    "name": "Blue Protocol",
     "image": "blue.svg",
-    "ticker":"blue"
+    "ticker": "blue"
   },
   {
-    "name":"Bluzelle",
+    "name": "Bluzelle",
     "image": "blz.svg",
-    "ticker":"blz"
+    "ticker": "blz"
   },
   {
-    "name":"Binance Coin",
+    "name": "Binance Coin",
     "image": "bnb.svg",
-    "ticker":"bnb"
+    "ticker": "bnb"
   },
   {
-    "name":"Bancor",
+    "name": "Bancor",
     "image": "bnt.svg",
-    "ticker":"bnt"
+    "ticker": "bnt"
   },
   {
-    "name":"BarnBridge",
+    "name": "BarnBridge",
     "image": "bond.svg",
-    "ticker":"bond"
+    "ticker": "bond"
   },
   {
-    "name":"Bondly",
+    "name": "Bondly",
     "image": "bondly.svg",
-    "ticker":"bondly"
+    "ticker": "bondly"
   },
   {
-    "name":"BORA",
+    "name": "BORA",
     "image": "bora.svg",
-    "ticker":"bora"
+    "ticker": "bora"
   },
   {
-    "name":"ContentBox",
+    "name": "ContentBox",
     "image": "box.svg",
-    "ticker":"box"
+    "ticker": "box"
   },
   {
-    "name":"Blockport",
+    "name": "Blockport",
     "image": "bpt.svg",
-    "ticker":"bpt"
+    "ticker": "bpt"
   },
   {
-    "name":"Bread",
+    "name": "Bread",
     "image": "brd.svg",
-    "ticker":"brd"
+    "ticker": "brd"
   },
   {
-    "name":"Bifrost",
+    "name": "Bifrost",
     "image": "bfc.svg",
-    "ticker":"bfc"
+    "ticker": "bfc"
   },
   {
-    "name":"Bitcoin",
+    "name": "Bitcoin",
     "image": "btc.svg",
-    "ticker":"btc"
+    "ticker": "btc"
   },
   {
-    "name":"Agoric",
+    "name": "Agoric",
     "image": "bld.svg",
-    "ticker":"bld"
+    "ticker": "bld"
   },
   {
-    "name":"PieDAO BTC++",
+    "name": "PieDAO BTC++",
     "image": "btc++.svg",
-    "ticker":"btc++"
+    "ticker": "btc++"
   },
   {
-    "name":"Bitcoin Dark",
+    "name": "Bitcoin Dark",
     "image": "btcd.svg",
-    "ticker":"btcd"
+    "ticker": "btcd"
   },
   {
-    "name":"Bitcoin Private",
+    "name": "Bitcoin Private",
     "image": "btcp.svg",
-    "ticker":"btcp"
+    "ticker": "btcp"
   },
   {
-    "name":"Bitcoin Gold",
+    "name": "Bitcoin Gold",
     "image": "btg.svg",
-    "ticker":"btg"
+    "ticker": "btg"
   },
   {
-    "name":"Bitmax Token",
+    "name": "Bitmax Token",
     "image": "btmx.svg",
-    "ticker":"btmx"
+    "ticker": "btmx"
   },
   {
-    "name":"Bottos",
+    "name": "Bottos",
     "image": "bto.svg",
-    "ticker":"bto"
+    "ticker": "bto"
   },
   {
-    "name":"BitShares",
+    "name": "BitShares",
     "image": "bts.svg",
-    "ticker":"bts"
+    "ticker": "bts"
   },
   {
-    "name":"BitTorrent",
+    "name": "BitTorrent",
     "image": "btt.svg",
-    "ticker":"btt"
+    "ticker": "btt"
   },
   {
-    "name":"BTU Protocol",
+    "name": "BTU Protocol",
     "image": "btu.svg",
-    "ticker":"btu"
+    "ticker": "btu"
   },
   {
-    "name":"BUMO",
+    "name": "BUMO",
     "image": "bu.svg",
-    "ticker":"bu"
+    "ticker": "bu"
   },
   {
-    "name":"Pancake Bunny",
+    "name": "Pancake Bunny",
     "image": "bunny.svg",
-    "ticker":"bunny"
+    "ticker": "bunny"
   },
   {
-    "name":"Binance USD",
+    "name": "Binance USD",
     "image": "busd.svg",
-    "ticker":"busd"
+    "ticker": "busd"
   },
   {
-    "name":"Bittwatt",
+    "name": "Bittwatt",
     "image": "bwt.svg",
-    "ticker":"bwt"
+    "ticker": "bwt"
   },
   {
-    "name":"BitZ Token",
+    "name": "BitZ Token",
     "image": "bz.svg",
-    "ticker":"bz"
+    "ticker": "bz"
   },
   {
-    "name":"Bezant",
+    "name": "Bezant",
     "image": "bznt.svg",
-    "ticker":"bznt"
+    "ticker": "bznt"
   },
   {
-    "name":"bZx Protocol",
+    "name": "bZx Protocol",
     "image": "bzrx.svg",
-    "ticker":"bzrx"
+    "ticker": "bzrx"
   },
   {
-    "name":"Coin98",
+    "name": "Coin98",
     "image": "c98.svg",
-    "ticker":"c98"
+    "ticker": "c98"
   },
   {
-    "name":"CRYPTO20",
+    "name": "CRYPTO20",
     "image": "c20.svg",
-    "ticker":"c20"
+    "ticker": "c20"
   },
   {
-    "name":"PancakeSwap",
+    "name": "PancakeSwap",
     "image": "cake.svg",
-    "ticker":"cake"
+    "ticker": "cake"
   },
   {
-    "name":"Cappasity",
+    "name": "Cappasity",
     "image": "capp.svg",
-    "ticker":"capp"
+    "ticker": "capp"
   },
   {
-    "name":"CarBlock",
+    "name": "CarBlock",
     "image": "car.svg",
-    "ticker":"car"
+    "ticker": "car"
   },
   {
-    "name":"Cardstack",
+    "name": "Cardstack",
     "image": "card.svg",
-    "ticker":"card"
+    "ticker": "card"
   },
   {
-    "name":"Compound Basic Attention Token",
+    "name": "Compound Basic Attention Token",
     "image": "cbat.svg",
-    "ticker":"cbat"
+    "ticker": "cbat"
   },
   {
-    "name":"CommerceBlock",
+    "name": "CommerceBlock",
     "image": "cbt.svg",
-    "ticker":"cbt"
+    "ticker": "cbt"
   },
   {
-    "name":"cDAI",
+    "name": "cDAI",
     "image": "cdai.svg",
-    "ticker":"cdai"
+    "ticker": "cdai"
   },
   {
-    "name":"Blox",
+    "name": "Blox",
     "image": "cdt.svg",
-    "ticker":"cdt"
+    "ticker": "cdt"
   },
   {
-    "name":"Celsius Network",
+    "name": "Celsius Network",
     "image": "cel.svg",
-    "ticker":"cel"
+    "ticker": "cel"
   },
   {
-    "name":"Celo",
+    "name": "Celo",
     "image": "celo.svg",
-    "ticker":"celo"
+    "ticker": "celo"
   },
   {
-    "name":"Celer Network",
+    "name": "Celer Network",
     "image": "celr.svg",
-    "ticker":"celr"
+    "ticker": "celr"
   },
   {
-    "name":"Centrality",
+    "name": "Centrality",
     "image": "cennz.svg",
-    "ticker":"cennz"
+    "ticker": "cennz"
   },
   {
-    "name":"CoinEx",
+    "name": "CoinEx",
     "image": "cet.svg",
-    "ticker":"cet"
+    "ticker": "cet"
   },
   {
-    "name":"cETH",
+    "name": "cETH",
     "image": "ceth.svg",
-    "ticker":"ceth"
+    "ticker": "ceth"
   },
   {
-    "name":"Centrifuge",
+    "name": "Centrifuge",
     "image": "cfg.svg",
-    "ticker":"cfg"
+    "ticker": "cfg"
   },
   {
-    "name":"Conflux",
+    "name": "Conflux",
     "image": "cfx.svg",
-    "ticker":"cfx"
+    "ticker": "cfx"
   },
   {
-    "name":"Chai",
+    "name": "Chai",
     "image": "chai.svg",
-    "ticker":"chai"
+    "ticker": "chai"
   },
   {
-    "name":"BeeChat",
+    "name": "BeeChat",
     "image": "chat.svg",
-    "ticker":"chat"
+    "ticker": "chat"
   },
   {
-    "name":"SwissBorg",
+    "name": "SwissBorg",
     "image": "chsb.svg",
-    "ticker":"chsb"
+    "ticker": "chsb"
   },
   {
-    "name":"Chiliz",
+    "name": "Chiliz",
     "image": "chz.svg",
-    "ticker":"chz"
+    "ticker": "chz"
   },
   {
-    "name":"Nervos Network",
+    "name": "Nervos Network",
     "image": "ckb.svg",
-    "ticker":"ckb"
+    "ticker": "ckb"
   },
   {
-    "name":"Callisto Network",
+    "name": "Callisto Network",
     "image": "clo.svg",
-    "ticker":"clo"
+    "ticker": "clo"
   },
   {
-    "name":"BitClout",
+    "name": "BitClout",
     "image": "clout.svg",
-    "ticker":"clout"
+    "ticker": "clout"
   },
   {
-    "name":"Cloakcoin",
+    "name": "Cloakcoin",
     "image": "cloak.svg",
-    "ticker":"cloak"
+    "ticker": "cloak"
   },
   {
-    "name":"CyberMiles",
+    "name": "CyberMiles",
     "image": "cmt.svg",
-    "ticker":"cmt"
+    "ticker": "cmt"
   },
   {
-    "name":"Cindicator",
+    "name": "Cindicator",
     "image": "cnd.svg",
-    "ticker":"cnd"
+    "ticker": "cnd"
   },
   {
-    "name":"Cryptonex",
+    "name": "Cryptonex",
     "image": "cnx.svg",
-    "ticker":"cnx"
+    "ticker": "cnx"
   },
   {
-    "name":"Compound Finance",
+    "name": "Compound Finance",
     "image": "comp.svg",
-    "ticker":"comp"
+    "ticker": "comp"
   },
   {
-    "name":"Coinbene Token",
+    "name": "Coinbene Token",
     "image": "coni.svg",
-    "ticker":"coni"
+    "ticker": "coni"
   },
   {
-    "name":"Cosmo Coin",
+    "name": "Cosmo Coin",
     "image": "cosm.svg",
-    "ticker":"cosm"
+    "ticker": "cosm"
   },
   {
-    "name":"COTI",
+    "name": "COTI",
     "image": "coti.svg",
-    "ticker":"coti"
+    "ticker": "coti"
   },
   {
-    "name":"Covesting",
+    "name": "Covesting",
     "image": "cov.svg",
-    "ticker":"cov"
+    "ticker": "cov"
   },
   {
-    "name":"Cova Unity",
+    "name": "Cova Unity",
     "image": "cova.svg",
-    "ticker":"cova"
+    "ticker": "cova"
   },
   {
-    "name":"Cover Protocol",
+    "name": "Cover Protocol",
     "image": "cover.svg",
-    "ticker":"cover"
+    "ticker": "cover"
   },
   {
-    "name":"CPChain",
+    "name": "CPChain",
     "image": "cpc.svg",
-    "ticker":"cpc"
+    "ticker": "cpc"
   },
   {
-    "name":"Carry",
+    "name": "Carry",
     "image": "cre.svg",
-    "ticker":"cre"
+    "ticker": "cre"
   },
   {
-    "name":"Cream",
+    "name": "Cream",
     "image": "cream.svg",
-    "ticker":"cream"
+    "ticker": "cream"
   },
   {
-    "name":"Verify",
+    "name": "Verify",
     "image": "cred.svg",
-    "ticker":"cred"
+    "ticker": "cred"
   },
   {
-    "name":"cREP",
+    "name": "cREP",
     "image": "crep.svg",
-    "ticker":"crep"
+    "ticker": "crep"
   },
   {
-    "name":"Crypto.com Coin",
+    "name": "Crypto.com Coin",
     "image": "cro.svg",
-    "ticker":"cro"
+    "ticker": "cro"
   },
   {
-    "name":"Crypterium",
+    "name": "Crypterium",
     "image": "crpt.svg",
-    "ticker":"crpt"
+    "ticker": "crpt"
   },
   {
-    "name":"Curve DAO Token",
+    "name": "Curve DAO Token",
     "image": "crv.svg",
-    "ticker":"crv"
+    "ticker": "crv"
   },
   {
-    "name":"Credits",
+    "name": "Credits",
     "image": "cs.svg",
-    "ticker":"cs"
+    "ticker": "cs"
   },
   {
-    "name":"cSAI",
+    "name": "cSAI",
     "image": "csai.svg",
-    "ticker":"csai"
+    "ticker": "csai"
   },
   {
-    "name":"Casinocoin",
+    "name": "Casinocoin",
     "image": "csc.svg",
-    "ticker":"csc"
+    "ticker": "csc"
   },
   {
-    "name":"Creditcoin",
+    "name": "Creditcoin",
     "image": "ctc.svg",
-    "ticker":"ctc"
+    "ticker": "ctc"
   },
   {
-    "name":"Cortex",
+    "name": "Cortex",
     "image": "ctxc.svg",
-    "ticker":"ctxc"
+    "ticker": "ctxc"
   },
   {
-    "name":"cUSDC",
+    "name": "cUSDC",
     "image": "cusdc.svg",
-    "ticker":"cusdc"
+    "ticker": "cusdc"
   },
   {
-    "name":"carVertical",
+    "name": "carVertical",
     "image": "cv.svg",
-    "ticker":"cv"
+    "ticker": "cv"
   },
   {
-    "name":"Civic",
+    "name": "Civic",
     "image": "cvc.svg",
-    "ticker":"cvc"
+    "ticker": "cvc"
   },
   {
-    "name":"PowerPool",
+    "name": "PowerPool",
     "image": "cvp.svg",
-    "ticker":"cvp"
+    "ticker": "cvp"
   },
   {
-    "name":"CyberVeinToken",
+    "name": "CyberVeinToken",
     "image": "cvt.svg",
-    "ticker":"cvt"
+    "ticker": "cvt"
   },
   {
-    "name":"Convex Finance",
+    "name": "Convex Finance",
     "image": "cvx.svg",
-    "ticker":"cvx"
+    "ticker": "cvx"
   },
   {
-    "name":"cWBTC",
+    "name": "cWBTC",
     "image": "cwbtc.svg",
-    "ticker":"cwbtc"
+    "ticker": "cwbtc"
   },
   {
-    "name":"c0x",
+    "name": "c0x",
     "image": "czrx.svg",
-    "ticker":"czrx"
+    "ticker": "czrx"
   },
   {
-    "name":"Edge",
+    "name": "Edge",
     "image": "dadi.svg",
-    "ticker":"dadi"
+    "ticker": "dadi"
   },
   {
-    "name":"DAFI Protocol",
+    "name": "DAFI Protocol",
     "image": "dafi.svg",
-    "ticker":"dafi"
+    "ticker": "dafi"
   },
   {
-    "name":"Constellation",
+    "name": "Constellation",
     "image": "dag.svg",
-    "ticker":"dag"
+    "ticker": "dag"
   },
   {
-    "name":"Dai",
+    "name": "Dai",
     "image": "dai.svg",
-    "ticker":"dai"
+    "ticker": "dai"
   },
   {
-    "name":"Dash",
+    "name": "Dash",
     "image": "dash.svg",
-    "ticker":"dash"
+    "ticker": "dash"
   },
   {
-    "name":"Datum",
+    "name": "Datum",
     "image": "dat.svg",
-    "ticker":"dat"
+    "ticker": "dat"
   },
   {
-    "name":"Streamr",
+    "name": "Streamr",
     "image": "data.svg",
-    "ticker":"data"
+    "ticker": "data"
   },
   {
-    "name":"DATx",
+    "name": "DATx",
     "image": "datx.svg",
-    "ticker":"datx"
+    "ticker": "datx"
   },
   {
-    "name":"DeepBrain Chain",
+    "name": "DeepBrain Chain",
     "image": "dbc.svg",
-    "ticker":"dbc"
+    "ticker": "dbc"
   },
   {
-    "name":"Dentacoin",
+    "name": "Dentacoin",
     "image": "dcn.svg",
-    "ticker":"dcn"
+    "ticker": "dcn"
   },
   {
-    "name":"Decred",
+    "name": "Decred",
     "image": "dcr.svg",
-    "ticker":"dcr"
+    "ticker": "dcr"
   },
   {
-    "name":"Decent",
+    "name": "Decent",
     "image": "dct.svg",
-    "ticker":"dct"
+    "ticker": "dct"
   },
   {
-    "name":"Scry.info",
+    "name": "Scry.info",
     "image": "ddd.svg",
-    "ticker":"ddd"
+    "ticker": "ddd"
   },
   {
-    "name":"Dent",
+    "name": "Dent",
     "image": "dent.svg",
-    "ticker":"dent"
+    "ticker": "dent"
   },
   {
-    "name":"Deri Protocol",
+    "name": "Deri Protocol",
     "image": "deri.svg",
-    "ticker":"deri"
+    "ticker": "deri"
   },
   {
-    "name":"DeFiChain",
+    "name": "DeFiChain",
     "image": "dfi.svg",
-    "ticker":"dfi"
+    "ticker": "dfi"
   },
   {
-    "name":"Dfyn Network",
+    "name": "Dfyn Network",
     "image": "dfyn.svg",
-    "ticker":"dfyn"
+    "ticker": "dfyn"
   },
   {
-    "name":"DigiFinex Token",
+    "name": "DigiFinex Token",
     "image": "dft.svg",
-    "ticker":"dft"
+    "ticker": "dft"
   },
   {
-    "name":"DigiByte",
+    "name": "DigiByte",
     "image": "dgb.svg",
-    "ticker":"dgb"
+    "ticker": "dgb"
   },
   {
-    "name":"DigixDAO",
+    "name": "DigixDAO",
     "image": "dgd.svg",
-    "ticker":"dgd"
+    "ticker": "dgd"
   },
   {
-    "name":"Digitex Token",
+    "name": "Digitex Token",
     "image": "dgtx.svg",
-    "ticker":"dgtx"
+    "ticker": "dgtx"
   },
   {
-    "name":"Divi",
+    "name": "Divi",
     "image": "divi.svg",
-    "ticker":"divi"
+    "ticker": "divi"
   },
   {
-    "name":"Agrello",
+    "name": "Agrello",
     "image": "dlt.svg",
-    "ticker":"dlt"
+    "ticker": "dlt"
   },
   {
-    "name":"DMarket",
+    "name": "DMarket",
     "image": "dmt.svg",
-    "ticker":"dmt"
+    "ticker": "dmt"
   },
   {
-    "name":"district0x",
+    "name": "district0x",
     "image": "dnt.svg",
-    "ticker":"dnt"
+    "ticker": "dnt"
   },
   {
-    "name":"Dock",
+    "name": "Dock",
     "image": "dock.svg",
-    "ticker":"dock"
+    "ticker": "dock"
   },
   {
-    "name":"DODO",
+    "name": "DODO",
     "image": "dodo.svg",
-    "ticker":"dodo"
+    "ticker": "dodo"
   },
   {
-    "name":"Dogecoin",
+    "name": "Dogecoin",
     "image": "doge.svg",
-    "ticker":"doge"
+    "ticker": "doge"
   },
   {
-    "name":"Dor",
+    "name": "Dor",
     "image": "dor.svg",
-    "ticker":"dor"
+    "ticker": "dor"
   },
   {
-    "name":"Polkadot",
+    "name": "Polkadot",
     "image": "dot.svg",
-    "ticker":"dot"
+    "ticker": "dot"
   },
   {
-    "name":"Dragonchain",
+    "name": "Dragonchain",
     "image": "drgn.svg",
-    "ticker":"drgn"
+    "ticker": "drgn"
   },
   {
-    "name":"Dropil",
+    "name": "Dropil",
     "image": "drop.svg",
-    "ticker":"drop"
+    "ticker": "drop"
   },
   {
-    "name":"DATA",
+    "name": "DATA",
     "image": "dta.svg",
-    "ticker":"dta"
+    "ticker": "dta"
   },
   {
-    "name":"Dynamic Trading Rights",
+    "name": "Dynamic Trading Rights",
     "image": "dtr.svg",
-    "ticker":"dtr"
+    "ticker": "dtr"
   },
   {
-    "name":"Databroker",
+    "name": "Databroker",
     "image": "dtx.svg",
-    "ticker":"dtx"
+    "ticker": "dtx"
   },
   {
-    "name":"DeversiFi",
+    "name": "DeversiFi",
     "image": "dvf.svg",
-    "ticker":"dvf"
+    "ticker": "dvf"
   },
   {
-    "name":"DXdao",
+    "name": "DXdao",
     "image": "dxd.svg",
-    "ticker":"dxd"
+    "ticker": "dxd"
   },
   {
-    "name":"Datawallet",
+    "name": "Datawallet",
     "image": "dxt.svg",
-    "ticker":"dxt"
+    "ticker": "dxt"
   },
   {
-    "name":"Edgeless",
+    "name": "Edgeless",
     "image": "edg.svg",
-    "ticker":"edg"
+    "ticker": "edg"
   },
   {
-    "name":"Eidoo",
+    "name": "Eidoo",
     "image": "edo.svg",
-    "ticker":"edo"
+    "ticker": "edo"
   },
   {
-    "name":"Efinity Token",
+    "name": "Efinity Token",
     "image": "efi.svg",
-    "ticker":"efi"
+    "ticker": "efi"
   },
   {
-    "name":"Effect.AI",
+    "name": "Effect.AI",
     "image": "efx.svg",
-    "ticker":"efx"
+    "ticker": "efx"
   },
   {
-    "name":"Elrond",
+    "name": "Elrond",
     "image": "egld.svg",
-    "ticker":"egld"
+    "ticker": "egld"
   },
   {
-    "name":"Egretia",
+    "name": "Egretia",
     "image": "egt.svg",
-    "ticker":"egt"
+    "ticker": "egt"
   },
   {
-    "name":"Ekon Gold",
+    "name": "Ekon Gold",
     "image": "ekg.svg",
-    "ticker":"ekg"
+    "ticker": "ekg"
   },
   {
-    "name":"EDUCare",
+    "name": "EDUCare",
     "image": "ekt.svg",
-    "ticker":"ekt"
+    "ticker": "ekt"
   },
   {
-    "name":"Elastos",
+    "name": "Elastos",
     "image": "ela.svg",
-    "ticker":"ela"
+    "ticker": "ela"
   },
   {
-    "name":"Electrify.Asia",
+    "name": "Electrify.Asia",
     "image": "elec.svg",
-    "ticker":"elec"
+    "ticker": "elec"
   },
   {
-    "name":"aelf",
+    "name": "aelf",
     "image": "elf.svg",
-    "ticker":"elf"
+    "ticker": "elf"
   },
   {
-    "name":"Emercoin",
+    "name": "Emercoin",
     "image": "emc.svg",
-    "ticker":"emc"
+    "ticker": "emc"
   },
   {
-    "name":"Einsteinium",
+    "name": "Einsteinium",
     "image": "emc2.svg",
-    "ticker":"emc2"
+    "ticker": "emc2"
   },
   {
-    "name":"Enigma",
+    "name": "Enigma",
     "image": "eng.svg",
-    "ticker":"eng"
+    "ticker": "eng"
   },
   {
-    "name":"Enjin Coin",
+    "name": "Enjin Coin",
     "image": "enj.svg",
-    "ticker":"enj"
+    "ticker": "enj"
   },
   {
-    "name":"EOS",
+    "name": "EOS",
     "image": "eos.svg",
-    "ticker":"eos"
+    "ticker": "eos"
   },
   {
-    "name":"eosDAC",
+    "name": "eosDAC",
     "image": "eosdac.svg",
-    "ticker":"eosdac"
+    "ticker": "eosdac"
   },
   {
-    "name":"Ethernity Chain",
+    "name": "Ethernity Chain",
     "image": "ern.svg",
-    "ticker":"ern"
+    "ticker": "ern"
   },
   {
-    "name":"Empty Set Dollar",
+    "name": "Empty Set Dollar",
     "image": "esd.svg",
-    "ticker":"esd"
+    "ticker": "esd"
   },
   {
-    "name":"esp",
+    "name": "esp",
     "image": "esp.svg",
-    "ticker":"esp"
+    "ticker": "esp"
   },
   {
-    "name":"Essentia",
+    "name": "Essentia",
     "image": "ess.svg",
-    "ticker":"ess"
+    "ticker": "ess"
   },
   {
-    "name":"Ethereum Classic",
+    "name": "Ethereum Classic",
     "image": "etc.svg",
-    "ticker":"etc"
+    "ticker": "etc"
   },
   {
-    "name":"Ethereum",
+    "name": "Ethereum",
     "image": "eth.svg",
-    "ticker":"eth"
+    "ticker": "eth"
   },
   {
-    "name":"Electroneum",
+    "name": "Electroneum",
     "image": "etn.svg",
-    "ticker":"etn"
+    "ticker": "etn"
   },
   {
-    "name":"Metaverse ETP",
+    "name": "Metaverse ETP",
     "image": "etp.svg",
-    "ticker":"etp"
+    "ticker": "etp"
   },
   {
-    "name":"Ether Zero",
+    "name": "Ether Zero",
     "image": "etz.svg",
-    "ticker":"etz"
+    "ticker": "etz"
   },
   {
-    "name":"Euro Coin",
+    "name": "Euro Coin",
     "image": "euroc.svg",
-    "ticker":"euroc"
+    "ticker": "euroc"
   },
   {
-    "name":"Ethereum Name Service",
+    "name": "Ethereum Name Service",
     "image": "ens.svg",
-    "ticker":"ens"
+    "ticker": "ens"
   },
   {
-    "name":"Everex",
+    "name": "Everex",
     "image": "evx.svg",
-    "ticker":"evx"
+    "ticker": "evx"
   },
   {
-    "name":"Energy Web Token",
+    "name": "Energy Web Token",
     "image": "ewt.svg",
-    "ticker":"ewt"
+    "ticker": "ewt"
   },
   {
-    "name":"EXRNchain",
+    "name": "EXRNchain",
     "image": "exrn.svg",
-    "ticker":"exrn"
+    "ticker": "exrn"
   },
   {
-    "name":"Experty",
+    "name": "Experty",
     "image": "exy.svg",
-    "ticker":"exy"
+    "ticker": "exy"
   },
   {
-    "name":"Fabric",
+    "name": "Fabric",
     "image": "fab.svg",
-    "ticker":"fab"
+    "ticker": "fab"
   },
   {
-    "name":"Factom",
+    "name": "Factom",
     "image": "fct.svg",
-    "ticker":"fct"
+    "ticker": "fct"
   },
   {
-    "name":"Feeder.finance",
+    "name": "Feeder.finance",
     "image": "feed.svg",
-    "ticker":"feed"
+    "ticker": "feed"
   },
   {
-    "name":"Fei USD",
+    "name": "Fei USD",
     "image": "fei.svg",
-    "ticker":"fei"
+    "ticker": "fei"
   },
   {
-    "name":"Fetch.ai",
+    "name": "Fetch.ai",
     "image": "fet.svg",
-    "ticker":"fet"
+    "ticker": "fet"
   },
   {
-    "name":"Bonfida",
+    "name": "Bonfida",
     "image": "fida.svg",
-    "ticker":"fida"
+    "ticker": "fida"
   },
   {
-    "name":"Filecoin",
+    "name": "Filecoin",
     "image": "fil.svg",
-    "ticker":"fil"
+    "ticker": "fil"
   },
   {
-    "name":"Filda",
+    "name": "Filda",
     "image": "filda.svg",
-    "ticker":"filda"
+    "ticker": "filda"
   },
   {
-    "name":"Flow",
+    "name": "Flow",
     "image": "flow.svg",
-    "ticker":"flow"
+    "ticker": "flow"
   },
   {
-    "name":"Fortuna",
+    "name": "Fortuna",
     "image": "fota.svg",
-    "ticker":"fota"
+    "ticker": "fota"
   },
   {
-    "name":"Shapeshift Token",
+    "name": "Shapeshift Token",
     "image": "fox.svg",
-    "ticker":"fox"
+    "ticker": "fox"
   },
   {
-    "name":"Frax",
+    "name": "Frax",
     "image": "frax.svg",
-    "ticker":"frax"
+    "ticker": "frax"
   },
   {
-    "name":"Ferrum Network",
+    "name": "Ferrum Network",
     "image": "frm.svg",
-    "ticker":"frm"
+    "ticker": "frm"
   },
   {
-    "name":"Frontier",
+    "name": "Frontier",
     "image": "front.svg",
-    "ticker":"front"
+    "ticker": "front"
   },
   {
-    "name":"Fusion",
+    "name": "Fusion",
     "image": "fsn.svg",
-    "ticker":"fsn"
+    "ticker": "fsn"
   },
   {
-    "name":"FToken",
+    "name": "FToken",
     "image": "ft.svg",
-    "ticker":"ft"
+    "ticker": "ft"
   },
   {
-    "name":"Feathercoin",
+    "name": "Feathercoin",
     "image": "ftc.svg",
-    "ticker":"ftc"
+    "ticker": "ftc"
   },
   {
-    "name":"Fantom",
+    "name": "Fantom",
     "image": "ftm.svg",
-    "ticker":"ftm"
+    "ticker": "ftm"
   },
   {
-    "name":"FTX Token",
+    "name": "FTX Token",
     "image": "ftt.svg",
-    "ticker":"ftt"
+    "ticker": "ftt"
   },
   {
-    "name":"Etherparty",
+    "name": "Etherparty",
     "image": "fuel.svg",
-    "ticker":"fuel"
+    "ticker": "fuel"
   },
   {
-    "name":"FUNToken",
+    "name": "FUNToken",
     "image": "fun.svg",
-    "ticker":"fun"
+    "ticker": "fun"
   },
   {
-    "name":"Flexacoin",
+    "name": "Flexacoin",
     "image": "fxc.svg",
-    "ticker":"fxc"
+    "ticker": "fxc"
   },
   {
-    "name":"Frax Share",
+    "name": "Frax Share",
     "image": "fxs.svg",
-    "ticker":"fxs"
+    "ticker": "fxs"
   },
   {
-    "name":"FuzeX",
+    "name": "FuzeX",
     "image": "fxt.svg",
-    "ticker":"fxt"
+    "ticker": "fxt"
   },
   {
-    "name":"Gala",
+    "name": "Gala",
     "image": "gala.svg",
-    "ticker":"gala"
+    "ticker": "gala"
   },
   {
-    "name":"Global Digital Token",
+    "name": "Global Digital Token",
     "image": "gdc.svg",
-    "ticker":"gdc"
+    "ticker": "gdc"
   },
   {
-    "name":"Gems",
+    "name": "Gems",
     "image": "gem.svg",
-    "ticker":"gem"
+    "ticker": "gem"
   },
   {
-    "name":"DAOstack",
+    "name": "DAOstack",
     "image": "gen.svg",
-    "ticker":"gen"
+    "ticker": "gen"
   },
   {
-    "name":"Gnosis",
+    "name": "Gnosis",
     "image": "gno.svg",
-    "ticker":"gno"
+    "ticker": "gno"
   },
   {
-    "name":"Golem",
+    "name": "Golem",
     "image": "gnt.svg",
-    "ticker":"gnt"
+    "ticker": "gnt"
   },
   {
-    "name":"Genaro Network",
+    "name": "Genaro Network",
     "image": "gnx.svg",
-    "ticker":"gnx"
+    "ticker": "gnx"
   },
   {
-    "name":"GoChain",
+    "name": "GoChain",
     "image": "go.svg",
-    "ticker":"go"
+    "ticker": "go"
   },
   {
-    "name":"GoCrypto",
+    "name": "GoCrypto",
     "image": "goc.svg",
-    "ticker":"goc"
+    "ticker": "goc"
   },
   {
-    "name":"GoNetwork",
+    "name": "GoNetwork",
     "image": "got.svg",
-    "ticker":"got"
+    "ticker": "got"
   },
   {
-    "name":"Grin",
+    "name": "Grin",
     "image": "grin.svg",
-    "ticker":"grin"
+    "ticker": "grin"
   },
   {
-    "name":"Groestlcoin",
+    "name": "Groestlcoin",
     "image": "grs.svg",
-    "ticker":"grs"
+    "ticker": "grs"
   },
   {
-    "name":"The Graph",
+    "name": "The Graph",
     "image": "grt.svg",
-    "ticker":"grt"
+    "ticker": "grt"
   },
   {
-    "name":"Global Social Chain",
+    "name": "Global Social Chain",
     "image": "gsc.svg",
-    "ticker":"gsc"
+    "ticker": "gsc"
   },
   {
-    "name":"Gameswap",
+    "name": "Gameswap",
     "image": "gswap.svg",
-    "ticker":"gswap"
+    "ticker": "gswap"
   },
   {
-    "name":"GateToken",
+    "name": "GateToken",
     "image": "gt.svg",
-    "ticker":"gt"
+    "ticker": "gt"
   },
   {
-    "name":"Game",
+    "name": "Game",
     "image": "gtc.svg",
-    "ticker":"gtc"
+    "ticker": "gtc"
   },
   {
-    "name":"Gifto",
+    "name": "Gifto",
     "image": "gto.svg",
-    "ticker":"gto"
+    "ticker": "gto"
   },
   {
-    "name":"Gemini Dollar",
+    "name": "Gemini Dollar",
     "image": "gusd.svg",
-    "ticker":"gusd"
+    "ticker": "gusd"
   },
   {
-    "name":"Genesis Vision",
+    "name": "Genesis Vision",
     "image": "gvt.svg",
-    "ticker":"gvt"
+    "ticker": "gvt"
   },
   {
-    "name":"gxs",
+    "name": "gxs",
     "image": "gxs.svg",
-    "ticker":"gxs"
+    "ticker": "gxs"
   },
   {
-    "name":"Hakka Finance",
+    "name": "Hakka Finance",
     "image": "hakka.svg",
-    "ticker":"hakka"
+    "ticker": "hakka"
   },
   {
-    "name":"Hedera Hashgraph",
+    "name": "Hedera Hashgraph",
     "image": "hbar.svg",
-    "ticker":"hbar"
+    "ticker": "hbar"
   },
   {
-    "name":"HyperCash",
+    "name": "HyperCash",
     "image": "hc.svg",
-    "ticker":"hc"
+    "ticker": "hc"
   },
   {
-    "name":"HedgeTrade",
+    "name": "HedgeTrade",
     "image": "hedg.svg",
-    "ticker":"hedg"
+    "ticker": "hedg"
   },
   {
-    "name":"HeroNode",
+    "name": "HeroNode",
     "image": "her.svg",
-    "ticker":"her"
+    "ticker": "her"
   },
   {
-    "name":"HEX",
+    "name": "HEX",
     "image": "hex.svg",
-    "ticker":"hex"
+    "ticker": "hex"
   },
   {
-    "name":"Highstreet",
+    "name": "Highstreet",
     "image": "high.svg",
-    "ticker":"high"
+    "ticker": "high"
   },
   {
-    "name":"Hive",
+    "name": "Hive",
     "image": "hive.svg",
-    "ticker":"hive"
+    "ticker": "hive"
   },
   {
-    "name":"Helium",
+    "name": "Helium",
     "image": "hnt.svg",
-    "ticker":"hnt"
+    "ticker": "hnt"
   },
   {
-    "name":"Hydro Protocol",
+    "name": "Hydro Protocol",
     "image": "hot-x.svg",
-    "ticker":"hot"
+    "ticker": "hot"
   },
   {
-    "name":"Holo",
+    "name": "Holo",
     "image": "hot.svg",
-    "ticker":"hot"
+    "ticker": "hot"
   },
   {
-    "name":"High Performance Blockchain",
+    "name": "High Performance Blockchain",
     "image": "hpb.svg",
-    "ticker":"hpb"
+    "ticker": "hpb"
   },
   {
-    "name":"hsr",
+    "name": "hsr",
     "image": "hsr.svg",
-    "ticker":"hsr"
+    "ticker": "hsr"
   },
   {
-    "name":"Huobi Token",
+    "name": "Huobi Token",
     "image": "ht.svg",
-    "ticker":"ht"
+    "ticker": "ht"
   },
   {
-    "name":"Humanscape",
+    "name": "Humanscape",
     "image": "hum.svg",
-    "ticker":"hum"
+    "ticker": "hum"
   },
   {
-    "name":"HUSD",
+    "name": "HUSD",
     "image": "husd.svg",
-    "ticker":"husd"
+    "ticker": "husd"
   },
   {
-    "name":"Hiveterminal token",
+    "name": "Hiveterminal token",
     "image": "hvn.svg",
-    "ticker":"hvn"
+    "ticker": "hvn"
   },
   {
-    "name":"Hydro",
+    "name": "Hydro",
     "image": "hydro.svg",
-    "ticker":"hydro"
+    "ticker": "hydro"
   },
   {
-    "name":"Hyperion",
+    "name": "Hyperion",
     "image": "hyn.svg",
-    "ticker":"hyn"
+    "ticker": "hyn"
   },
   {
-    "name":"Horizon Protocol",
+    "name": "Horizon Protocol",
     "image": "hzn.svg",
-    "ticker":"hzn"
+    "ticker": "hzn"
   },
   {
-    "name":"ibat",
+    "name": "ibat",
     "image": "ibat.svg",
-    "ticker":"ibat"
+    "ticker": "ibat"
   },
   {
-    "name":"icn",
+    "name": "icn",
     "image": "icn.svg",
-    "ticker":"icn"
+    "ticker": "icn"
   },
   {
-    "name":"ICON",
+    "name": "ICON",
     "image": "icx.svg",
-    "ticker":"icx"
+    "ticker": "icx"
   },
   {
-    "name":"Internet Computer",
+    "name": "Internet Computer",
     "image": "icp.svg",
-    "ticker":"icp"
+    "ticker": "icp"
   },
   {
-    "name":"idai",
+    "name": "idai",
     "image": "idai.svg",
-    "ticker":"idai"
+    "ticker": "idai"
   },
   {
-    "name":"IDEX",
+    "name": "IDEX",
     "image": "idex.svg",
-    "ticker":"idex"
+    "ticker": "idex"
   },
   {
-    "name":"ieth",
+    "name": "ieth",
     "image": "ieth.svg",
-    "ticker":"ieth"
+    "ticker": "ieth"
   },
   {
-    "name":"Ignis",
+    "name": "Ignis",
     "image": "ignis.svg",
-    "ticker":"ignis"
+    "ticker": "ignis"
   },
   {
-    "name":"iknc",
+    "name": "iknc",
     "image": "iknc.svg",
-    "ticker":"iknc"
+    "ticker": "iknc"
   },
   {
-    "name":"ilink",
+    "name": "ilink",
     "image": "ilink.svg",
-    "ticker":"ilink"
+    "ticker": "ilink"
   },
   {
-    "name":"Insight Chain",
+    "name": "Insight Chain",
     "image": "inb.svg",
-    "ticker":"inb"
+    "ticker": "inb"
   },
   {
-    "name":"ins",
+    "name": "ins",
     "image": "ins.svg",
-    "ticker":"ins"
+    "ticker": "ins"
   },
   {
-    "name":"IOST",
+    "name": "IOST",
     "image": "iost.svg",
-    "ticker":"iost"
+    "ticker": "iost"
   },
   {
-    "name":"IOTA",
+    "name": "IOTA",
     "image": "iota.svg",
-    "ticker":"iota"
+    "ticker": "iota"
   },
   {
-    "name":"IoTeX",
+    "name": "IoTeX",
     "image": "iotx.svg",
-    "ticker":"iotx"
+    "ticker": "iotx"
   },
   {
-    "name":"Everipedia",
+    "name": "Everipedia",
     "image": "iq.svg",
-    "ticker":"iq"
+    "ticker": "iq"
   },
   {
-    "name":"irep",
+    "name": "irep",
     "image": "irep.svg",
-    "ticker":"irep"
+    "ticker": "irep"
   },
   {
-    "name":"IRISnet",
+    "name": "IRISnet",
     "image": "iris.svg",
-    "ticker":"iris"
+    "ticker": "iris"
   },
   {
-    "name":"isusd",
+    "name": "isusd",
     "image": "isusd.svg",
-    "ticker":"isusd"
+    "ticker": "isusd"
   },
   {
-    "name":"iusdc",
+    "name": "iusdc",
     "image": "iusdc.svg",
-    "ticker":"iusdc"
+    "ticker": "iusdc"
   },
   {
-    "name":"iwbtc",
+    "name": "iwbtc",
     "image": "iwbtc.svg",
-    "ticker":"iwbtc"
+    "ticker": "iwbtc"
   },
   {
-    "name":"izrx",
+    "name": "izrx",
     "image": "izrx.svg",
-    "ticker":"izrx"
+    "ticker": "izrx"
   },
   {
-    "name":"Jibrel Network",
+    "name": "Jibrel Network",
     "image": "jnt.svg",
-    "ticker":"jnt"
+    "ticker": "jnt"
   },
   {
-    "name":"Juno",
+    "name": "Juno",
     "image": "juno.svg",
-    "ticker":"juno"
+    "ticker": "juno"
   },
   {
-    "name":"Jarvis Network",
+    "name": "Jarvis Network",
     "image": "jst.svg",
-    "ticker":"jst"
+    "ticker": "jst"
   },
   {
-    "name":"Kadena",
+    "name": "Kadena",
     "image": "kda.svg",
-    "ticker":"kda"
+    "ticker": "kda"
   },
   {
-    "name":"Kava.io",
+    "name": "Kava.io",
     "image": "kava.svg",
-    "ticker":"kava"
+    "ticker": "kava"
   },
   {
-    "name":"KuCoin Token",
+    "name": "KuCoin Token",
     "image": "kcs.svg",
-    "ticker":"kcs"
+    "ticker": "kcs"
   },
   {
-    "name":"Keep Network",
+    "name": "Keep Network",
     "image": "keep.svg",
-    "ticker":"keep"
+    "ticker": "keep"
   },
   {
-    "name":"Selfkey",
+    "name": "Selfkey",
     "image": "key.svg",
-    "ticker":"key"
+    "ticker": "key"
   },
   {
-    "name":"KickToken",
+    "name": "KickToken",
     "image": "kick.svg",
-    "ticker":"kick"
+    "ticker": "kick"
   },
   {
-    "name":"Kin",
+    "name": "Kin",
     "image": "kin.svg",
-    "ticker":"kin"
+    "ticker": "kin"
   },
   {
-    "name":"Klaytn",
+    "name": "Klaytn",
     "image": "klay.svg",
-    "ticker":"klay"
+    "ticker": "klay"
   },
   {
-    "name":"Klever",
+    "name": "Klever",
     "image": "klv.svg",
-    "ticker":"klv"
+    "ticker": "klv"
   },
   {
-    "name":"Komodo",
+    "name": "Komodo",
     "image": "kmd.svg",
-    "ticker":"kmd"
+    "ticker": "kmd"
   },
   {
-    "name":"Kyber Network",
+    "name": "Kyber Network",
     "image": "knc.svg",
-    "ticker":"knc"
+    "ticker": "knc"
   },
   {
-    "name":"Kusama",
+    "name": "Kusama",
     "image": "ksm.svg",
-    "ticker":"ksm"
+    "ticker": "ksm"
   },
   {
-    "name":"Lambda",
+    "name": "Lambda",
     "image": "lamb.svg",
-    "ticker":"lamb"
+    "ticker": "lamb"
   },
   {
-    "name":"Landbox",
+    "name": "Landbox",
     "image": "land.svg",
-    "ticker":"land"
+    "ticker": "land"
   },
   {
-    "name":"Libra Token",
+    "name": "Libra Token",
     "image": "lba.svg",
-    "ticker":"lba"
+    "ticker": "lba"
   },
   {
-    "name":"LCX",
+    "name": "LCX",
     "image": "lcx.svg",
-    "ticker":"lcx"
+    "ticker": "lcx"
   },
   {
-    "name":"Lido DAO",
+    "name": "Lido DAO",
     "image": "ldo.svg",
-    "ticker":"ldo"
+    "ticker": "ldo"
   },
   {
-    "name":"Aave",
+    "name": "Aave",
     "image": "lend.svg",
-    "ticker":"lend"
+    "ticker": "lend"
   },
   {
-    "name":"LEO Token",
+    "name": "LEO Token",
     "image": "leo.svg",
-    "ticker":"leo"
+    "ticker": "leo"
   },
   {
-    "name":"Chainlink",
+    "name": "Chainlink",
     "image": "link.svg",
-    "ticker":"link"
+    "ticker": "link"
   },
   {
-    "name":"Litentry",
+    "name": "Litentry",
     "image": "lit.svg",
-    "ticker":"lit"
+    "ticker": "lit"
   },
   {
-    "name":"Valkyrie Network",
+    "name": "Valkyrie Network",
     "image": "lky.svg",
-    "ticker":"lky"
+    "ticker": "lky"
   },
   {
-    "name":"Link",
+    "name": "Link",
     "image": "ln.svg",
-    "ticker":"ln"
+    "ticker": "ln"
   },
   {
-    "name":"loki",
+    "name": "loki",
     "image": "loki.svg",
-    "ticker":"loki"
+    "ticker": "loki"
   },
   {
-    "name":"Tokenlon",
+    "name": "Tokenlon",
     "image": "lon.svg",
-    "ticker":"lon"
+    "ticker": "lon"
   },
   {
-    "name":"LooksRare",
+    "name": "LooksRare",
     "image": "looks.svg",
-    "ticker":"looks"
+    "ticker": "looks"
   },
   {
-    "name":"Loom Network",
+    "name": "Loom Network",
     "image": "loom.svg",
-    "ticker":"loom"
+    "ticker": "loom"
   },
   {
-    "name":"Livepeer",
+    "name": "Livepeer",
     "image": "lpt.svg",
-    "ticker":"lpt"
+    "ticker": "lpt"
   },
   {
-    "name":"Liquid Network",
+    "name": "Liquid Network",
     "image": "lqd.svg",
-    "ticker":"lqd"
+    "ticker": "lqd"
   },
   {
-    "name":"Liquity",
+    "name": "Liquity",
     "image": "lqty.svg",
-    "ticker":"lqty"
+    "ticker": "lqty"
   },
   {
-    "name":"Loopring",
+    "name": "Loopring",
     "image": "lrc.svg",
-    "ticker":"lrc"
+    "ticker": "lrc"
   },
   {
-    "name":"Lisk",
+    "name": "Lisk",
     "image": "lsk.svg",
-    "ticker":"lsk"
+    "ticker": "lsk"
   },
   {
-    "name":"Litecoin",
+    "name": "Litecoin",
     "image": "ltc.svg",
-    "ticker":"ltc"
+    "ticker": "ltc"
   },
   {
-    "name":"LTO Network",
+    "name": "LTO Network",
     "image": "lto.svg",
-    "ticker":"lto"
+    "ticker": "lto"
   },
   {
-    "name":"Lunyr",
+    "name": "Lunyr",
     "image": "lun.svg",
-    "ticker":"lun"
+    "ticker": "lun"
   },
   {
-    "name":"Terra",
+    "name": "Terra",
     "image": "luna.svg",
-    "ticker":"luna"
+    "ticker": "luna"
   },
   {
-    "name":"LITEX",
+    "name": "LITEX",
     "image": "lxt.svg",
-    "ticker":"lxt"
+    "ticker": "lxt"
   },
   {
-    "name":"Lympo",
+    "name": "Lympo",
     "image": "lym.svg",
-    "ticker":"lym"
+    "ticker": "lym"
   },
   {
-    "name":"MaidSafeCoin",
+    "name": "MaidSafeCoin",
     "image": "maid.svg",
-    "ticker":"maid"
+    "ticker": "maid"
   },
   {
-    "name":"MahaDAO",
+    "name": "MahaDAO",
     "image": "maha.svg",
-    "ticker":"maha"
+    "ticker": "maha"
   },
   {
-    "name":"Matrix AI Network",
+    "name": "Matrix AI Network",
     "image": "man.svg",
-    "ticker":"man"
+    "ticker": "man"
   },
   {
-    "name":"Decentraland",
+    "name": "Decentraland",
     "image": "mana.svg",
-    "ticker":"mana"
+    "ticker": "mana"
   },
   {
-    "name":"Marscoin",
+    "name": "Marscoin",
     "image": "mars.svg",
-    "ticker":"mars"
+    "ticker": "mars"
   },
   {
-    "name":"MATH",
+    "name": "MATH",
     "image": "math.svg",
-    "ticker":"math"
+    "ticker": "math"
   },
   {
-    "name":"Polygon",
+    "name": "Polygon",
     "image": "matic.svg",
-    "ticker":"matic"
+    "ticker": "matic"
   },
   {
-    "name":"AntiMatter",
+    "name": "AntiMatter",
     "image": "matter.svg",
-    "ticker":"matter"
+    "ticker": "matter"
   },
   {
-    "name":"Marblecoin",
+    "name": "Marblecoin",
     "image": "mbc.svg",
-    "ticker":"mbc"
+    "ticker": "mbc"
   },
   {
-    "name":"MCO",
+    "name": "MCO",
     "image": "mco.svg",
-    "ticker":"mco"
+    "ticker": "mco"
   },
   {
-    "name":"Machi X",
+    "name": "Machi X",
     "image": "mcx.svg",
-    "ticker":"mcx"
+    "ticker": "mcx"
   },
   {
-    "name":"Moeda Loyalty Points",
+    "name": "Moeda Loyalty Points",
     "image": "mda.svg",
-    "ticker":"mda"
+    "ticker": "mda"
   },
   {
-    "name":"MediShares",
+    "name": "MediShares",
     "image": "mds.svg",
-    "ticker":"mds"
+    "ticker": "mds"
   },
   {
-    "name":"MediBloc",
+    "name": "MediBloc",
     "image": "med.svg",
-    "ticker":"med"
+    "ticker": "med"
   },
   {
-    "name":"medx",
+    "name": "medx",
     "image": "medx.svg",
-    "ticker":"medx"
+    "ticker": "medx"
   },
   {
-    "name":"Metronome",
+    "name": "Metronome",
     "image": "met.svg",
-    "ticker":"met"
+    "ticker": "met"
   },
   {
-    "name":"mfg",
+    "name": "mfg",
     "image": "mfg.svg",
-    "ticker":"mfg"
+    "ticker": "mfg"
   },
   {
-    "name":"Hifi Finance",
+    "name": "Hifi Finance",
     "image": "mft.svg",
-    "ticker":"mft"
+    "ticker": "mft"
   },
   {
-    "name":"Magic Internet Money",
+    "name": "Magic Internet Money",
     "image": "mim.svg",
-    "ticker":"mim"
+    "ticker": "mim"
   },
   {
-    "name":"Mirror Protocol",
+    "name": "Mirror Protocol",
     "image": "mir.svg",
-    "ticker":"mir"
+    "ticker": "mir"
   },
   {
-    "name":"Mithril",
+    "name": "Mithril",
     "image": "mith.svg",
-    "ticker":"mith"
+    "ticker": "mith"
   },
   {
-    "name":"Maker",
+    "name": "Maker",
     "image": "mkr.svg",
-    "ticker":"mkr"
+    "ticker": "mkr"
   },
   {
-    "name":"Melon",
+    "name": "Melon",
     "image": "mln.svg",
-    "ticker":"mln"
+    "ticker": "mln"
   },
   {
-    "name":"Mango",
+    "name": "Mango",
     "image": "mngo.svg",
-    "ticker":"mngo"
+    "ticker": "mngo"
   },
   {
-    "name":"Modum",
+    "name": "Modum",
     "image": "mod.svg",
-    "ticker":"mod"
+    "ticker": "mod"
   },
   {
-    "name":"Olympus Labs",
+    "name": "Olympus Labs",
     "image": "mot.svg",
-    "ticker":"mot"
+    "ticker": "mot"
   },
   {
-    "name":"Maple",
+    "name": "Maple",
     "image": "mpl.svg",
-    "ticker":"mpl"
+    "ticker": "mpl"
   },
   {
-    "name":"Meta",
+    "name": "Meta",
     "image": "mta.svg",
-    "ticker":"mta"
+    "ticker": "mta"
   },
   {
-    "name":"Monetha",
+    "name": "Monetha",
     "image": "mth.svg",
-    "ticker":"mth"
+    "ticker": "mth"
   },
   {
-    "name":"Metal",
+    "name": "Metal",
     "image": "mtl.svg",
-    "ticker":"mtl"
+    "ticker": "mtl"
   },
   {
-    "name":"Medicalchain",
+    "name": "Medicalchain",
     "image": "mtn.svg",
-    "ticker":"mtn"
+    "ticker": "mtn"
   },
   {
-    "name":"Maverick Chain",
+    "name": "Maverick Chain",
     "image": "mvc.svg",
-    "ticker":"mvc"
+    "ticker": "mvc"
   },
   {
-    "name":"MVL",
+    "name": "MVL",
     "image": "mvl.svg",
-    "ticker":"mvl"
+    "ticker": "mvl"
   },
   {
-    "name":"Merculet",
+    "name": "Merculet",
     "image": "mvp.svg",
-    "ticker":"mvp"
+    "ticker": "mvp"
   },
   {
-    "name":"Restart Energy",
+    "name": "Restart Energy",
     "image": "mwat.svg",
-    "ticker":"mwat"
+    "ticker": "mwat"
   },
   {
-    "name":"MimbleWimbleCoin",
+    "name": "MimbleWimbleCoin",
     "image": "mwc.svg",
-    "ticker":"mwc"
+    "ticker": "mwc"
   },
   {
-    "name":"Maximine Coin",
+    "name": "Maximine Coin",
     "image": "mxm.svg",
-    "ticker":"mxm"
+    "ticker": "mxm"
   },
   {
-    "name":"MyBit",
+    "name": "MyBit",
     "image": "myb.svg",
-    "ticker":"myb"
+    "ticker": "myb"
   },
   {
-    "name":"Nano",
+    "name": "Nano",
     "image": "nano.svg",
-    "ticker":"nano"
+    "ticker": "nano"
   },
   {
-    "name":"Nebulas",
+    "name": "Nebulas",
     "image": "nas.svg",
-    "ticker":"nas"
+    "ticker": "nas"
   },
   {
-    "name":"Navcoin",
+    "name": "Navcoin",
     "image": "nav.svg",
-    "ticker":"nav"
+    "ticker": "nav"
   },
   {
-    "name":"Nucleus Vision",
+    "name": "Nucleus Vision",
     "image": "ncash.svg",
-    "ticker":"ncash"
+    "ticker": "ncash"
   },
   {
-    "name":"PolySwarm",
+    "name": "PolySwarm",
     "image": "nct.svg",
-    "ticker":"nct"
+    "ticker": "nct"
   },
   {
-    "name":"NEAR Protocol",
+    "name": "NEAR Protocol",
     "image": "near.svg",
-    "ticker":"near"
+    "ticker": "near"
   },
   {
-    "name":"Neblio",
+    "name": "Neblio",
     "image": "nebl.svg",
-    "ticker":"nebl"
+    "ticker": "nebl"
   },
   {
-    "name":"Nectar",
+    "name": "Nectar",
     "image": "nec.svg",
-    "ticker":"nec"
+    "ticker": "nec"
   },
   {
-    "name":"Neo",
+    "name": "Neo",
     "image": "neo.svg",
-    "ticker":"neo"
+    "ticker": "neo"
   },
   {
-    "name":"Newton",
+    "name": "Newton",
     "image": "new.svg",
-    "ticker":"new"
+    "ticker": "new"
   },
   {
-    "name":"Nash",
+    "name": "Nash",
     "image": "nex.svg",
-    "ticker":"nex"
+    "ticker": "nex"
   },
   {
-    "name":"Nexo",
+    "name": "Nexo",
     "image": "nex.svg",
-    "ticker":"nex"
+    "ticker": "nex"
   },
   {
-    "name":"Nexxo",
+    "name": "Nexxo",
     "image": "nexxo.svg",
-    "ticker":"nexxo"
+    "ticker": "nexxo"
   },
   {
-    "name":"APENFT",
+    "name": "APENFT",
     "image": "nft.svg",
-    "ticker":"nft"
+    "ticker": "nft"
   },
   {
-    "name":"NAGA",
+    "name": "NAGA",
     "image": "ngc.svg",
-    "ticker":"ngc"
+    "ticker": "ngc"
   },
   {
-    "name":"NKN",
+    "name": "NKN",
     "image": "nkn.svg",
-    "ticker":"nkn"
+    "ticker": "nkn"
   },
   {
-    "name":"Autonio",
+    "name": "Autonio",
     "image": "niox.svg",
-    "ticker":"niox"
+    "ticker": "niox"
   },
   {
-    "name":"Gulden",
+    "name": "Gulden",
     "image": "nlg.svg",
-    "ticker":"nlg"
+    "ticker": "nlg"
   },
   {
-    "name":"Numeraire",
+    "name": "Numeraire",
     "image": "nmr.svg",
-    "ticker":"nmr"
+    "ticker": "nmr"
   },
   {
-    "name":"Syntropy",
+    "name": "Syntropy",
     "image": "noia.svg",
-    "ticker":"noia"
+    "ticker": "noia"
   },
   {
-    "name":"Perpetuals",
+    "name": "Perpetuals",
     "image": "nper.svg",
-    "ticker":"nper"
+    "ticker": "nper"
   },
   {
-    "name":"Pundi X",
+    "name": "Pundi X",
     "image": "npxs.svg",
-    "ticker":"npxs"
+    "ticker": "npxs"
   },
   {
-    "name":"Energi",
+    "name": "Energi",
     "image": "nrg.svg",
-    "ticker":"nrg"
+    "ticker": "nrg"
   },
   {
-    "name":"Narrative",
+    "name": "Narrative",
     "image": "nrve.svg",
-    "ticker":"nrve"
+    "ticker": "nrve"
   },
   {
-    "name":"NuCypher",
+    "name": "NuCypher",
     "image": "nu.svg",
-    "ticker":"nu"
+    "ticker": "nu"
   },
   {
-    "name":"Nuls",
+    "name": "Nuls",
     "image": "nuls.svg",
-    "ticker":"nuls"
+    "ticker": "nuls"
   },
   {
-    "name":"Nexus",
+    "name": "Nexus",
     "image": "nxs.svg",
-    "ticker":"nxs"
+    "ticker": "nxs"
   },
   {
-    "name":"NXT",
+    "name": "NXT",
     "image": "nxt.svg",
-    "ticker":"nxt"
+    "ticker": "nxt"
   },
   {
-    "name":"oag",
+    "name": "oag",
     "image": "oag.svg",
-    "ticker":"oag"
+    "ticker": "oag"
   },
   {
-    "name":"OAX",
+    "name": "OAX",
     "image": "oax.svg",
-    "ticker":"oax"
+    "ticker": "oax"
   },
   {
-    "name":"Ocean Protocol",
+    "name": "Ocean Protocol",
     "image": "ocean.svg",
-    "ticker":"ocean"
+    "ticker": "ocean"
   },
   {
-    "name":"Odyssey",
+    "name": "Odyssey",
     "image": "ocn.svg",
-    "ticker":"ocn"
+    "ticker": "ocn"
   },
   {
-    "name":"ODEM",
+    "name": "ODEM",
     "image": "ode.svg",
-    "ticker":"ode"
+    "ticker": "ode"
   },
   {
-    "name":"Origin Protocol",
+    "name": "Origin Protocol",
     "image": "ogn.svg",
-    "ticker":"ogn"
+    "ticker": "ogn"
   },
   {
-    "name":"Olympus",
+    "name": "Olympus",
     "image": "ohm.svg",
-    "ticker":"ohm"
+    "ticker": "ohm"
   },
   {
-    "name":"OKB",
+    "name": "OKB",
     "image": "okb.svg",
-    "ticker":"okb"
+    "ticker": "okb"
   },
   {
-    "name":"OneLedger",
+    "name": "OneLedger",
     "image": "olt.svg",
-    "ticker":"olt"
+    "ticker": "olt"
   },
   {
-    "name":"OMG Network",
+    "name": "OMG Network",
     "image": "omg.svg",
-    "ticker":"omg"
+    "ticker": "omg"
   },
   {
-    "name":"Harmony",
+    "name": "Harmony",
     "image": "one.svg",
-    "ticker":"one"
+    "ticker": "one"
   },
   {
-    "name":"DeepOnion",
+    "name": "DeepOnion",
     "image": "onion.svg",
-    "ticker":"onion"
+    "ticker": "onion"
   },
   {
-    "name":"Ontology",
+    "name": "Ontology",
     "image": "ont.svg",
-    "ticker":"ont"
+    "ticker": "ont"
   },
   {
-    "name":"Open Platform",
+    "name": "Open Platform",
     "image": "open.svg",
-    "ticker":"open"
+    "ticker": "open"
   },
   {
-    "name":"Opium",
+    "name": "Opium",
     "image": "opium.svg",
-    "ticker":"opium"
+    "ticker": "opium"
   },
   {
-    "name":"Orbs",
+    "name": "Orbs",
     "image": "orbs.svg",
-    "ticker":"orbs"
+    "ticker": "orbs"
   },
   {
-    "name":"Orbit Chain",
+    "name": "Orbit Chain",
     "image": "orc.svg",
-    "ticker":"orc"
+    "ticker": "orc"
   },
   {
-    "name":"Orion Protocol",
+    "name": "Orion Protocol",
     "image": "orn.svg",
-    "ticker":"orn"
+    "ticker": "orn"
   },
   {
-    "name":"Osmosis",
+    "name": "Osmosis",
     "image": "osmo.svg",
-    "ticker":"osmo"
+    "ticker": "osmo"
   },
   {
-    "name":"OST",
+    "name": "OST",
     "image": "ost.svg",
-    "ticker":"ost"
+    "ticker": "ost"
   },
   {
-    "name":"OVCODE",
+    "name": "OVCODE",
     "image": "ovc.svg",
-    "ticker":"ovc"
+    "ticker": "ovc"
   },
   {
-    "name":"Orchid Protocol",
+    "name": "Orchid Protocol",
     "image": "oxt.svg",
-    "ticker":"oxt"
+    "ticker": "oxt"
   },
   {
-    "name":"Project Pai",
+    "name": "Project Pai",
     "image": "pai.svg",
-    "ticker":"pai"
+    "ticker": "pai"
   },
   {
-    "name":"MurAll",
+    "name": "MurAll",
     "image": "paint.svg",
-    "ticker":"paint"
+    "ticker": "paint"
   },
   {
-    "name":"PAL Network",
+    "name": "PAL Network",
     "image": "pal.svg",
-    "ticker":"pal"
+    "ticker": "pal"
   },
   {
-    "name":"Parallel",
+    "name": "Parallel",
     "image": "par.svg",
-    "ticker":"par"
+    "ticker": "par"
   },
   {
-    "name":"Particl",
+    "name": "Particl",
     "image": "part.svg",
-    "ticker":"part"
+    "ticker": "part"
   },
   {
-    "name":"Paxos",
+    "name": "Paxos",
     "image": "pax.svg",
-    "ticker":"pax"
+    "ticker": "pax"
   },
   {
-    "name":"PAX Gold",
+    "name": "PAX Gold",
     "image": "paxg.svg",
-    "ticker":"paxg"
+    "ticker": "paxg"
   },
   {
-    "name":"TenX",
+    "name": "TenX",
     "image": "pay.svg",
-    "ticker":"pay"
+    "ticker": "pay"
   },
   {
-    "name":"PolkaBridge",
+    "name": "PolkaBridge",
     "image": "pbr.svg",
-    "ticker":"pbr"
+    "ticker": "pbr"
   },
   {
-    "name":"p Tokens BTC",
+    "name": "p Tokens BTC",
     "image": "pBTC.svg",
-    "ticker":"pBTC"
+    "ticker": "pBTC"
   },
   {
-    "name":"Pendle",
+    "name": "Pendle",
     "image": "pendle.svg",
-    "ticker":"pendle"
+    "ticker": "pendle"
   },
   {
-    "name":"perl",
+    "name": "perl",
     "image": "perl.svg",
-    "ticker":"perl"
+    "ticker": "perl"
   },
   {
-    "name":"Perpetual Protocol",
+    "name": "Perpetual Protocol",
     "image": "perp.svg",
-    "ticker":"perp"
+    "ticker": "perp"
   },
   {
-    "name":"Pickle Finance",
+    "name": "Pickle Finance",
     "image": "pickle.svg",
-    "ticker":"pickle"
+    "ticker": "pickle"
   },
   {
-    "name":"PIVX",
+    "name": "PIVX",
     "image": "pivx.svg",
-    "ticker":"pivx"
+    "ticker": "pivx"
   },
   {
-    "name":"HEROcoin",
+    "name": "HEROcoin",
     "image": "play.svg",
-    "ticker":"play"
+    "ticker": "play"
   },
   {
-    "name":"pldai",
+    "name": "pldai",
     "image": "plDAI.svg",
-    "ticker":"pldai"
+    "ticker": "pldai"
   },
   {
-    "name":"Pillar",
+    "name": "Pillar",
     "image": "plr.svg",
-    "ticker":"plr"
+    "ticker": "plr"
   },
   {
-    "name":"plUSDC",
+    "name": "plUSDC",
     "image": "plUSDC.svg",
-    "ticker":"plUSDC"
+    "ticker": "plUSDC"
   },
   {
-    "name":"Pangolin",
+    "name": "Pangolin",
     "image": "png.svg",
-    "ticker":"png"
+    "ticker": "png"
   },
   {
-    "name":"Kleros",
+    "name": "Kleros",
     "image": "pnk.svg",
-    "ticker":"pnk"
+    "ticker": "pnk"
   },
   {
-    "name":"pNetwork",
+    "name": "pNetwork",
     "image": "pnt.svg",
-    "ticker":"pnt"
+    "ticker": "pnt"
   },
   {
-    "name":"POA Network",
+    "name": "POA Network",
     "image": "poa.svg",
-    "ticker":"poa"
+    "ticker": "poa"
   },
   {
-    "name":"Po.et",
+    "name": "Po.et",
     "image": "poe.svg",
-    "ticker":"poe"
+    "ticker": "poe"
   },
   {
-    "name":"Pocket Network",
+    "name": "Pocket Network",
     "image": "pokt.svg",
-    "ticker":"pokt"
+    "ticker": "pokt"
   },
   {
-    "name":"Polkastarter",
+    "name": "Polkastarter",
     "image": "pols.svg",
-    "ticker":"pols"
+    "ticker": "pols"
   },
   {
-    "name":"Polymath",
+    "name": "Polymath",
     "image": "poly.svg",
-    "ticker":"poly"
+    "ticker": "poly"
   },
   {
-    "name":"Marlin",
+    "name": "Marlin",
     "image": "pond.svg",
-    "ticker":"pond"
+    "ticker": "pond"
   },
   {
-    "name":"PoolTogether",
+    "name": "PoolTogether",
     "image": "pool.svg",
-    "ticker":"pool"
+    "ticker": "pool"
   },
   {
-    "name":"Power Ledger",
+    "name": "Power Ledger",
     "image": "powr.svg",
-    "ticker":"powr"
+    "ticker": "powr"
   },
   {
-    "name":"Plasma Finance",
+    "name": "Plasma Finance",
     "image": "ppay.svg",
-    "ticker":"ppay"
+    "ticker": "ppay"
   },
   {
-    "name":"Peercoin",
+    "name": "Peercoin",
     "image": "ppc.svg",
-    "ticker":"ppc"
+    "ticker": "ppc"
   },
   {
-    "name":"PayPie",
+    "name": "PayPie",
     "image": "ppp.svg",
-    "ticker":"ppp"
+    "ticker": "ppp"
   },
   {
-    "name":"Populous",
+    "name": "Populous",
     "image": "ppt.svg",
-    "ticker":"ppt"
+    "ticker": "ppt"
   },
   {
-    "name":"Presearch",
+    "name": "Presearch",
     "image": "pre.svg",
-    "ticker":"pre"
+    "ticker": "pre"
   },
   {
-    "name":"Premia",
+    "name": "Premia",
     "image": "premia.svg",
-    "ticker":"premia"
+    "ticker": "premia"
   },
   {
-    "name":"prl",
+    "name": "prl",
     "image": "prl.svg",
-    "ticker":"prl"
+    "ticker": "prl"
   },
   {
-    "name":"Propy",
+    "name": "Propy",
     "image": "pro.svg",
-    "ticker":"pro"
+    "ticker": "pro"
   },
   {
-    "name":"Prosper",
+    "name": "Prosper",
     "image": "pros.svg",
-    "ticker":"pros"
+    "ticker": "pros"
   },
   {
-    "name":"Parsiq",
+    "name": "Parsiq",
     "image": "prq.svg",
-    "ticker":"prq"
+    "ticker": "prq"
   },
   {
-    "name":"Primas",
+    "name": "Primas",
     "image": "pst.svg",
-    "ticker":"pst"
+    "ticker": "pst"
   },
   {
-    "name":"QASH",
+    "name": "QASH",
     "image": "qash.svg",
-    "ticker":"qash"
+    "ticker": "qash"
   },
   {
-    "name":"Qubitica",
+    "name": "Qubitica",
     "image": "qbit.svg",
-    "ticker":"qbit"
+    "ticker": "qbit"
   },
   {
-    "name":"QuarkChain",
+    "name": "QuarkChain",
     "image": "qkc.svg",
-    "ticker":"qkc"
+    "ticker": "qkc"
   },
   {
-    "name":"QiSwap",
+    "name": "QiSwap",
     "image": "qi.svg",
-    "ticker":"qi"
+    "ticker": "qi"
   },
   {
-    "name":"QLC Chain",
+    "name": "QLC Chain",
     "image": "qlc.svg",
-    "ticker":"qlc"
+    "ticker": "qlc"
   },
   {
-    "name":"Quant",
+    "name": "Quant",
     "image": "qnt.svg",
-    "ticker":"qnt"
+    "ticker": "qnt"
   },
   {
-    "name":"Quantstamp",
+    "name": "Quantstamp",
     "image": "qsp.svg",
-    "ticker":"qsp"
+    "ticker": "qsp"
   },
   {
-    "name":"Qtum",
+    "name": "Qtum",
     "image": "qtum.svg",
-    "ticker":"qtum"
+    "ticker": "qtum"
   },
   {
-    "name":"Quickswap",
+    "name": "Quickswap",
     "image": "quick.svg",
-    "ticker":"quick"
+    "ticker": "quick"
   },
   {
-    "name":"r",
+    "name": "r",
     "image": "r.svg",
-    "ticker":"r"
+    "ticker": "r"
   },
   {
-    "name":"Receive Access Ecosystem",
+    "name": "Receive Access Ecosystem",
     "image": "rae.svg",
-    "ticker":"rae"
+    "ticker": "rae"
   },
   {
-    "name":"Rarible",
+    "name": "Rarible",
     "image": "rari.svg",
-    "ticker":"rari"
+    "ticker": "rari"
   },
   {
-    "name":"Raydium",
+    "name": "Raydium",
     "image": "ray.svg",
-    "ticker":"ray"
+    "ticker": "ray"
   },
   {
-    "name":"Ripio Credit Network",
+    "name": "Ripio Credit Network",
     "image": "rcn.svg",
-    "ticker":"rcn"
+    "ticker": "rcn"
   },
   {
-    "name":"Reddcoin",
+    "name": "Reddcoin",
     "image": "rdd.svg",
-    "ticker":"rdd"
+    "ticker": "rdd"
   },
   {
-    "name":"Raiden Network Token",
+    "name": "Raiden Network Token",
     "image": "rdn.svg",
-    "ticker":"rdn"
+    "ticker": "rdn"
   },
   {
-    "name":"Ren",
+    "name": "Ren",
     "image": "ren.svg",
-    "ticker":"ren"
+    "ticker": "ren"
   },
   {
-    "name":"Augur",
+    "name": "Augur",
     "image": "rep.svg",
-    "ticker":"rep"
+    "ticker": "rep"
   },
   {
-    "name":"Request",
+    "name": "Request",
     "image": "req.svg",
-    "ticker":"req"
+    "ticker": "req"
   },
   {
-    "name":"Revain",
+    "name": "Revain",
     "image": "rev.svg",
-    "ticker":"rev"
+    "ticker": "rev"
   },
   {
-    "name":"RedFox Labs",
+    "name": "RedFox Labs",
     "image": "rfox.svg",
-    "ticker":"rfox"
+    "ticker": "rfox"
   },
   {
-    "name":"rhoc",
+    "name": "rhoc",
     "image": "rhoc.svg",
-    "ticker":"rhoc"
+    "ticker": "rhoc"
   },
   {
-    "name":"RSK Infrastructure Framework",
+    "name": "RSK Infrastructure Framework",
     "image": "rif.svg",
-    "ticker":"rif"
+    "ticker": "rif"
   },
   {
-    "name":"iExec RLC",
+    "name": "iExec RLC",
     "image": "rlc.svg",
-    "ticker":"rlc"
+    "ticker": "rlc"
   },
   {
-    "name":"KeeperDAO",
+    "name": "KeeperDAO",
     "image": "rook.svg",
-    "ticker":"rook"
+    "ticker": "rook"
   },
   {
-    "name":"Oasis Network",
+    "name": "Oasis Network",
     "image": "rose.svg",
-    "ticker":"rose"
+    "ticker": "rose"
   },
   {
-    "name":"rpx",
+    "name": "rpx",
     "image": "rpx.svg",
-    "ticker":"rpx"
+    "ticker": "rpx"
   },
   {
-    "name":"Reserve Rights Token",
+    "name": "Reserve Rights Token",
     "image": "rsr.svg",
-    "ticker":"rsr"
+    "ticker": "rsr"
   },
   {
-    "name":"Reserve",
+    "name": "Reserve",
     "image": "rsv.svg",
-    "ticker":"rsv"
+    "ticker": "rsv"
   },
   {
-    "name":"THORChain",
+    "name": "THORChain",
     "image": "rune.svg",
-    "ticker":"rune"
+    "ticker": "rune"
   },
   {
-    "name":"Ravencoin",
+    "name": "Ravencoin",
     "image": "rvn.svg",
-    "ticker":"rvn"
+    "ticker": "rvn"
   },
   {
-    "name":"Sharpay",
+    "name": "Sharpay",
     "image": "s.svg",
-    "ticker":"s"
+    "ticker": "s"
   },
   {
-    "name":"Sai",
+    "name": "Sai",
     "image": "sai.svg",
-    "ticker":"sai"
+    "ticker": "sai"
   },
   {
-    "name":"Salt",
+    "name": "Salt",
     "image": "salt.svg",
-    "ticker":"salt"
+    "ticker": "salt"
   },
   {
-    "name":"Santiment Network Token",
+    "name": "Santiment Network Token",
     "image": "san.svg",
-    "ticker":"san"
+    "ticker": "san"
   },
   {
-    "name":"The Sandbox",
+    "name": "The Sandbox",
     "image": "sand.svg",
-    "ticker":"sand"
+    "ticker": "sand"
   },
   {
-    "name":"Saren",
+    "name": "Saren",
     "image": "sar.svg",
-    "ticker":"sar"
+    "ticker": "sar"
   },
   {
-    "name":"scrl",
+    "name": "scrl",
     "image": "scrl.svg",
-    "ticker":"scrl"
+    "ticker": "scrl"
   },
   {
-    "name":"Secret",
+    "name": "Secret",
     "image": "scrt.svg",
-    "ticker":"scrt"
+    "ticker": "scrt"
   },
   {
-    "name":"Stake DAO",
+    "name": "Stake DAO",
     "image": "sdt.svg",
-    "ticker":"sdt"
+    "ticker": "sdt"
   },
   {
-    "name":"Seele",
+    "name": "Seele",
     "image": "seele.svg",
-    "ticker":"seele"
+    "ticker": "seele"
   },
   {
-    "name":"Secret Finance",
+    "name": "Secret Finance",
     "image": "sefi.svg",
-    "ticker":"sefi"
+    "ticker": "sefi"
   },
   {
-    "name":"Semux",
+    "name": "Semux",
     "image": "sem.svg",
-    "ticker":"sem"
+    "ticker": "sem"
   },
   {
-    "name":"Saffron Finance",
+    "name": "Saffron Finance",
     "image": "sfi.svg",
-    "ticker":"sfi"
+    "ticker": "sfi"
   },
   {
-    "name":"Safe Pal",
+    "name": "Safe Pal",
     "image": "sfp.svg",
-    "ticker":"sfp"
+    "ticker": "sfp"
   },
   {
-    "name":"Shiba Inu",
+    "name": "Shiba Inu",
     "image": "shib.svg",
-    "ticker":"shib"
+    "ticker": "shib"
   },
   {
-    "name":"ShareToken",
+    "name": "ShareToken",
     "image": "shr.svg",
-    "ticker":"shr"
+    "ticker": "shr"
   },
   {
-    "name":"Shuffle Monster",
+    "name": "Shuffle Monster",
     "image": "shuf.svg",
-    "ticker":"shuf"
+    "ticker": "shuf"
   },
   {
-    "name":"Siacoin",
+    "name": "Siacoin",
     "image": "sia.svg",
-    "ticker":"sia"
+    "ticker": "sia"
   },
   {
-    "name":"Skale",
+    "name": "Skale",
     "image": "skl.svg",
-    "ticker":"skl"
+    "ticker": "skl"
   },
   {
-    "name":"Skycoin",
+    "name": "Skycoin",
     "image": "sky.svg",
-    "ticker":"sky"
+    "ticker": "sky"
   },
   {
-    "name":"Smartlands Token",
+    "name": "Smartlands Token",
     "image": "slt.svg",
-    "ticker":"slt"
+    "ticker": "slt"
   },
   {
-    "name":"SmartCash",
+    "name": "SmartCash",
     "image": "smart.svg",
-    "ticker":"smart"
+    "ticker": "smart"
   },
   {
-    "name":"SunContract",
+    "name": "SunContract",
     "image": "snc.svg",
-    "ticker":"snc"
+    "ticker": "snc"
   },
   {
-    "name":"SingularDTV",
+    "name": "SingularDTV",
     "image": "sngls.svg",
-    "ticker":"sngls"
+    "ticker": "sngls"
   },
   {
-    "name":"SONM",
+    "name": "SONM",
     "image": "snm.svg",
-    "ticker":"snm"
+    "ticker": "snm"
   },
   {
-    "name":"Status",
+    "name": "Status",
     "image": "snt.svg",
-    "ticker":"snt"
+    "ticker": "snt"
   },
   {
-    "name":"Synthetix Network Token",
+    "name": "Synthetix Network Token",
     "image": "snx.svg",
-    "ticker":"snx"
+    "ticker": "snx"
   },
   {
-    "name":"Solana",
+    "name": "Solana",
     "image": "sol.svg",
-    "ticker":"sol"
+    "ticker": "sol"
   },
   {
-    "name":"Sovryn",
+    "name": "Sovryn",
     "image": "sov.svg",
-    "ticker":"sov"
+    "ticker": "sov"
   },
   {
-    "name":"Phantasma",
+    "name": "Phantasma",
     "image": "soul.svg",
-    "ticker":"soul"
+    "ticker": "soul"
   },
   {
-    "name":"Sapien",
+    "name": "Sapien",
     "image": "spn.svg",
-    "ticker":"spn"
+    "ticker": "spn"
   },
   {
-    "name":"Serum",
+    "name": "Serum",
     "image": "srm.svg",
-    "ticker":"srm"
+    "ticker": "srm"
   },
   {
-    "name":"xDAI Stake",
+    "name": "xDAI Stake",
     "image": "stake.svg",
-    "ticker":"stake"
+    "ticker": "stake"
   },
   {
-    "name":"Steem",
+    "name": "Steem",
     "image": "steem.svg",
-    "ticker":"steem"
+    "ticker": "steem"
   },
   {
-    "name":"Step Finance",
+    "name": "Step Finance",
     "image": "step.svg",
-    "ticker":"step"
+    "ticker": "step"
   },
   {
-    "name":"Lido Staked Ether",
+    "name": "Lido Staked Ether",
     "image": "steth.svg",
-    "ticker":"steth"
+    "ticker": "steth"
   },
   {
-    "name":"StormX",
+    "name": "StormX",
     "image": "stmx.svg",
-    "ticker":"stmx"
+    "ticker": "stmx"
   },
   {
-    "name":"StorJ",
+    "name": "StorJ",
     "image": "storj.svg",
-    "ticker":"storj"
+    "ticker": "storj"
   },
   {
-    "name":"Storm Token",
+    "name": "Storm Token",
     "image": "storm.svg",
-    "ticker":"storm"
+    "ticker": "storm"
   },
   {
-    "name":"Standard Tokenization Protocol",
+    "name": "Standard Tokenization Protocol",
     "image": "stpt.svg",
-    "ticker":"stpt"
+    "ticker": "stpt"
   },
   {
-    "name":"Stratis",
+    "name": "Stratis",
     "image": "strat.svg",
-    "ticker":"strat"
+    "ticker": "strat"
   },
   {
-    "name":"Stacks",
+    "name": "Stacks",
     "image": "stx.svg",
-    "ticker":"stx"
+    "ticker": "stx"
   },
   {
-    "name":"Substratum",
+    "name": "Substratum",
     "image": "sub.svg",
-    "ticker":"sub"
+    "ticker": "sub"
   },
   {
-    "name":"SuperFarm",
+    "name": "SuperFarm",
     "image": "super.svg",
-    "ticker":"super"
+    "ticker": "super"
   },
   {
-    "name":"suqa",
+    "name": "suqa",
     "image": "suqa.svg",
-    "ticker":"suqa"
+    "ticker": "suqa"
   },
   {
-    "name":"Sushi",
+    "name": "Sushi",
     "image": "sushi.svg",
-    "ticker":"sushi"
+    "ticker": "sushi"
   },
   {
-    "name":"Suterusu",
+    "name": "Suterusu",
     "image": "suter.svg",
-    "ticker":"suter"
+    "ticker": "suter"
   },
   {
-    "name":"Trustswap",
+    "name": "Trustswap",
     "image": "swap.svg",
-    "ticker":"swap"
+    "ticker": "swap"
   },
   {
-    "name":"Switcheo",
+    "name": "Switcheo",
     "image": "swth.svg",
-    "ticker":"swth"
+    "ticker": "swth"
   },
   {
-    "name":"Spectre.ai",
+    "name": "Spectre.ai",
     "image": "sxdt.svg",
-    "ticker":"sxdt"
+    "ticker": "sxdt"
   },
   {
-    "name":"Swipe",
+    "name": "Swipe",
     "image": "sxp.svg",
-    "ticker":"sxp"
+    "ticker": "sxp"
   },
   {
-    "name":"Syscoin",
+    "name": "Syscoin",
     "image": "sys.svg",
-    "ticker":"sys"
+    "ticker": "sys"
   },
   {
-    "name":"tBTC",
+    "name": "tBTC",
     "image": "tbtc.svg",
-    "ticker":"tbtc"
+    "ticker": "tbtc"
   },
   {
-    "name":"TokenClub",
+    "name": "TokenClub",
     "image": "tct.svg",
-    "ticker":"tct"
+    "ticker": "tct"
   },
   {
-    "name":"Telcoin",
+    "name": "Telcoin",
     "image": "tel.svg",
-    "ticker":"tel"
+    "ticker": "tel"
   },
   {
-    "name":"Theta Fuel",
+    "name": "Theta Fuel",
     "image": "tfuel.svg",
-    "ticker":"tfuel"
+    "ticker": "tfuel"
   },
   {
-    "name":"Hempcoin",
+    "name": "Hempcoin",
     "image": "thc.svg",
-    "ticker":"thc"
+    "ticker": "thc"
   },
   {
-    "name":"Theta Network",
+    "name": "Theta Network",
     "image": "theta.svg",
-    "ticker":"theta"
+    "ticker": "theta"
   },
   {
-    "name":"Thorecoin",
+    "name": "Thorecoin",
     "image": "thr.svg",
-    "ticker":"thr"
+    "ticker": "thr"
   },
   {
-    "name":"Trade Token",
+    "name": "Trade Token",
     "image": "tio.svg",
-    "ticker":"tio"
+    "ticker": "tio"
   },
   {
-    "name":"TitanSwap",
+    "name": "TitanSwap",
     "image": "titan.svg",
-    "ticker":"titan"
+    "ticker": "titan"
   },
   {
-    "name":"Monolith",
+    "name": "Monolith",
     "image": "tkn.svg",
-    "ticker":"tkn"
+    "ticker": "tkn"
   },
   {
-    "name":"TheKey",
+    "name": "TheKey",
     "image": "tky.svg",
-    "ticker":"tky"
+    "ticker": "tky"
   },
   {
-    "name":"Time New Bank",
+    "name": "Time New Bank",
     "image": "tnb.svg",
-    "ticker":"tnb"
+    "ticker": "tnb"
   },
   {
-    "name":"Trinity Network Credit",
+    "name": "Trinity Network Credit",
     "image": "tnc.svg",
-    "ticker":"tnc"
+    "ticker": "tnc"
   },
   {
-    "name":"Tierion",
+    "name": "Tierion",
     "image": "tnt.svg",
-    "ticker":"tnt"
+    "ticker": "tnt"
   },
   {
-    "name":"TomoChain",
+    "name": "TomoChain",
     "image": "tomo.svg",
-    "ticker":"tomo"
+    "ticker": "tomo"
   },
   {
-    "name":"Tornado Cash",
+    "name": "Tornado Cash",
     "image": "torn.svg",
-    "ticker":"torn"
+    "ticker": "torn"
   },
   {
-    "name":"TokenPay",
+    "name": "TokenPay",
     "image": "tpay.svg",
-    "ticker":"tpay"
+    "ticker": "tpay"
   },
   {
-    "name":"OriginTrail",
+    "name": "OriginTrail",
     "image": "trac.svg",
-    "ticker":"trac"
+    "ticker": "trac"
   },
   {
-    "name":"Tellor",
+    "name": "Tellor",
     "image": "trb.svg",
-    "ticker":"trb"
+    "ticker": "trb"
   },
   {
-    "name":"Tribe",
+    "name": "Tribe",
     "image": "tribe.svg",
-    "ticker":"tribe"
+    "ticker": "tribe"
   },
   {
-    "name":"trig",
+    "name": "trig",
     "image": "trig.svg",
-    "ticker":"trig"
+    "ticker": "trig"
   },
   {
-    "name":"TurtleCoin",
+    "name": "TurtleCoin",
     "image": "trtl.svg",
-    "ticker":"trtl"
+    "ticker": "trtl"
   },
   {
-    "name":"TRON",
+    "name": "TRON",
     "image": "trx.svg",
-    "ticker":"trx"
+    "ticker": "trx"
   },
   {
-    "name":"BiLira",
+    "name": "BiLira",
     "image": "tryb.svg",
-    "ticker":"tryb"
+    "ticker": "tryb"
   },
   {
-    "name":"TrueFi",
+    "name": "TrueFi",
     "image": "tru.svg",
-    "ticker":"tru"
+    "ticker": "tru"
   },
   {
-    "name":"BitTube",
+    "name": "BitTube",
     "image": "tube.svg",
-    "ticker":"tube"
+    "ticker": "tube"
   },
   {
-    "name":"TrueUSD",
+    "name": "TrueUSD",
     "image": "tusd.svg",
-    "ticker":"tusd"
+    "ticker": "tusd"
   },
   {
-    "name":"Trust Wallet Token",
+    "name": "Trust Wallet Token",
     "image": "twt.svg",
-    "ticker":"twt"
+    "ticker": "twt"
   },
   {
-    "name":"Ubiq",
+    "name": "Ubiq",
     "image": "ubq.svg",
-    "ticker":"ubq"
+    "ticker": "ubq"
   },
   {
-    "name":"Unibright",
+    "name": "Unibright",
     "image": "ubt.svg",
-    "ticker":"ubt"
+    "ticker": "ubt"
   },
   {
-    "name":"UniLend Finance",
+    "name": "UniLend Finance",
     "image": "uft.svg",
-    "ticker":"uft"
+    "ticker": "uft"
   },
   {
-    "name":"Ultiledger",
+    "name": "Ultiledger",
     "image": "ult.svg",
-    "ticker":"ult"
+    "ticker": "ult"
   },
   {
-    "name":"UMA",
+    "name": "UMA",
     "image": "uma.svg",
-    "ticker":"uma"
+    "ticker": "uma"
   },
   {
-    "name":"UniCrypt",
+    "name": "UniCrypt",
     "image": "uncx.svg",
-    "ticker":"uncx"
+    "ticker": "uncx"
   },
   {
-    "name":"Unifi Protocol DAO",
+    "name": "Unifi Protocol DAO",
     "image": "unfi.svg",
-    "ticker":"unfi"
+    "ticker": "unfi"
   },
   {
-    "name":"Uniswap",
+    "name": "Uniswap",
     "image": "uni.svg",
-    "ticker":"uni"
+    "ticker": "uni"
   },
   {
-    "name":"UNION Protocol Governance Token",
+    "name": "UNION Protocol Governance Token",
     "image": "unn.svg",
-    "ticker":"unn"
+    "ticker": "unn"
   },
   {
-    "name":"Ultra",
+    "name": "Ultra",
     "image": "uos.svg",
-    "ticker":"uos"
+    "ticker": "uos"
   },
   {
-    "name":"Sentinel Protocol",
+    "name": "Sentinel Protocol",
     "image": "upp.svg",
-    "ticker":"upp"
+    "ticker": "upp"
   },
   {
-    "name":"USD Coin",
+    "name": "USD Coin",
     "image": "usdc.svg",
-    "ticker":"usdc"
+    "ticker": "usdc"
   },
   {
-    "name":"Pax Dollar",
+    "name": "Pax Dollar",
     "image": "usdp.svg",
-    "ticker":"usdp"
+    "ticker": "usdp"
   },
   {
-    "name":"Stably USD",
+    "name": "Stably USD",
     "image": "usds.svg",
-    "ticker":"usds"
+    "ticker": "usds"
   },
   {
-    "name":"Tether",
+    "name": "Tether",
     "image": "usdt.svg",
-    "ticker":"usdt"
+    "ticker": "usdt"
   },
   {
-    "name":"Utrust",
+    "name": "Utrust",
     "image": "utk.svg",
-    "ticker":"utk"
+    "ticker": "utk"
   },
   {
-    "name":"U Network",
+    "name": "U Network",
     "image": "uuu.svg",
-    "ticker":"uuu"
+    "ticker": "uuu"
   },
   {
-    "name":"Value DeFi",
+    "name": "Value DeFi",
     "image": "value.svg",
-    "ticker":"value"
+    "ticker": "value"
   },
   {
-    "name":"Veritaseum",
+    "name": "Veritaseum",
     "image": "veri.svg",
-    "ticker":"veri"
+    "ticker": "veri"
   },
   {
-    "name":"VestChain",
+    "name": "VestChain",
     "image": "vest.svg",
-    "ticker":"vest"
+    "ticker": "vest"
   },
   {
-    "name":"VeChain",
+    "name": "VeChain",
     "image": "vet.svg",
-    "ticker":"vet"
+    "ticker": "vet"
   },
   {
-    "name":"Voyager Token",
+    "name": "Voyager Token",
     "image": "vgx.svg",
-    "ticker":"vgx"
+    "ticker": "vgx"
   },
   {
-    "name":"Viacoin",
+    "name": "Viacoin",
     "image": "via.svg",
-    "ticker":"via"
+    "ticker": "via"
   },
   {
-    "name":"Viberate",
+    "name": "Viberate",
     "image": "vib.svg",
-    "ticker":"vib"
+    "ticker": "vib"
   },
   {
-    "name":"VIBE",
+    "name": "VIBE",
     "image": "vibe.svg",
-    "ticker":"vibe"
+    "ticker": "vibe"
   },
   {
-    "name":"VIDT Datalink",
+    "name": "VIDT Datalink",
     "image": "vidt.svg",
-    "ticker":"vidt"
+    "ticker": "vidt"
   },
   {
-    "name":"VikkyToken",
+    "name": "VikkyToken",
     "image": "vikky.svg",
-    "ticker":"vikky"
+    "ticker": "vikky"
   },
   {
-    "name":"VINchain",
+    "name": "VINchain",
     "image": "vin.svg",
-    "ticker":"vin"
+    "ticker": "vin"
   },
   {
-    "name":"Vite",
+    "name": "Vite",
     "image": "vite.svg",
-    "ticker":"vite"
+    "ticker": "vite"
   },
   {
-    "name":"Viuly",
+    "name": "Viuly",
     "image": "viu.svg",
-    "ticker":"viu"
+    "ticker": "viu"
   },
   {
-    "name":"Velax",
+    "name": "Velax",
     "image": "vlx.svg",
-    "ticker":"vlx"
+    "ticker": "vlx"
   },
   {
-    "name":"Veros",
+    "name": "Veros",
     "image": "vrs.svg",
-    "ticker":"vrs"
+    "ticker": "vrs"
   },
   {
-    "name":"Vesper Finance",
+    "name": "Vesper Finance",
     "image": "vsp.svg",
-    "ticker":"vsp"
+    "ticker": "vsp"
   },
   {
-    "name":"V.System",
+    "name": "V.System",
     "image": "vsys.svg",
-    "ticker":"vsys"
+    "ticker": "vsys"
   },
   {
-    "name":"Vertcoin",
+    "name": "Vertcoin",
     "image": "vtc.svg",
-    "ticker":"vtc"
+    "ticker": "vtc"
   },
   {
-    "name":"Wabi",
+    "name": "Wabi",
     "image": "wabi.svg",
-    "ticker":"wabi"
+    "ticker": "wabi"
   },
   {
-    "name":"Wanchain",
+    "name": "Wanchain",
     "image": "wan.svg",
-    "ticker":"wan"
+    "ticker": "wan"
   },
   {
-    "name":"Waves",
+    "name": "Waves",
     "image": "waves.svg",
-    "ticker":"waves"
+    "ticker": "waves"
   },
   {
-    "name":"Wrapped Bitcoin",
+    "name": "Wrapped Bitcoin",
     "image": "wbtc.svg",
-    "ticker":"wbtc"
+    "ticker": "wbtc"
   },
   {
-    "name":"Waves Community Token",
+    "name": "Waves Community Token",
     "image": "wct.svg",
-    "ticker":"wct"
+    "ticker": "wct"
   },
   {
-    "name":"WaultSwap Polygon",
+    "name": "WaultSwap Polygon",
     "image": "wexpoly.svg",
-    "ticker":"wexpoly"
+    "ticker": "wexpoly"
   },
   {
-    "name":"Whale",
+    "name": "Whale",
     "image": "whale.svg",
-    "ticker":"whale"
+    "ticker": "whale"
   },
   {
-    "name":"wib",
+    "name": "wib",
     "image": "wib.svg",
-    "ticker":"wib"
+    "ticker": "wib"
   },
   {
-    "name":"Wing Finance",
+    "name": "Wing Finance",
     "image": "wing.svg",
-    "ticker":"wing"
+    "ticker": "wing"
   },
   {
-    "name":"Wings",
+    "name": "Wings",
     "image": "wings.svg",
-    "ticker":"wings"
+    "ticker": "wings"
   },
   {
-    "name":"WOO Network",
+    "name": "WOO Network",
     "image": "woo.svg",
-    "ticker":"woo"
+    "ticker": "woo"
   },
   {
-    "name":"WePower",
+    "name": "WePower",
     "image": "wpr.svg",
-    "ticker":"wpr"
+    "ticker": "wpr"
   },
   {
-    "name":"WazirX",
+    "name": "WazirX",
     "image": "wrx.svg",
-    "ticker":"wrx"
+    "ticker": "wrx"
   },
   {
-    "name":"Waltonchain",
+    "name": "Waltonchain",
     "image": "wtc.svg",
-    "ticker":"wtc"
+    "ticker": "wtc"
   },
   {
-    "name":"Wirex",
+    "name": "Wirex",
     "image": "wxt.svg",
-    "ticker":"wxt"
+    "ticker": "wxt"
   },
   {
-    "name":"Asch",
+    "name": "Asch",
     "image": "xas.svg",
-    "ticker":"xas"
+    "ticker": "xas"
   },
   {
-    "name":"CryptoFranc",
+    "name": "CryptoFranc",
     "image": "xchf.svg",
-    "ticker":"xchf"
+    "ticker": "xchf"
   },
   {
-    "name":"NEM",
+    "name": "NEM",
     "image": "xem.svg",
-    "ticker":"xem"
+    "ticker": "xem"
   },
   {
-    "name":"Haven",
+    "name": "Haven",
     "image": "xhv.svg",
-    "ticker":"xhv"
+    "ticker": "xhv"
   },
   {
-    "name":"Mixin",
+    "name": "Mixin",
     "image": "xin.svg",
-    "ticker":"xin"
+    "ticker": "xin"
   },
   {
-    "name":"Stellar",
+    "name": "Stellar",
     "image": "xlm.svg",
-    "ticker":"xlm"
+    "ticker": "xlm"
   },
   {
-    "name":"xlq",
+    "name": "xlq",
     "image": "xlq.svg",
-    "ticker":"xlq"
+    "ticker": "xlq"
   },
   {
-    "name":"xMARK",
+    "name": "xMARK",
     "image": "xmark.svg",
-    "ticker":"xmark"
+    "ticker": "xmark"
   },
   {
-    "name":"Monero",
+    "name": "Monero",
     "image": "xmr.svg",
-    "ticker":"xmr"
+    "ticker": "xmr"
   },
   {
-    "name":"XMax",
+    "name": "XMax",
     "image": "xmx.svg",
-    "ticker":"xmx"
+    "ticker": "xmx"
   },
   {
-    "name":"Ink Protocol",
+    "name": "Ink Protocol",
     "image": "xnk.svg",
-    "ticker":"xnk"
+    "ticker": "xnk"
   },
   {
-    "name":"xns",
+    "name": "xns",
     "image": "xns.svg",
-    "ticker":"xns"
+    "ticker": "xns"
   },
   {
-    "name":"Sora",
+    "name": "Sora",
     "image": "xor.svg",
-    "ticker":"xor"
+    "ticker": "xor"
   },
   {
-    "name":"Radix",
+    "name": "Radix",
     "image": "xrd.svg",
-    "ticker":"xrd"
+    "ticker": "xrd"
   },
   {
-    "name":"Ripple",
+    "name": "Ripple",
     "image": "xrp.svg",
-    "ticker":"xrp"
+    "ticker": "xrp"
   },
   {
-    "name":"Stakenet",
+    "name": "Stakenet",
     "image": "xsn.svg",
-    "ticker":"xsn"
+    "ticker": "xsn"
   },
   {
-    "name":"Xensor",
+    "name": "Xensor",
     "image": "xsr.svg",
-    "ticker":"xsr"
+    "ticker": "xsr"
   },
   {
-    "name":"Tezos",
+    "name": "Tezos",
     "image": "xtz.svg",
-    "ticker":"xtz"
+    "ticker": "xtz"
   },
   {
-    "name":"Verge",
+    "name": "Verge",
     "image": "xvg.svg",
-    "ticker":"xvg"
+    "ticker": "xvg"
   },
   {
-    "name":"XYO Network",
+    "name": "XYO Network",
     "image": "xyo.svg",
-    "ticker":"xyo"
+    "ticker": "xyo"
   },
   {
-    "name":"xzc",
+    "name": "xzc",
     "image": "xzc.svg",
-    "ticker":"xzc"
+    "ticker": "xzc"
   },
   {
-    "name":"yearn.finance",
+    "name": "yearn.finance",
     "image": "yfi.svg",
-    "ticker":"yfi"
+    "ticker": "yfi"
   },
   {
-    "name":"YOYOW",
+    "name": "YOYOW",
     "image": "yoyo.svg",
-    "ticker":"yoyo"
+    "ticker": "yoyo"
   },
   {
-    "name":"Zero Collateral Dai",
+    "name": "Zero Collateral Dai",
     "image": "zai.svg",
-    "ticker":"zai"
+    "ticker": "zai"
   },
   {
-    "name":"ZB Token",
+    "name": "ZB Token",
     "image": "zb.svg",
-    "ticker":"zb"
+    "ticker": "zb"
   },
   {
-    "name":"Zebi",
+    "name": "Zebi",
     "image": "zco.svg",
-    "ticker":"zco"
+    "ticker": "zco"
   },
   {
-    "name":"Zcash",
+    "name": "Zcash",
     "image": "zec.svg",
-    "ticker":"zec"
+    "ticker": "zec"
   },
   {
-    "name":"Horizen",
+    "name": "Horizen",
     "image": "zen.svg",
-    "ticker":"zen"
+    "ticker": "zen"
   },
   {
-    "name":"Zilliqa",
+    "name": "Zilliqa",
     "image": "zil.svg",
-    "ticker":"zil"
+    "ticker": "zil"
   },
   {
-    "name":"ZKSwap",
+    "name": "ZKSwap",
     "image": "zks.svg",
-    "ticker":"zks"
+    "ticker": "zks"
   },
   {
-    "name":"0x",
+    "name": "0x",
     "image": "zrx.svg",
-    "ticker":"zrx"
+    "ticker": "zrx"
   },
   {
-    "name":"Aptos",
+    "name": "Aptos",
     "image": "apt.svg",
-    "ticker":"apt"
+    "ticker": "apt"
   },
   {
-    "name":"Astroport.fi",
+    "name": "Astroport.fi",
     "image": "astro.svg",
-    "ticker":"astro"
+    "ticker": "astro"
   },
   {
-    "name":"Casper Network",
+    "name": "Casper Network",
     "image": "cspr.svg",
-    "ticker":"cspr"
+    "ticker": "cspr"
   },
   {
-    "name":"Everdome",
+    "name": "Everdome",
     "image": "dome.svg",
-    "ticker":"dome"
+    "ticker": "dome"
   },
   {
-    "name":"dYdX",
+    "name": "dYdX",
     "image": "dydx.svg",
-    "ticker":"dydx"
+    "ticker": "dydx"
   },
   {
-    "name":"Flare",
+    "name": "Flare",
     "image": "1flr.svg",
-    "ticker":"1flr"
+    "ticker": "1flr"
   },
   {
-    "name":"Tenset",
+    "name": "Tenset",
     "image": "10set.svg",
-    "ticker":"10set"
+    "ticker": "10set"
   },
   {
-    "name":"Acala",
+    "name": "Acala",
     "image": "aca.svg",
-    "ticker":"aca"
+    "ticker": "aca"
   },
   {
-    "name":"Alchemix USD",
+    "name": "Alchemix USD",
     "image": "alusd.svg",
-    "ticker":"alusd"
+    "ticker": "alusd"
   },
   {
-    "name":"ApeCoin",
+    "name": "ApeCoin",
     "image": "ape.svg",
-    "ticker":"ape"
+    "ticker": "ape"
   },
   {
-    "name":"Assemble Protocol",
+    "name": "Assemble Protocol",
     "image": "asm.svg",
-    "ticker":"asm"
+    "ticker": "asm"
   },
   {
-    "name":"Audius",
+    "name": "Audius",
     "image": "audio.svg",
-    "ticker":"audio"
+    "ticker": "audio"
   },
   {
-    "name":"Baby Doge Coin",
+    "name": "Baby Doge Coin",
     "image": "babydoge.svg",
-    "ticker":"babydoge"
+    "ticker": "babydoge"
   },
   {
-    "name":"Biconomy",
+    "name": "Biconomy",
     "image": "bico.svg",
-    "ticker":"bico"
+    "ticker": "bico"
   },
   {
-    "name":"BitDAO",
+    "name": "BitDAO",
     "image": "bit-2.svg",
-    "ticker":"bit"
+    "ticker": "bit"
   },
   {
-    "name":"Bitrue Coin",
+    "name": "Bitrue Coin",
     "image": "btr.svg",
-    "ticker":"btr"
+    "ticker": "btr"
   },
   {
-    "name":"Chromia",
+    "name": "Chromia",
     "image": "chr.svg",
-    "ticker":"chr"
+    "ticker": "chr"
   },
   {
-    "name":"DAO Maker",
+    "name": "DAO Maker",
     "image": "dao.svg",
-    "ticker":"dao"
+    "ticker": "dao"
   },
   {
-    "name":"Depth",
+    "name": "Depth",
     "image": "dep.svg",
-    "ticker":"dep"
+    "ticker": "dep"
   },
   {
-    "name":"DIA",
+    "name": "DIA",
     "image": "dia.svg",
-    "ticker":"dia"
+    "ticker": "dia"
   },
   {
-    "name":"Everscale",
+    "name": "Everscale",
     "image": "ever.svg",
-    "ticker":"ever"
+    "ticker": "ever"
   },
   {
-    "name":"Evmos",
+    "name": "Evmos",
     "image": "evmos.svg",
-    "ticker":"evmos"
+    "ticker": "evmos"
   },
   {
-    "name":"FLEX Coin",
+    "name": "FLEX Coin",
     "image": "flex.svg",
-    "ticker":"flex"
+    "ticker": "flex"
   },
   {
-    "name":"Flux",
+    "name": "Flux",
     "image": "flux.svg",
-    "ticker":"flux"
+    "ticker": "flux"
   },
   {
-    "name":"Galxe",
+    "name": "Galxe",
     "image": "gal.svg",
-    "ticker":"gal"
+    "ticker": "gal"
   },
   {
-    "name":"GMX",
+    "name": "GMX",
     "image": "gmx.svg",
-    "ticker":"gmx"
+    "ticker": "gmx"
   },
   {
-    "name":"Illuvium",
+    "name": "Illuvium",
     "image": "ilv.svg",
-    "ticker":"ilv"
+    "ticker": "ilv"
   },
   {
-    "name":"Bitkub Coin",
+    "name": "Bitkub Coin",
     "image": "kub.svg",
-    "ticker":"kub"
+    "ticker": "kub"
   },
   {
-    "name":"Liquity USD",
+    "name": "Liquity USD",
     "image": "lusd.svg",
-    "ticker":"lusd"
+    "ticker": "lusd"
   },
   {
-    "name":"Metis",
+    "name": "Metis",
     "image": "metis.svg",
-    "ticker":"metis"
+    "ticker": "metis"
   },
   {
-    "name":"Maiar DEX",
+    "name": "Maiar DEX",
     "image": "mex.svg",
-    "ticker":"mex"
+    "ticker": "mex"
   },
   {
-    "name":"MAI",
+    "name": "MAI",
     "image": "mimatic.svg",
-    "ticker":"mimatic"
+    "ticker": "mimatic"
   },
   {
-    "name":"AssetMantle",
+    "name": "AssetMantle",
     "image": "mntl.svg",
-    "ticker":"mntl"
+    "ticker": "mntl"
   },
   {
-    "name":"Morpheus Network",
+    "name": "Morpheus Network",
     "image": "mnw.svg",
-    "ticker":"mnw"
+    "ticker": "mnw"
   },
   {
-    "name":"Optimism",
+    "name": "Optimism",
     "image": "op.svg",
-    "ticker":"op"
+    "ticker": "op"
   },
   {
-    "name":"Vulcan Forged",
+    "name": "Vulcan Forged",
     "image": "pyr.svg",
-    "ticker":"pyr"
+    "ticker": "pyr"
   },
   {
-    "name":"Radio Caca",
+    "name": "Radio Caca",
     "image": "raca.svg",
-    "ticker":"raca"
+    "ticker": "raca"
   },
   {
-    "name":"Rally",
+    "name": "Rally",
     "image": "rly.svg",
-    "ticker":"rly"
+    "ticker": "rly"
   },
   {
-    "name":"Render",
+    "name": "Render",
     "image": "rndr.svg",
-    "ticker":"rndr"
+    "ticker": "rndr"
   },
   {
-    "name":"Sapphire",
+    "name": "Sapphire",
     "image": "sapp.svg",
-    "ticker":"sapp"
+    "ticker": "sapp"
   },
   {
-    "name":"Safe Haven",
+    "name": "Safe Haven",
     "image": "sha.svg",
-    "ticker":"sha"
+    "ticker": "sha"
   },
   {
-    "name":"Smooth Love Potion",
+    "name": "Smooth Love Potion",
     "image": "slp.svg",
-    "ticker":"slp"
+    "ticker": "slp"
   },
   {
-    "name":"Spiking",
+    "name": "Spiking",
     "image": "spike.svg",
-    "ticker":"spike"
+    "ticker": "spike"
   },
   {
-    "name":"SSV Network",
+    "name": "SSV Network",
     "image": "ssv.svg",
-    "ticker":"ssv"
+    "ticker": "ssv"
   },
   {
-    "name":"Startgate Finance",
+    "name": "Startgate Finance",
     "image": "stg.svg",
-    "ticker":"stg"
+    "ticker": "stg"
   },
   {
-    "name":"Strike",
+    "name": "Strike",
     "image": "strk.svg",
-    "ticker":"strk"
+    "ticker": "strk"
   },
   {
-    "name":"Sweatcoin",
+    "name": "Sweatcoin",
     "image": "sweat.svg",
-    "ticker":"sweat"
+    "ticker": "sweat"
   },
   {
-    "name":"Synapse",
+    "name": "Synapse",
     "image": "syn.svg",
-    "ticker":"syn"
+    "ticker": "syn"
   },
   {
-    "name":"Tyzen",
+    "name": "Tyzen",
     "image": "tyzen.svg",
-    "ticker":"tyzen"
+    "ticker": "tyzen"
   },
   {
-    "name":"USDD",
+    "name": "USDD",
     "image": "usdd.svg",
-    "ticker":"usdd"
+    "ticker": "usdd"
   },
   {
-    "name":"VVS Finance",
+    "name": "VVS Finance",
     "image": "vvs.svg",
-    "ticker":"vvs"
+    "ticker": "vvs"
   },
   {
-    "name":"Warp Finance",
+    "name": "Warp Finance",
     "image": "warp.svg",
-    "ticker":"warp"
+    "ticker": "warp"
   },
   {
-    "name":"Chain",
+    "name": "Chain",
     "image": "xcn.svg",
-    "ticker":"xcn"
+    "ticker": "xcn"
   },
   {
-    "name":"eCash",
+    "name": "eCash",
     "image": "xec.svg",
-    "ticker":"xec"
+    "ticker": "xec"
   },
   {
-    "name":"Proton",
+    "name": "Proton",
     "image": "xpr.svg",
-    "ticker":"xpr"
+    "ticker": "xpr"
   },
   {
-    "name":"ZoidPay",
+    "name": "ZoidPay",
     "image": "zpay.svg",
-    "ticker":"zpay"
+    "ticker": "zpay"
   },
   {
-    "name":"Kiro",
+    "name": "Kiro",
     "image": "kiro.svg",
-    "ticker":"kiro"
+    "ticker": "kiro"
   },
   {
-    "name":"Mask Network",
+    "name": "Mask Network",
     "image": "mask.svg",
-    "ticker":"mask"
+    "ticker": "mask"
   },
   {
-    "name":"Merit Circle",
+    "name": "Merit Circle",
     "image": "mc.svg",
-    "ticker":"mc"
+    "ticker": "mc"
   },
   {
-    "name":"Nerve Finance",
+    "name": "Nerve Finance",
     "image": "nrv.svg",
-    "ticker":"nrv"
+    "ticker": "nrv"
   },
   {
-    "name":"PlatonCoin",
+    "name": "PlatonCoin",
     "image": "pltc.svg",
-    "ticker":"pltc"
+    "ticker": "pltc"
   },
   {
-    "name":"Prom",
+    "name": "Prom",
     "image": "prom.svg",
-    "ticker":"prom"
+    "ticker": "prom"
   },
   {
-    "name":"Ribbon Finance",
+    "name": "Ribbon Finance",
     "image": "rbn.svg",
-    "ticker":"rbn"
+    "ticker": "rbn"
   },
   {
-    "name":"sETH2",
+    "name": "sETH2",
     "image": "seth2.svg",
-    "ticker":"seth2"
+    "ticker": "seth2"
   },
   {
-    "name":"SafeMoon",
+    "name": "SafeMoon",
     "image": "sfm.svg",
-    "ticker":"sfm"
+    "ticker": "sfm"
   },
   {
-    "name":"Nano",
+    "name": "Nano",
     "image": "xno.svg",
-    "ticker":"xno"
+    "ticker": "xno"
   },
   {
-    "name":"XAI Stablecoin",
+    "name": "XAI Stablecoin",
     "image": "xai.svg",
-    "ticker":"xai"
+    "ticker": "xai"
   },
   {
-    "name":"EZZY Game",
+    "name": "EZZY Game",
     "image": "ezy.svg",
-    "ticker":"ezy"
+    "ticker": "ezy"
   },
   {
-    "name":"Snowflake",
+    "name": "Snowflake",
     "image": "$snow.svg",
-    "ticker":"$snow"
+    "ticker": "$snow"
   },
   {
-    "name":"LunaOne",
+    "name": "LunaOne",
     "image": "xln.svg",
-    "ticker":"xln"
+    "ticker": "xln"
   },
   {
-    "name":"OPX Finance",
+    "name": "OPX Finance",
     "image": "opx.svg",
-    "ticker":"opx"
+    "ticker": "opx"
   },
   {
-    "name":"Parrotly",
+    "name": "Parrotly",
     "image": "pbirb.svg",
-    "ticker":"pbirb"
+    "ticker": "pbirb"
   },
   {
-    "name":"Lodestar",
+    "name": "Lodestar",
     "image": "lode.svg",
-    "ticker":"lode"
+    "ticker": "lode"
   },
   {
-    "name":"Crolend",
+    "name": "Crolend",
     "image": "crd.svg",
-    "ticker":"crd"
+    "ticker": "crd"
   },
   {
-    "name":"Metano",
+    "name": "Metano",
     "image": "metano.svg",
-    "ticker":"metano"
+    "ticker": "metano"
   },
   {
-    "name":"Proof of Memes",
+    "name": "Proof of Memes",
     "image": "pom.svg",
-    "ticker":"pom"
+    "ticker": "pom"
   },
   {
-    "name":"Reach DAO",
+    "name": "Reach DAO",
     "image": "$read.svg",
-    "ticker":"$read"
+    "ticker": "$read"
   },
   {
-    "name":"Uniqo",
+    "name": "Uniqo",
     "image": "uniqo.svg",
-    "ticker":"uniqo"
+    "ticker": "uniqo"
   },
   {
-    "name":"Persistence",
+    "name": "Persistence",
     "image": "xprt.svg",
-    "ticker":"xprt"
+    "ticker": "xprt"
   },
   {
-    "name":"Aleph Zero",
+    "name": "Aleph Zero",
     "image": "azero.svg",
-    "ticker":"azero"
+    "ticker": "azero"
   },
   {
-    "name":"Bitgert",
+    "name": "Bitgert",
     "image": "brise.svg",
-    "ticker":"brise"
+    "ticker": "brise"
   },
   {
-    "name":"EthereumPoW",
+    "name": "EthereumPoW",
     "image": "ethw.svg",
-    "ticker":"ethw"
+    "ticker": "ethw"
   },
   {
-    "name":"Moonbeam",
+    "name": "Moonbeam",
     "image": "glmr.svg",
-    "ticker":"glmr"
+    "ticker": "glmr"
   },
   {
-    "name":"Nano",
+    "name": "Nano",
     "image": "xno.svg",
-    "ticker":"xno"
+    "ticker": "xno"
+  },
+  {
+    "name": "Bondly",
+    "image": "bond-2.svg",
+    "ticker": "bond"
+  },
+  {
+    "name": "Canto",
+    "image": "canto.svg",
+    "ticker": "canto"
+  },
+  {
+    "name": "Cap",
+    "image": "cap.svg",
+    "ticker": "cap"
+  },
+  {
+    "name": "Coca Network",
+    "image": "cocn.svg",
+    "ticker": "cocn"
+  },
+  {
+    "name": "Dinerobet",
+    "image": "dinero.svg",
+    "ticker": "dinero"
+  },
+  {
+    "name": "Dojo",
+    "image": "dojo.svg",
+    "ticker": "dojo"
+  },
+  {
+    "name": "Escoin",
+    "image": "elg.svg",
+    "ticker": "elg"
+  },
+  {
+    "name": "STEPN",
+    "image": "gmt.svg",
+    "ticker": "gmt"
+  },
+  {
+    "name": "Gains Network",
+    "image": "gns.svg",
+    "ticker": "gns"
+  },
+  {
+    "name": "ImmutableX",
+    "image": "imx.svg",
+    "ticker": "imx"
+  },
+  {
+    "name": "Inter Stable Token",
+    "image": "ist.svg",
+    "ticker": "ist"
+  },
+  {
+    "name": "IX",
+    "image": "ixt.svg",
+    "ticker": "ixt"
+  },
+  {
+    "name": "KIRA",
+    "image": "kira.svg",
+    "ticker": "kira"
+  },
+  {
+    "name": "Kostren Finance",
+    "image": "ktn.svg",
+    "ticker": "ktn"
+  },
+  {
+    "name": "LUCA",
+    "image": "luca.svg",
+    "ticker": "luca"
+  },
+  {
+    "name": "Mobox",
+    "image": "mbox.svg",
+    "ticker": "mbox"
+  },
+  {
+    "name": "Neoxa",
+    "image": "neox.svg",
+    "ticker": "neox"
+  },
+  {
+    "name": "Entice",
+    "image": "ntic.svg",
+    "ticker": "ntic"
+  },
+  {
+    "name": "Phala Network",
+    "image": "pha.svg",
+    "ticker": "pha"
+  },
+  {
+    "name": "POLY Maximus",
+    "image": "poly-2.svg",
+    "ticker": "poly"
+  },
+  {
+    "name": "Qredo",
+    "image": "qrdo.svg",
+    "ticker": "qrdo"
+  },
+  {
+    "name": "Starz",
+    "image": "stz.svg",
+    "ticker": "stz"
+  },
+  {
+    "name": "Tokocrypto",
+    "image": "tko.svg",
+    "ticker": "tko"
+  },
+  {
+    "name": "Neutrino USD",
+    "image": "usdn.svg",
+    "ticker": "usdn"
   }
 ]
