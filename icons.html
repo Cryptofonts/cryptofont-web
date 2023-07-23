@@ -390,11 +390,11 @@
 
       function getDetails(ticker) {
         var name = $(ticker).attr("id");
-        var newSrc = "img/icons/" + name + ".svg";
+        var newSrc = "https://raw.githubusercontent.com/Cryptofonts/cryptoicons/master/SVG/" + name + ".svg";
         console.log(name);
 
         $("#detailModal").modal();
-        $("#modalTitle").html('<img src="img/icons/' + name + '.svg" height="16"> ' + name);
+        $("#modalTitle").html('<img src="https://raw.githubusercontent.com/Cryptofonts/cryptoicons/master/SVG/' + name + '.svg" height="16"> ' + name);
         $("#iconDetail").attr("src", newSrc);
         $("#iconDownload").attr("href", newSrc).attr("download", name);
       }
