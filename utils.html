@@ -1,43 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-K769Q5P');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-K769Q5P");
+    </script>
     <!-- End Google Tag Manager -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119769091-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'UA-119769091-1');
+      gtag("config", "UA-119769091-1");
     </script>
 
     <!-- Hotjar Tracking Code for https://cryptofonts.com/ -->
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1835372,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1835372, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
 
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A crisp webfont icons and svg logos for your favourite cryptocurrencies. Featuring 974 icons.">
-    <meta name="keywords" content="icons, logos, crypto logo, vector icons, svg icons, free icons, icon font, webfont, desktop icons, svg, font awesome, font awesome free, font awesome pro">
-    <meta name="author" content="Fabio Monzani">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A crisp webfont icons and svg logos for your favourite cryptocurrencies. Featuring 974 icons." />
+    <meta name="keywords" content="icons, logos, crypto logo, vector icons, svg icons, free icons, icon font, webfont, desktop icons, svg, font awesome, font awesome free, font awesome pro" />
+    <meta name="author" content="Fabio Monzani" />
 
     <meta property="og:site_name" content="Cryptofonts" />
     <meta property="og:type" content="website" />
@@ -48,15 +61,15 @@
 
     <title>CryptoFont - Cryptocurrency icons and webfont</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <link rel="manifest" href="favicons/site.webmanifest">
-    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
+    <link rel="manifest" href="favicons/site.webmanifest" />
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Facebook Open Graph -->
     <meta property="og:site_name" content="CryptoFonts" />
@@ -75,30 +88,28 @@
     <meta property="og:image" content="https://www.cryptofonts.com/img/card.png" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Custome CSS -->
-    <link rel="stylesheet" href="css/style.min.css?v=1.6">
+    <link rel="stylesheet" href="css/style.min.css?v=1.6" />
     <!-- Inter font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet" />
     <!-- FontAwesome -->
-    <link href="css/fontawesome.min.css" rel="stylesheet">
-    <link href="css/duotone.min.css" rel="stylesheet">
-    <link href="css/brands.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/duotone.min.css" rel="stylesheet" />
+    <link href="css/brands.min.css" rel="stylesheet" />
     <!-- Cryptofonts -->
-    <link href="css/cryptofonts-util.css" rel="stylesheet">
-
+    <link href="css/cryptofonts-util.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K769Q5P"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K769Q5P" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
       <a class="navbar-brand" href="index.html">
-        <img src="img/logo-squircle.svg" width="36" height="36" class="d-inline-block align-top mr-2" alt="" loading="lazy">
+        <img src="img/logo-squircle.svg" width="36" height="36" class="d-inline-block align-top mr-2" alt="" loading="lazy" />
         <strong class="align-text-top">Cryptofonts</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,16 +117,16 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#get-started">Get started</a>
+          <li class="nav-item notification">
+            <a class="nav-link" href="api.html">API</a>
+            <div class="badge"></div>
           </li>
+
           <!-- <li class="nav-item">
             <a class="nav-link" href="font.html">Font</a>
           </li> -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Fonts
-            </a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Fonts </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="font.html">Crypto Font</a>
               <a class="dropdown-item" href="utils.html">Utility Font</a>
@@ -144,7 +155,6 @@
       </div>
     </nav>
 
-
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1>Utility Web Font for dApps</h1>
@@ -155,16 +165,16 @@
 
     <div class="container">
       <div class="input-group input-group-lg">
-        <input type="text" id="searchTicker" onkeyup="searchTicker()"class="form-control" placeholder="Search icons..." autofocus autocomplete="off">
+        <input type="text" id="searchTicker" onkeyup="searchTicker()" class="form-control" placeholder="Search icons..." autofocus autocomplete="off" />
       </div>
     </div>
 
     <section>
       <div class="container">
         <div id="loading-spinner" class="d-flex justify-content-center mb-5">
-          <img src="./img/loading-spinner.svg" alt="">
+          <img src="./img/loading-spinner.svg" alt="" />
         </div>
-        
+
         <div class="row" id="list"></div>
       </div>
     </section>
@@ -173,7 +183,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-3 text-center mb-4">
-            <img class="opacity-50" src="img/logo.svg" height="60px">
+            <img class="opacity-50" src="img/logo.svg" height="60px" />
           </div>
           <div class="col-md-3 col-3">
             <ul class="footer-list">
@@ -209,7 +219,6 @@
       </div>
     </footer>
 
-
     <!-- Donate Modal -->
     <div class="modal fade" id="donateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -217,13 +226,14 @@
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Cryptofonts is a one man project.</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <img src="img/icon-close.svg" height="30" alt="icon close">
+              <img src="img/icon-close.svg" height="30" alt="icon close" />
             </button>
           </div>
           <div class="modal-body">
-            <p class="mb-5">Creating all these beautiful icons takes time and money.<br>
-            If you think that my work has any value to you, or you like my icons, a small donation would be really appreciated.
-            This would motivate me to create more icons and keep the project going.</p>
+            <p class="mb-5">
+              Creating all these beautiful icons takes time and money.<br />
+              If you think that my work has any value to you, or you like my icons, a small donation would be really appreciated. This would motivate me to create more icons and keep the project going.
+            </p>
 
             <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
               <li class="nav-item">
@@ -239,7 +249,7 @@
             <div class="tab-content text-center" id="myTabContent">
               <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <p class="mt-4">Even 1 DAI would make the difference</p>
-                <img class="qrcode" src="img/eth-address.svg" width="150">
+                <img class="qrcode" src="img/eth-address.svg" width="150" />
                 <p><span class="badge badge-pill badge-light">0xFC72b32F2f7caFCa4d5d99c031f4B8F9579c18b6</span></p>
                 <span class="badge badge-light"><i class="cf cf-eth"></i> Ethereum</span>
                 <span class="badge badge-light"><i class="cf cf-bnb"></i> BSC</span>
@@ -247,7 +257,7 @@
               </div>
               <div class="tab-pane fade text-center" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <p class="mt-4"><a href="https://gitcoin.co/grants/720/crypto-fonts">Donate on Gitcoin by sponsoring my grant</a></p>
-                <img src="img/gitcoin-logo.svg" height="150">
+                <img src="img/gitcoin-logo.svg" height="150" />
               </div>
               <!-- <div class="tab-pane fade text-center" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                 <p class="mt-4">I know transactions cost are high, but if you feel generous here's my Bitcoin address</p>
@@ -268,17 +278,17 @@
           <div class="modal-header">
             <h5 class="modal-title text-uppercase" id="modalTitle"></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <img src="img/icon-close.svg" height="30" alt="icon close">
+              <img src="img/icon-close.svg" height="30" alt="icon close" />
             </button>
           </div>
-            <div class="modal-body text-center">
-              <i class="" id="tickerDetail"></i>
-              <h2 class="mt-5">Icon Font Usage</h2>
-              <div class="form-inline justify-content-center">
-                <p id="tickerHtml"></p>
-                <!-- <a class="badge badge-light mb-3" onclick="copy('#tickerHtml')"><img src="img/clipboard-regular.svg" height="16"></a> -->
-              </div>
+          <div class="modal-body text-center">
+            <i class="" id="tickerDetail"></i>
+            <h2 class="mt-5">Icon Font Usage</h2>
+            <div class="form-inline justify-content-center">
+              <p id="tickerHtml"></p>
+              <!-- <a class="badge badge-light mb-3" onclick="copy('#tickerHtml')"><img src="img/clipboard-regular.svg" height="16"></a> -->
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -290,63 +300,59 @@
     <script src="vendors/bootstrap-4.5.0/js/bootstrap.min.js"></script>
 
     <script>
-    $(document).ready(function () {
-      // FETCHING DATA FROM JSON FILE
-      $.getJSON("json/cryptoutils.json",
-      function (data) {
-        var icon = '';
-        //Get the total number of icons in the JSON
-        $('#totalCount').text("The complete set of " + data.length + " SVG icons.")
-        // ITERATING THROUGH OBJECTS
-        $.each(data, function (key, value) {
+      $(document).ready(function () {
+        // FETCHING DATA FROM JSON FILE
+        $.getJSON("json/cryptoutils.json", function (data) {
+          var icon = "";
+          //Get the total number of icons in the JSON
+          $("#totalCount").text("The complete set of " + data.length + " SVG icons.");
+          // ITERATING THROUGH OBJECTS
+          $.each(data, function (key, value) {
+            //CONSTRUCTION OF ROWS HAVING
+            // DATA FROM JSON OBJECT
+            icon += '<div class="col-md-2 col-6 text-center expand">';
+            icon += '<i class="cfu-' + value.ticker + ' icon-small" id="' + value.ticker + '" onclick="getDetails(this)"></i>';
+            icon += '<p class="text-muted">cfu-' + value.ticker + "</p>";
+            icon += "</div>";
+          });
 
-          //CONSTRUCTION OF ROWS HAVING
-          // DATA FROM JSON OBJECT
-          icon += '<div class="col-md-2 col-6 text-center expand">';
-          icon += '<i class="cfu-' + value.ticker + ' icon-small" id="' + value.ticker + '" onclick="getDetails(this)"></i>';
-          icon += '<p class="text-muted">cfu-' + value.ticker + '</p>';
-          icon += '</div>';
-        });          
-
-        //INSERTING ROWS INTO TABLE
-        $('#list').append(icon);
-        // Remove the loading spinner
-        document.getElementById('loading-spinner').style.setProperty("display", "none", "important")
-
+          //INSERTING ROWS INTO TABLE
+          $("#list").append(icon);
+          // Remove the loading spinner
+          document.getElementById("loading-spinner").style.setProperty("display", "none", "important");
+        });
       });
-    });
 
-    function searchTicker() {
+      function searchTicker() {
         // Declare variables
         var input, filter, ul, li, a, i;
-        input = document.getElementById('searchTicker');
+        input = document.getElementById("searchTicker");
         filter = input.value.toUpperCase();
         ul = document.getElementById("list");
-        li = ul.getElementsByTagName('div');
+        li = ul.getElementsByTagName("div");
 
         // Loop through all list items, and hide those who don't match the search query
         for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("p")[0];
-            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "";
-            } else {
-                li[i].style.display = "none";
-            }
+          a = li[i].getElementsByTagName("p")[0];
+          if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
         }
-    }
+      }
 
-    function getDetails(ticker) {
-      var name = $(ticker).attr('id');
-      console.log(name);
+      function getDetails(ticker) {
+        var name = $(ticker).attr("id");
+        console.log(name);
 
-      $('#detailModal').modal();
-      $('#tickerDetail').removeClass();
-      $('#modalTitle').html("<i class='cfu-" + name + "'></i> " + name);
-      $('#tickerDetail').addClass("cfu-" + name + " xlarge");
-      $('#tickerHtml').text('<i class="cfu-' + name + '"></i>');
-      $('#tickerTitle').addClass("cfu-" + name);
-    }
-
+        $("#detailModal").modal();
+        $("#tickerDetail").removeClass();
+        $("#modalTitle").html("<i class='cfu-" + name + "'></i> " + name);
+        $("#tickerDetail").addClass("cfu-" + name + " xlarge");
+        $("#tickerHtml").text('<i class="cfu-' + name + '"></i>');
+        $("#tickerTitle").addClass("cfu-" + name);
+      }
     </script>
-    </body>
-    </html>
+  </body>
+</html>
