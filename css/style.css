@@ -396,6 +396,7 @@ MODALS
 
 .modal {
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .modal-content {
@@ -579,6 +580,7 @@ FORMS
 .bg-blur {
   background-color: rgba(242, 242, 242, 0.1);
   backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .bg-light-blue {
