@@ -1,8 +1,8 @@
 {
   "name": "cryptofonts",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
-  "main": "index.php",
+  "main": "index.html",
   "scripts": {
     "build": "purgecss -c purgecss.config.js -o css && cssnano css/style.css css/style.min.css",
     "tiny": "tinypng img -k Pmjbyj4JlKZzcHv0x6rpgJRmtwjRKYSb"

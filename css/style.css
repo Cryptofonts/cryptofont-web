@@ -1,10 +1,10 @@
 html,
 body {
   font-family: "Inter", sans-serif;
-  min-width: 100%;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* =============================================================================
@@ -18,34 +18,7 @@ h5,
 h6,
 p,
 a {
-  color: #4e5463;
-}
-
-h1 {
-  font-weight: 800;
-  font-size: 3.5rem;
-}
-
-h2 {
-  font-weight: 400;
-}
-
-h3 {
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-p,
-a {
-  font-weight: 400;
-}
-
-a {
-  cursor: pointer;
+  color: #090909;
 }
 
 .fabiomonzani {
@@ -58,123 +31,25 @@ img {
   vertical-align: unset;
 }
 
-/* =============================================================================
-UTILITIES
-============================================================================= */
-.mb-10 {
-  margin-bottom: 10rem;
-}
-
-.white {
-  color: #fff;
-}
-
-.tiny {
-  font-size: 0.6rem;
-}
-
-.icon-small {
-  font-size: 2.5rem;
-  color: #6c7488;
-}
-
-.small {
-  font-size: 0.8rem;
-}
-
-.medium {
-  font-size: 3rem;
-  color: #6c7488;
-  cursor: pointer;
-}
-
-.large {
-  font-size: 4rem;
-  color: #6c7488;
-  cursor: pointer;
-}
-
-.xlarge {
-  font-size: 12rem;
-  color: #6c7488;
-}
-
-.text-bold {
-  font-weight: 800;
-}
-
-/* =============================================================================
-BUTTONS
-============================================================================= */
-button:focus {
-  outline: none;
-}
-
-.btn-primary {
-  border-radius: 8px;
-}
-
-.btn-outline-primary {
-  border-radius: 8px;
-  border-width: 2px;
-}
-
-/* =============================================================================
-JUMBOTRON
-============================================================================= */
-.jumbotron {
-  background-color: #f5f8ff;
-}
-
-/* =============================================================================
-CARDS
-============================================================================= */
-.card-body > .fad,
-.fab {
-  font-size: 64px;
-  margin: 15px;
-  color: #aebccc;
-}
-
-h3 .fab {
-  font-size: inherit;
-  margin: 0;
-}
-
-.fa-html5,
-.fa-github {
-  margin: 0;
-  font-size: 1rem;
-}
-
-.terminal .card-body {
-  padding-top: 0 !important;
-}
-
-.card-body > p {
-  margin-bottom: 0;
-}
-
-.bg-custom {
-  background-color: rgba(255, 255, 255, 0);
-}
-
-/* if backdrop support: very transparent and blurred */
-@supports ((-webkit-backdrop-filter: blur(6px)) or (backdrop-filter: blur(6px))) {
-  .bg-custom {
-    background-color: rgba(255, 255, 255, 0);
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
-  }
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 /* =============================================================================
 NAVBAR
 ============================================================================= */
+
+.navbar {
+  background-color: rgba(242, 242, 242, 0.16);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
 .nav-item {
   margin-left: 16px;
   margin-right: 16px;
-  color: #6c7488;
+  color: #8b8b8b;
 }
 
 .notification {
@@ -208,131 +83,62 @@ NAVBAR
   }
 }
 
-.navbar-brand {
-  color: #6c7488 !important;
-}
-
 .navbar-light .navbar-toggler {
   border: none;
   outline: none;
 }
 
-/* =============================================================================
-DROPDOWONS
-============================================================================= */
-.dropdown-menu {
-  border: none;
-  border-radius: 8px;
-  padding: 0.5rem;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(108, 116, 136, 0.16);
-  -moz-box-shadow: 0px 0px 12px 0px rgba(108, 116, 136, 0.16);
-  box-shadow: 0px 0px 12px 0px rgba(108, 116, 136, 0.16);
-}
-
-.dropdown-item.active,
-.dropdown-item:active {
-  border-radius: 4px;
-}
-
-.dropdown-item:focus,
-.dropdown-item:hover {
-  border-radius: 4px;
-}
-
 .hero {
   height: 100vh;
-  background-image: url("../img/cryptofonts-bw.png"), url("../img/slice.svg");
-  background-size: contain, cover;
-  background-repeat: no-repeat, no-repeat;
-  background-position: right, top;
-  position: relative;
-  margin-bottom: 80px;
-  background-attachment: scroll, fixed;
+  padding-top: 3.75rem;
 }
 
-.hero-text {
-  position: absolute;
-  top: 20%;
-  left: 5%;
-  width: 50%;
+/* =============================================================================
+UTILITIES
+============================================================================= */
+.mb-10 {
+  margin-bottom: 10rem;
 }
 
-.hero-text h1 {
-  background-image: linear-gradient(109.6deg, rgba(62, 161, 219, 1) 11.2%, rgba(93, 52, 236, 1) 100.2%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.bg-gray-50 {
+  background-color: #f2f2f2;
 }
 
-.hero-text h2 {
-  font-size: 1.6rem;
+.tiny {
+  font-size: 0.6rem;
 }
+
+.icon-small {
+  font-size: 2.5rem;
+  color: #6c7488;
+}
+
+/* =============================================================================
+CARD
+============================================================================= */
 
 .card {
-  background-color: #f5f8ff;
+  background-color: #ffffff;
   border: none;
+  border-radius: 8px;
+}
+
+.card-terminal {
+  background-color: #282c34;
+  color: #abb2bf;
+  border: 1px solid #4d5c7b;
   border-radius: 12px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.get-started {
-  background-color: #f5f8ff;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.terminal {
-  background-color: #343a3f;
-  text-align: left;
-  font-family: source code pro, monospace;
-}
-
-.terminal p {
-  color: #adb5bc;
+  -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
 }
 
 .card-header {
-  background-color: unset;
-  border-bottom: unset;
+  border: 1px solid #4d5c7b;
 }
-
-.list-inline {
-  margin-bottom: 0;
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding-right: 4px;
-  padding-left: 4px;
-}
-
-.dot {
-  width: 15px;
-  height: 15px;
-  background-color: #575757;
-  border-radius: 50%;
-}
-
-/* =============================================================================
-CODE BLOCKS
-============================================================================= */
-.code {
-  background-color: #d4d4d4 !important;
-  border-radius: 8px;
-  padding: 4px 8px;
-  font-size: 90%;
-}
-
-.markup {
-  color: #e06c70;
-}
-
-.ref {
-  color: #cb9a66;
-}
-
-.link {
-  color: #98c379;
+.card-footer {
+  background-color: #ffffff;
+  border: none;
+  padding: 0;
 }
 
 /* =============================================================================
@@ -347,30 +153,69 @@ FEATURED
   filter: grayscale(0%);
 }
 
+.logos-row {
+  height: 80px;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+}
+
+.row-1 {
+  background-image: url("../img/logos-row-1.svg");
+  animation: slide 20s linear infinite;
+}
+.row-2 {
+  background-image: url("../img/logos-row-2.svg");
+  animation: slide-lg 20s linear infinite;
+}
+.row-3 {
+  background-image: url("../img/logos-row-3.svg");
+  animation: slide 20s linear infinite;
+}
+.row-4 {
+  background-image: url("../img/logos-row-4.svg");
+  animation: slide-lg 20s linear infinite;
+}
+.row-5 {
+  background-image: url("../img/logos-row-5.svg");
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -648px 0;
+  }
+}
+
+@keyframes slide-lg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -756px 0;
+  }
+}
+
 /* =============================================================================
 FOOTER
 ============================================================================= */
-.section-footer {
-  height: 400px;
-  background-image: url("../img/section-footer.svg");
-  background-position: left;
-  background-size: cover;
-}
 
 footer {
-  margin-top: 8rem;
-  margin-bottom: 4rem;
+  background-color: #f2f2f2;
+  padding-top: 8rem;
 }
 
-.footer-list a:hover {
-  color: #aebccc;
+.footer-list a {
   text-decoration: none;
+}
+.footer-list a:hover {
+  text-decoration: double;
 }
 
 .footer-list li {
-  color: #6c7488;
   list-style-type: none;
-  text-decoration: none;
 }
 
 .footer-list > li:first-child {
@@ -505,41 +350,20 @@ FORMS
   cursor: pointer;
 }
 
-.gray {
-  background-color: #6c7488;
-}
-
-.black {
-  background-color: #1a1a1a;
-}
-
-.yellow {
-  background-color: #f2a900;
-}
-
-.green {
-  background-color: #3ec144;
-}
-
-.blue {
-  background-color: #1a9bfc;
-}
-
 .badge-outline {
   border-radius: 4px;
   border: 1px solid #1a1a1a;
 }
 
-/* ORBIT */
-
-.vh-100 {
-  height: 100vh;
-}
+/* =============================================================================
+ORBIT
+============================================================================= */
 
 .orbit {
   position: absolute;
   top: 0;
   right: -50%;
+  z-index: -9999;
 }
 #orbit-2 {
   animation: rotation 100s linear infinite;
@@ -578,7 +402,11 @@ FORMS
 }
 
 .bg-blur {
-  background-color: rgba(242, 242, 242, 0.1);
+  background: rgb(242, 242, 242);
+  background: -moz-linear-gradient(0deg, rgba(242, 242, 242, 1) 0%, rgba(242, 242, 242, 0) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(242, 242, 242, 1) 0%, rgba(242, 242, 242, 0) 100%);
+  background: linear-gradient(0deg, rgba(242, 242, 242, 1) 0%, rgba(242, 242, 242, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f2f2",endColorstr="#f2f2f2",GradientType=1);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
