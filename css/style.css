@@ -280,7 +280,7 @@ MODALS
 /* =============================================================================
 FORMS
 ============================================================================= */
-.form-control {
+.input-search .form-control {
   top: -56px;
   border: none;
   -webkit-box-shadow: 0px 0px 12px 0px rgba(108, 116, 136, 0.16);
@@ -288,13 +288,13 @@ FORMS
   box-shadow: 0px 0px 12px 0px rgba(108, 116, 136, 0.16);
 }
 
-.form-control::-webkit-input-placeholder {
+.input-search .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #aebccc;
   font-size: 1rem;
 }
 
-.form-control::-moz-placeholder {
+.input-search .form-control::-moz-placeholder {
   /* Firefox 19+ */
   color: #aebccc;
   font-size: 1rem;
