@@ -53,6 +53,9 @@ NAVBAR
 .nav-item {
   margin-left: 16px;
   margin-right: 16px;
+}
+
+.nav-link {
   color: #8b8b8b;
 }
 
@@ -389,7 +392,7 @@ ORBIT
 .orbit {
   position: absolute;
   top: 0;
-  right: -50%;
+  right: 0;
   z-index: -9999;
 }
 #orbit-2 {
