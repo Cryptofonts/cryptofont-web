@@ -138,6 +138,15 @@ CARD
   border-radius: 8px;
 }
 
+.card-empty {
+  background-color: transparent;
+}
+
+.card-accent {
+  background-color: rgba(0, 123, 255, 0.16);
+  border: 1px solid rgba(0, 123, 255, 0.16);
+}
+
 .card-terminal {
   background-color: #282c34;
   color: #abb2bf;
