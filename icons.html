@@ -312,7 +312,7 @@
 
         const detailModal = new bootstrap.Modal(document.getElementById("detailModal"));
         detailModal.show();
-        document.getElementById("modalTitle").innerHTML = `<img src="https://raw.githubusercontent.com/Cryptofonts/cryptoicons/master/SVG/` + name + `.svg" height="16">` + name;
+        document.getElementById("modalTitle").innerHTML = `<img class="me-2" src="https://raw.githubusercontent.com/Cryptofonts/cryptoicons/master/SVG/` + name + `.svg" height="16">` + name;
         document.getElementById("iconDetail").src = newSrc;
         document.getElementById("iconDownload").setAttribute("href", newSrc);
         document.getElementById("iconDownload").setAttribute("download", name);

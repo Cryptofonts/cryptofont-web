@@ -212,27 +212,6 @@
     <script src="vendors/bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
 
     <script>
-      // $(document).ready(function () {
-      //   // FETCHING DATA FROM JSON FILE
-      //   $.getJSON("json/cryptologos.json", function (data) {
-      //     var icon = "";
-      //     // ITERATING THROUGH OBJECTS
-      //     $.each(data, function (key, value) {
-      //       //CONSTRUCTION OF ROWS HAVING
-      //       // DATA FROM JSON OBJECT
-      //       icon += '<div id="' + value.name + '" class="col-md-2 col-6 text-center expand mb-5" onclick="getDetails(this)">';
-      //       icon += '<img loading="lazy" src="img/brands/' + value.image + '" width="60" alt="' + value.name + '">';
-      //       icon += '<p class="text-muted text-capitalize mb-0">' + value.name + "</p>";
-      //       icon += "</div>";
-      //     });
-
-      //     //INSERTING ROWS INTO TABLE
-      //     $("#list").append(icon);
-      //     // Remove the loading spinner
-      //     document.getElementById("loading-spinner").style.setProperty("display", "none", "important");
-      //   });
-      // });
-
       document.addEventListener("DOMContentLoaded", function () {
         // FETCHING DATA FROM JSON FILE
         fetch("json/cryptologos.json")
@@ -288,17 +267,6 @@
         document.getElementById("iconDownload").setAttribute("href", newSrc);
         document.getElementById("iconDownload").setAttribute("download", logoname);
       }
-
-      // function getDetails(name) {
-      //   var logoname = $(name).attr("id");
-      //   var newSrc = "img/brands/" + logoname + ".svg";
-      //   console.log(name);
-
-      //   $("#detailModal").modal();
-      //   $("#modalTitle").html('<img src="img/brands/' + logoname + '.svg" height="16"> ' + logoname);
-      //   $("#iconDetail").attr("src", newSrc);
-      //   $("#iconDownload").attr("href", newSrc).attr("download", logoname);
-      // }
     </script>
   </body>
 </html>
