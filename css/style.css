@@ -45,7 +45,7 @@ NAVBAR
 ============================================================================= */
 
 .navbar {
-  background-color: rgba(242, 242, 242, 0.16);
+  background-color: rgba(242, 242, 242, 0.1);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -463,7 +463,7 @@ MOBILE
     font-size: 2.4rem;
   }
 
-  .container {
-    margin-top: 2rem;
+  .navbar {
+    background-color: rgba(242, 242, 242, 0.6);
   }
 }
