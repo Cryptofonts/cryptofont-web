@@ -313,7 +313,8 @@ FORMS
   margin-top: -1.5rem;
 }
 
-#searchTicker {
+#searchTicker,
+#searchName {
   border: 1px solid #e7e7e7;
 }
 
