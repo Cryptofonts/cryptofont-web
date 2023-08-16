@@ -135,7 +135,13 @@
     </div>
 
     <div class="container input-search">
-      <input type="text" id="searchTicker" onkeyup="searchTicker()" class="form-control form-control-lg" placeholder="Search icons..." autofocus autocomplete="off" />
+      <div class="d-flex justify-content-end align-items-center position-relative">
+        <input type="text" id="searchTicker" onkeyup="searchTicker()" class="form-control form-control-lg" placeholder="Search icons..." autofocus autocomplete="off" />
+        <div class="position-absolute me-2 bg-body-secondary px-2 py-1 rounded text-muted">
+          <span>⌘</span>
+          <span>K</span>
+        </div>
+      </div>
     </div>
 
     <section>
@@ -317,6 +323,16 @@
         document.getElementById("iconDownload").setAttribute("href", newSrc);
         document.getElementById("iconDownload").setAttribute("download", name);
       }
+
+      const searchBar = document.getElementById("searchTicker");
+
+      document.addEventListener("keydown", (event) => {
+        if (event.metaKey && event.key === "k") {
+          // Check for CMD+K on Mac, or CTRL+K on Windows
+          event.preventDefault(); // Prevent the default behavior of the keypress (e.g., open a new tab)
+          searchBar.focus(); // Bring the input field into focus
+        }
+      });
     </script>
   </body>
 </html>
