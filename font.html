@@ -236,29 +236,6 @@
     <script src="vendors/bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
 
     <script>
-      // $(document).ready(function () {
-      //   // FETCHING DATA FROM JSON FILE
-      //   $.getJSON("json/cryptofont.json", function (data) {
-      //     var icon = "";
-      //     //Get the total number of icons in the JSON
-      //     $("#totalCount").text("The complete set of " + data.length + " open source cryptocurrencies icons crafted for designers and developers.");
-      //     // ITERATING THROUGH OBJECTS
-      //     $.each(data, function (key, value) {
-      //       //CONSTRUCTION OF ROWS HAVING
-      //       // DATA FROM JSON OBJECT
-      //       icon += "<div class='col-md-2 col-6 text-center expand'>";
-      //       icon += "<i class='cf cf-" + value.ticker + " large' id='" + value.ticker + "' onclick='getDetails(this)'></i>";
-      //       icon += "<p class='text-muted'>cf-" + value.ticker + "</p>";
-      //       icon += "</div>";
-      //     });
-
-      //     //INSERTING ROWS INTO TABLE
-      //     $("#list").append(icon);
-      //     // Remove the loading spinner
-      //     document.getElementById("loading-spinner").style.setProperty("display", "none", "important");
-      //   });
-      // });
-
       document.addEventListener("DOMContentLoaded", function () {
         // FETCHING DATA FROM JSON FILE
         fetch("json/cryptofont.json")
@@ -315,18 +292,6 @@
         document.getElementById("tickerHtml").textContent = '<i class="cf cf-' + name + '"></i>';
         // document.getElementById("tickerTitle").classList.add("cf", "cf-" + name);
       }
-
-      // function getDetails(ticker) {
-      //   var name = $(ticker).attr("id");
-      //   console.log(name);
-
-      //   $("#detailModal").modal();
-      //   $("#tickerDetail").removeClass();
-      //   $("#modalTitle").html("<i class='cf cf-" + name + "'></i> " + name);
-      //   $("#tickerDetail").addClass("cf cf-" + name + " xlarge");
-      //   $("#tickerHtml").text('<i class="cf cf-' + name + '"></i>');
-      //   $("#tickerTitle").addClass("cf cf-" + name);
-      // }
     </script>
   </body>
 </html>
