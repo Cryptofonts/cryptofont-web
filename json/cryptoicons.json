@@ -4254,5 +4254,110 @@
     "name": "Neutrino USD",
     "image": "usdn.svg",
     "ticker": "usdn"
+  },
+  {
+    "name": "Arbswap",
+    "image": "arbs.svg",
+    "ticker": "arbs"
+  },
+  {
+    "name": "Arkham",
+    "image": "arkm.svg",
+    "ticker": "arkm"
+  },
+  {
+    "name": "Bitget Token",
+    "image": "bgb.svg",
+    "ticker": "bgb"
+  },
+  {
+    "name": "Core",
+    "image": "core.svg",
+    "ticker": "core"
+  },
+  {
+    "name": "CyberConnect",
+    "image": "cyber.svg",
+    "ticker": "cyber"
+  },
+  {
+    "name": "Decimal",
+    "image": "del.svg",
+    "ticker": "del"
+  },
+  {
+    "name": "Open Campus",
+    "image": "edu.svg",
+    "ticker": "edu"
+  },
+  {
+    "name": "Fidu",
+    "image": "fidu.svg",
+    "ticker": "fidu"
+  },
+  {
+    "name": "Finschia",
+    "image": "fnsa.svg",
+    "ticker": "fnsa"
+  },
+  {
+    "name": "Frax Ether",
+    "image": "frxeth.svg",
+    "ticker": "frxeth"
+  },
+  {
+    "name": "Goldbank",
+    "image": "gb.svg",
+    "ticker": "gb"
+  },
+  {
+    "name": "Kaspa",
+    "image": "kas.svg",
+    "ticker": "kas"
+  },
+  {
+    "name": "Kujira",
+    "image": "kuji.svg",
+    "ticker": "kuji"
+  },
+  {
+    "name": "Mantle",
+    "image": "mnt.svg",
+    "ticker": "mnt"
+  },
+  {
+    "name": "Murasaki",
+    "image": "mura.svg",
+    "ticker": "mura"
+  },
+  {
+    "name": "Swell Ethereum",
+    "image": "sweth.svg",
+    "ticker": "sweth"
+  },
+  {
+    "name": "Shardus",
+    "image": "ult.svg",
+    "ticker": "ult"
+  },
+  {
+    "name": "VitaDAO",
+    "image": "vita.svg",
+    "ticker": "vita"
+  },
+  {
+    "name": "Wbt",
+    "image": "wbt.svg",
+    "ticker": "wbt"
+  },
+  {
+    "name": "Widler World",
+    "image": "wild.svg",
+    "ticker": "wild"
+  },
+  {
+    "name": "Worldcoin",
+    "image": "wld.svg",
+    "ticker": "wld"
   }
 ]
