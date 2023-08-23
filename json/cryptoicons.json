@@ -4359,5 +4359,90 @@
     "name": "Worldcoin",
     "image": "wld.svg",
     "ticker": "wld"
+  },
+  {
+    "name": "Gomining Token",
+    "image": "gmt-2.svg",
+    "ticker": "gmt"
+  },
+  {
+    "name": "Nexus Mutual",
+    "image": "nxm.svg",
+    "ticker": "nxm"
+  },
+  {
+    "name": "Oraichain",
+    "image": "orai.svg",
+    "ticker": "orai"
+  },
+  {
+    "name": "Open Exchange Token",
+    "image": "ox.svg",
+    "ticker": "ox"
+  },
+  {
+    "name": "PlayDapp",
+    "image": "pla.svg",
+    "ticker": "pla"
+  },
+  {
+    "name": "Pink BNB",
+    "image": "pnb.svg",
+    "ticker": "pnb"
+  },
+  {
+    "name": "Echelon Prime",
+    "image": "prime.svg",
+    "ticker": "prime"
+  },
+  {
+    "name": "PointPay",
+    "image": "pxp.svg",
+    "ticker": "pxp"
+  },
+  {
+    "name": "Quiztok",
+    "image": "qtcon.svg",
+    "ticker": "qtcon"
+  },
+  {
+    "name": "SmarDex",
+    "image": "sdex.svg",
+    "ticker": "sdex"
+  },
+  {
+    "name": "Sei",
+    "image": "sei.svg",
+    "ticker": "sei"
+  },
+  {
+    "name": "Silo Finance",
+    "image": "silo.svg",
+    "ticker": "silo"
+  },
+  {
+    "name": "Sun Token",
+    "image": "sun.svg",
+    "ticker": "sun"
+  },
+  {
+    "name": "UXD Protocol",
+    "image": "uxp.svg",
+    "ticker": "uxp"
+  },
+  {
+    "name": "veSync",
+    "image": "vs.svg",
+    "ticker": "vs"
+  },
+  {
+    "name": "World Mobile Token",
+    "image": "wmt.svg",
+    "ticker": "wmt"
+  },
+  {
+    "name": "zkSwap",
+    "image": "zksp.svg",
+    "ticker": "zksp"
   }
 ]
