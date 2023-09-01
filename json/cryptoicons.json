@@ -4444,5 +4444,170 @@
     "name": "zkSwap",
     "image": "zksp.svg",
     "ticker": "zksp"
+  },
+  {
+    "name": "Aave BAT",
+    "image": "abat.svg",
+    "ticker": "abat"
+  },
+  {
+    "name": "Aave BUSD",
+    "image": "abusd.svg",
+    "ticker": "abusd"
+  },
+  {
+    "name": "Aave DAI",
+    "image": "adai.svg",
+    "ticker": "adai"
+  },
+  {
+    "name": "Aave ENJ",
+    "image": "aenj.svg",
+    "ticker": "aenj"
+  },
+  {
+    "name": "Aave ETH",
+    "image": "aeth.svg",
+    "ticker": "aeth"
+  },
+  {
+    "name": "Aave KNC",
+    "image": "aknc.svg",
+    "ticker": "aknc"
+  },
+  {
+    "name": "Aave LEND",
+    "image": "alend.svg",
+    "ticker": "alend"
+  },
+  {
+    "name": "Aave LINK",
+    "image": "alink.svg",
+    "ticker": "alink"
+  },
+  {
+    "name": "Aave MANA",
+    "image": "amana.svg",
+    "ticker": "amana"
+  },
+  {
+    "name": "Aave MKR",
+    "image": "amkr.svg",
+    "ticker": "amkr"
+  },
+  {
+    "name": "Aave REN",
+    "image": "aren.svg",
+    "ticker": "aren"
+  },
+  {
+    "name": "Aave SNX",
+    "image": "asnx.svg",
+    "ticker": "asnx"
+  },
+  {
+    "name": "Aave SUSD",
+    "image": "asusd.svg",
+    "ticker": "asusd"
+  },
+  {
+    "name": "Aave TUSD",
+    "image": "atusd.svg",
+    "ticker": "atusd"
+  },
+  {
+    "name": "Aave USDC",
+    "image": "ausdc.svg",
+    "ticker": "ausdc"
+  },
+  {
+    "name": "Aave USDT",
+    "image": "ausdt.svg",
+    "ticker": "ausdt"
+  },
+  {
+    "name": "Aave WBTC",
+    "image": "awbtc.svg",
+    "ticker": "awbtc"
+  },
+  {
+    "name": "Aave WETH",
+    "image": "aweth.svg",
+    "ticker": "aweth"
+  },
+  {
+    "name": "Aave YFI",
+    "image": "ayfi.svg",
+    "ticker": "ayfi"
+  },
+  {
+    "name": "Aave ZRX",
+    "image": "azrx.svg",
+    "ticker": "azrx"
+  },
+  {
+    "name": "Fame",
+    "image": "fame.svg",
+    "ticker": "fame"
+  },
+  {
+    "name": "Foam",
+    "image": "foam.svg",
+    "ticker": "foam"
+  },
+  {
+    "name": "Fulcrum SAI",
+    "image": "isai.svg",
+    "ticker": "isai"
+  },
+  {
+    "name": "Pika Protocol",
+    "image": "pika.svg",
+    "ticker": "pika"
+  },
+  {
+    "name": "Rari DAI",
+    "image": "rdai.svg",
+    "ticker": "rdai"
+  },
+  {
+    "name": "Rari Governance Token",
+    "image": "rgt.svg",
+    "ticker": "rgt"
+  },
+  {
+    "name": "Rocket Pool",
+    "image": "rpl.svg",
+    "ticker": "rpl"
+  },
+  {
+    "name": "sETH",
+    "image": "seth.svg",
+    "ticker": "seth"
+  },
+  {
+    "name": "Unisocks",
+    "image": "socks.svg",
+    "ticker": "socks"
+  },
+  {
+    "name": "SpankChain",
+    "image": "spank.svg",
+    "ticker": "spank"
+  },
+  {
+    "name": "sUSD",
+    "image": "susd.svg",
+    "ticker": "susd"
+  },
+  {
+    "name": "Wrapped basic CryptoKitties",
+    "image": "wck.svg",
+    "ticker": "wck"
+  },
+  {
+    "name": "Wrapped Ether",
+    "image": "weth.svg",
+    "ticker": "weth"
   }
 ]
