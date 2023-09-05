@@ -4609,5 +4609,95 @@
     "name": "Wrapped Ether",
     "image": "weth.svg",
     "ticker": "weth"
+  },
+  {
+    "name": "Alchemix ETH",
+    "image": "aleth.svg",
+    "ticker": "aleth"
+  },
+  {
+    "name": "Alongside Crypto Market Index",
+    "image": "amkt.svg",
+    "ticker": "amkt"
+  },
+  {
+    "name": "HarryPotterObamaSonic10Inu",
+    "image": "bitcoin.svg",
+    "ticker": "bitcoin"
+  },
+  {
+    "name": "BOB",
+    "image": "bob.svg",
+    "ticker": "bob"
+  },
+  {
+    "name": "Chain Games",
+    "image": "chain.svg",
+    "ticker": "chain"
+  },
+  {
+    "name": "Coc",
+    "image": "coc.svg",
+    "ticker": "coc"
+  },
+  {
+    "name": "crvUSD",
+    "image": "crvusd.svg",
+    "ticker": "crvusd"
+  },
+  {
+    "name": "Cartesi",
+    "image": "ctsi.svg",
+    "ticker": "ctsi"
+  },
+  {
+    "name": "dForce",
+    "image": "df.svg",
+    "ticker": "df"
+  },
+  {
+    "name": "dHEDGE DAO",
+    "image": "dht.svg",
+    "ticker": "dht"
+  },
+  {
+    "name": "ECO",
+    "image": "eco.svg",
+    "ticker": "eco"
+  },
+  {
+    "name": "Equilibria Finance",
+    "image": "eqb.svg",
+    "ticker": "eqb"
+  },
+  {
+    "name": "Farm",
+    "image": "farm.svg",
+    "ticker": "farm"
+  },
+  {
+    "name": "Stafi",
+    "image": "fis.svg",
+    "ticker": "fis"
+  },
+  {
+    "name": "Flashstake",
+    "image": "flash.svg",
+    "ticker": "flash"
+  },
+  {
+    "name": "Frax Price Index",
+    "image": "fpi.svg",
+    "ticker": "fpi"
+  },
+  {
+    "name": "Frax Price Index Share",
+    "image": "fpis.svg",
+    "ticker": "fpis"
+  },
+  {
+    "name": "Giveth",
+    "image": "giv.svg",
+    "ticker": "giv"
   }
 ]
