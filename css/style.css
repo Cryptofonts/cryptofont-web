@@ -370,7 +370,10 @@ FORMS
 
 .qrcode {
   border: 4px black solid;
-  border-radius: 8px;
+  border-radius: 16px;
+}
+#copyAddress {
+  cursor: pointer;
 }
 
 .radio {

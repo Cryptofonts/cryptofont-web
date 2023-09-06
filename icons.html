@@ -203,39 +203,16 @@
 
     <!-- Donate Modal -->
     <div class="modal fade" id="donateModalSmall" tabindex="-1" role="dialog" aria-labelledby="donateModalSmall" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="donateModalSmall">Thank you for using Cryptofonts!</h5>
-            <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
-              <img src="img/icon-close.svg" height="30" alt="icon close" />
-            </button>
+          <div class="modal-header justify-content-center">
+            <h5 class="modal-title" id="donateModalSmall">Thank you!</h5>
           </div>
-          <div class="modal-body">
-            <p class="mb-5">
-              Cryptofonts is free to use, but it still cost money to create all these beautiful icons.<br />
-              If you enjoy using it and if you think that my work has any value to you, or you like my icons, a small donation would be really appreciated.<br />
-              This will help to make Cryptofonts even better, create more icons and keep the project going.
-            </p>
-
-            <div class="tab-content text-center" id="myTabContent">
-              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <p class="mt-4">Even 1 DAI would make the difference</p>
-                <img class="qrcode" src="img/eth-address.svg" width="150" />
-                <p><span class="badge badge-pill badge-light">0xFC72b32F2f7caFCa4d5d99c031f4B8F9579c18b6</span></p>
-                <span class="badge badge-light"><i class="cf cf-eth"></i> Ethereum</span>
-                <span class="badge badge-light"><i class="cf cf-bnb"></i> BSC</span>
-                <span class="badge badge-light"><i class="cf cf-matic"></i> Polygon</span>
-                <span class="badge badge-light">More...</span>
-              </div>
-              <div class="tab-pane fade text-center" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <p class="mt-4"><a href="https://gitcoin.co/grants/720/crypto-fonts">Donate on Gitcoin by sponsoring my grant</a></p>
-                <img src="img/gitcoin-logo.svg" height="150" />
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Nah, thanks</button>
+          <div class="modal-body d-flex flex-column align-items-center">
+            <img class="qrcode mb-2" src="img/eth-address.svg" width="200" />
+            <h5>cryptofonts.eth</h5>
+            <kbd id="copyAddress" class="py-2 px-4 text-center">0xFC72...18b6 📋</kbd>
+            <p id="copyCheck" class="small m-0" hidden><img class="align-middle" src="img/check.svg" alt="" width="12" /> Copied</p>
           </div>
         </div>
       </div>
@@ -243,24 +220,32 @@
 
     <!-- Detail Modal -->
     <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered d-flex flex-column justify-content-around" role="document">
+      <div class="modal-dialog modal-dialog-centered d-flex flex-column justify-content-evenly" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title text-uppercase" id="modalTitle"></h5>
-            <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+            <button type="button" class="btn p-0" data-bs-dismiss="modal" aria-label="Close">
               <img src="img/icon-close.svg" height="30" alt="icon close" />
             </button>
           </div>
           <div class="modal-body d-flex flex-column align-items-center justify-content-center">
             <img class="mb-5" id="iconDetail" src="" height="200" />
-            <a download="" id="iconDownload" href="" class="btn btn-primary">Download SVG</a>
+            <a download="" id="iconDownload" href="" class="btn btn-outline-primary">Download SVG</a>
           </div>
         </div>
         <!-- Ads -->
-        <!-- <div class="modal-content">
+        <div class="modal-content">
           <div class="modal-body">
+            <p class="small">
+              Cryptofonts is free to use, but it still cost money to create all these beautiful icons.<br />
+              If you enjoy using it and if you think that my work has any value to you, or you like my icons, a small donation would be really appreciated.<br />
+              This will help to make Cryptofonts even better, create more icons and keep the project going.
+            </p>
+            <div class="d-grid">
+              <a href="" class="btn btn-primary btn-sm" data-bs-target="#donateModalSmall" data-bs-toggle="modal">Donate</a>
+            </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
 
@@ -335,6 +320,15 @@
           event.preventDefault(); // Prevent the default behavior of the keypress (e.g., open a new tab)
           searchBar.focus(); // Bring the input field into focus
         }
+      });
+
+      let copyAddress = document.getElementById("copyAddress");
+
+      copyAddress.addEventListener("click", function () {
+        navigator.clipboard.writeText("0xfc72b32f2f7cafca4d5d99c031f4b8f9579c18b6").then(() => {
+          console.log("Content copied to clipboard");
+          document.getElementById("copyCheck").hidden = false;
+        });
       });
     </script>
   </body>
