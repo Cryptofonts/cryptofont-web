@@ -4699,5 +4699,190 @@
     "name": "Giveth",
     "image": "giv.svg",
     "ticker": "giv"
+  },
+  {
+    "name": "Bwajna",
+    "image": "bwajna.svg",
+    "ticker": "bwajna"
+  },
+  {
+    "name": "Grow",
+    "image": "grow.svg",
+    "ticker": "grow"
+  },
+  {
+    "name": "Gitcoin",
+    "image": "gtc-2.svg",
+    "ticker": "gtc"
+  },
+  {
+    "name": "GYEN",
+    "image": "gyen.svg",
+    "ticker": "gyen"
+  },
+  {
+    "name": "Hair DAO",
+    "image": "hair.svg",
+    "ticker": "hair"
+  },
+  {
+    "name": "HanChain",
+    "image": "han.svg",
+    "ticker": "han"
+  },
+  {
+    "name": "HANeP",
+    "image": "hanep.svg",
+    "ticker": "hanep"
+  },
+  {
+    "name": "iFARM",
+    "image": "ifarm.svg",
+    "ticker": "ifarm"
+  },
+  {
+    "name": "LPF",
+    "image": "lpf.svg",
+    "ticker": "lpf"
+  },
+  {
+    "name": "Mochi",
+    "image": "mochi.svg",
+    "ticker": "mochi"
+  },
+  {
+    "name": "Mom",
+    "image": "mom.svg",
+    "ticker": "mom"
+  },
+  {
+    "name": "Nexus Pro",
+    "image": "nexus.svg",
+    "ticker": "nexus"
+  },
+  {
+    "name": "Dope Wars Paper",
+    "image": "paper.svg",
+    "ticker": "paper"
+  },
+  {
+    "name": "Phun Token",
+    "image": "phtk.svg",
+    "ticker": "phtk"
+  },
+  {
+    "name": "PIP",
+    "image": "pip.svg",
+    "ticker": "pip"
+  },
+  {
+    "name": "Popcorn",
+    "image": "pop.svg",
+    "ticker": "pop"
+  },
+  {
+    "name": "ParaSwap",
+    "image": "psp.svg",
+    "ticker": "psp"
+  },
+  {
+    "name": "Rai Reflex Index",
+    "image": "rai.svg",
+    "ticker": "rai"
+  },
+  {
+    "name": "StaFi Staked ETH",
+    "image": "reth-2.svg",
+    "ticker": "reth"
+  },
+  {
+    "name": "rfwsteth",
+    "image": "rfwsteth.svg",
+    "ticker": "rfwsteth"
+  },
+  {
+    "name": "Saddle",
+    "image": "sdl.svg",
+    "ticker": "sdl"
+  },
+  {
+    "name": "Soaps Tech",
+    "image": "soaps.svg",
+    "ticker": "soaps"
+  },
+  {
+    "name": "Sofi",
+    "image": "sofi.svg",
+    "ticker": "sofi"
+  },
+  {
+    "name": "sUSD",
+    "image": "susd-2.svg",
+    "ticker": "susd"
+  },
+  {
+    "name": "Threshold Network",
+    "image": "t.svg",
+    "ticker": "t"
+  },
+  {
+    "name": "tBTC",
+    "image": "tbtc-2.svg",
+    "ticker": "tbtc"
+  },
+  {
+    "name": "TheDAO",
+    "image": "thedao.svg",
+    "ticker": "thedao"
+  },
+  {
+    "name": "Tower",
+    "image": "tower.svg",
+    "ticker": "tower"
+  },
+  {
+    "name": "Universal Basic Income",
+    "image": "ubi.svg",
+    "ticker": "ubi"
+  },
+  {
+    "name": "dForce USD",
+    "image": "usx.svg",
+    "ticker": "usx"
+  },
+  {
+    "name": "veKwenta",
+    "image": "vekwenta.svg",
+    "ticker": "vekwenta"
+  },
+  {
+    "name": "Velodrome",
+    "image": "velo.svg",
+    "ticker": "velo"
+  },
+  {
+    "name": "wOpenX",
+    "image": "wopenx.svg",
+    "ticker": "wopenx"
+  },
+  {
+    "name": "Wrapped stETH",
+    "image": "wsteth.svg",
+    "ticker": "wsteth"
+  },
+  {
+    "name": "wbtb",
+    "image": "wbtb.svg",
+    "ticker": "wbtb"
+  },
+  {
+    "name": "MetalSwap",
+    "image": "xmt.svg",
+    "ticker": "xmt"
+  },
+  {
+    "name": "ZUSD",
+    "image": "zusd.svg",
+    "ticker": "zusd"
   }
 ]
