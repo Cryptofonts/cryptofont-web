@@ -263,6 +263,15 @@ try {
         </section>
 
         <section class="text-center">
+          <div class="text-center mb-5">
+            <h2 class="display-4 fw-semibold">Number go up</h2>
+            <p class="text-secondary fs-5">New tokens are added daily from trusted sources to guarantee you always have the latest tokens.</p>
+          </div>
+          <div id="api-stats" class="d-flex flex-row flex-wrap"></div>
+          <button id="viewMoreChains" class="btn btn-link text-decoration-none">View more <img class="align-middle" src="img/plus-circle.svg" height="18" alt="" /></button>
+        </section>
+
+        <section class="text-center">
           <h2 class="display-4 fw-semibold">Simple pricing for all</h2>
           <p class="text-secondary fs-5">We offer a simple pricing structure, with no hidden fees or charges.</p>
           <div class="row d-flex justify-content-center mt-5">
@@ -413,6 +422,56 @@ try {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
+
+      const btnViewMore = document.getElementById("viewMoreChains");
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // FETCHING DATA FROM JSON FILE
+        fetch("json/api.json")
+          .then((response) => response.json())
+          .then((data) => {
+            var stats = "";
+            var first6Results = data.slice(0, 6);
+
+            // ITERATING THROUGH OBJECTS
+            first6Results.forEach(function (value) {
+              // CONSTRUCTION OF ROWS HAVING
+              // DATA FROM JSON OBJECT
+              stats += '<div class="col-md-2 col-6 text-center mb-5">';
+              stats += '<img loading="lazy" src="img/chains/' + value.logo + '" height="60" alt="' + value.ticker + '">';
+              stats += '<p class="text-secondary">' + value.chain + "</p>";
+              stats += '<p class="display-4 fw-light">' + value.counter + "</p>";
+              stats += "</div>";
+            });
+
+            // INSERTING ROWS INTO TABLE
+            document.getElementById("api-stats").insertAdjacentHTML("beforeend", stats);
+          });
+      });
+
+      btnViewMore.addEventListener("click", function () {
+        fetch("json/api.json")
+          .then((response) => response.json())
+          .then((data) => {
+            var stats = "";
+            var lastResults = data.slice(6, 20);
+
+            // ITERATING THROUGH OBJECTS
+            lastResults.forEach(function (value) {
+              // CONSTRUCTION OF ROWS HAVING
+              // DATA FROM JSON OBJECT
+              stats += '<div class="col-md-2 col-6 text-center mb-5">';
+              stats += '<img loading="lazy" src="img/chains/' + value.logo + '" height="48" alt="' + value.ticker + '">';
+              stats += '<p class="text-secondary">' + value.chain + "</p>";
+              stats += '<p class="display-6 fw-light">' + value.counter + "</p>";
+              stats += "</div>";
+            });
+
+            // INSERTING ROWS INTO TABLE
+            document.getElementById("api-stats").insertAdjacentHTML("beforeend", stats);
+            btnViewMore.hidden = true;
+          });
+      });
     </script>
   </body>
 </html>
