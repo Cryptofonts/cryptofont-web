@@ -266,7 +266,7 @@
               // CONSTRUCTION OF ROWS HAVING
               // DATA FROM JSON OBJECT
               icon += '<div id="' + value.ticker + '" class="col-md-2 col-6 text-center expand mb-5" onclick="getDetails(this)">';
-              icon += '<img loading="lazy" src="https://raw.githubusercontent.com/Cryptofonts/cryptoicons/master/SVG/' + value.image + '" height="60" alt="' + value.ticker + '">';
+              icon += '<img loading="lazy" src="img/icons/' + value.image + '" height="60" alt="' + value.ticker + '">';
               icon += '<p class="text-muted mb-0">' + value.name + "</p>";
               icon += '<span class="badge badge-outline text-uppercase">' + value.ticker + "</span>";
               icon += "</div>";
@@ -301,12 +301,12 @@
 
       function getDetails(ticker) {
         let name = ticker.id;
-        let newSrc = "https://raw.githubusercontent.com/Cryptofonts/cryptoicons/master/SVG/" + name + ".svg";
+        let newSrc = "img/icons/" + name + ".svg";
         console.log(name);
 
         const detailModal = new bootstrap.Modal(document.getElementById("detailModal"));
         detailModal.show();
-        document.getElementById("modalTitle").innerHTML = `<img class="me-2" src="https://raw.githubusercontent.com/Cryptofonts/cryptoicons/master/SVG/` + name + `.svg" height="16">` + name;
+        document.getElementById("modalTitle").innerHTML = `<img class="me-2" src="img/icons/` + name + `.svg" height="16">` + name;
         document.getElementById("iconDetail").src = newSrc;
         document.getElementById("iconDownload").setAttribute("href", newSrc);
         document.getElementById("iconDownload").setAttribute("download", name);
