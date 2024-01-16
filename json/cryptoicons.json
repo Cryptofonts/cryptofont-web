@@ -4884,5 +4884,120 @@
     "name": "ZUSD",
     "image": "zusd.svg",
     "ticker": "zusd"
+  },
+  {
+    "name": "Bitrock",
+    "image": "brock.svg",
+    "ticker": "brock"
+  },
+  {
+    "name": "Chia",
+    "image": "chia.svg",
+    "ticker": "chia"
+  },
+  {
+    "name": "Crescent Network",
+    "image": "cre-2.svg",
+    "ticker": "cre"
+  },
+  {
+    "name": "DeXe",
+    "image": "dexe-2.svg",
+    "ticker": "dexe"
+  },
+  {
+    "name": "Gamma Strategies",
+    "image": "gamma.svg",
+    "ticker": "gamma"
+  },
+  {
+    "name": "GAMEE",
+    "image": "gmee.svg",
+    "ticker": "gmee"
+  },
+  {
+    "name": "Injective",
+    "image": "inj.svg",
+    "ticker": "inj"
+  },
+  {
+    "name": "Memecoin",
+    "image": "meme.svg",
+    "ticker": "meme"
+  },
+  {
+    "name": "r/CryptoCurrency Moons",
+    "image": "moons.svg",
+    "ticker": "moons"
+  },
+  {
+    "name": "AllianceBlock Nexera",
+    "image": "nxra.svg",
+    "ticker": "nxra"
+  },
+  {
+    "name": "Opulous",
+    "image": "opul.svg",
+    "ticker": "opul"
+  },
+  {
+    "name": "Pepe",
+    "image": "pepe.svg",
+    "ticker": "pepe"
+  },
+  {
+    "name": "Pyth Network",
+    "image": "pyth.svg",
+    "ticker": "pyth"
+  },
+  {
+    "name": "RabbitX",
+    "image": "rbx.svg",
+    "ticker": "rbx"
+  },
+  {
+    "name": "Sidus",
+    "image": "sidus.svg",
+    "ticker": "sidus"
+  },
+  {
+    "name": "Tectum",
+    "image": "tet.svg",
+    "ticker": "tet"
+  },
+  {
+    "name": "Celestia",
+    "image": "tia.svg",
+    "ticker": "tia"
+  },
+  {
+    "name": "Unibot",
+    "image": "unibot.svg",
+    "ticker": "unibot"
+  },
+  {
+    "name": "WAGMI Games",
+    "image": "wagmigames.svg",
+    "ticker": "wagmigames"
+  },
+  {
+    "name": "Wassie",
+    "image": "wassie.svg",
+    "ticker": "wassie"
+  },
+  {
+    "name": "Symbol",
+    "image": "xym.svg",
+    "ticker": "xym"
+  },
+  {
+    "name": "Yield App",
+    "image": "yld.svg",
+    "ticker": "yld"
+  },
+  {
+    "name": "Zephyr Protocol",
+    "image": "zeph.svg",
+    "ticker": "zeph"
   }
 ]
