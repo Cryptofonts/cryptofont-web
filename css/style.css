@@ -400,37 +400,44 @@ ORBIT
   z-index: -9999;
 }
 #orbit-2 {
-  animation: rotation 100s linear infinite;
+  animation: rotation 100s ease-out infinite;
 }
 #orbit-3 {
-  animation: rotation 500s linear infinite;
+  animation: rotation 250s ease-out infinite;
 }
 #orbit-4 {
-  animation: rotation 150s linear infinite;
+  animation: rotation 75s ease-out infinite;
 }
 #orbit-5 {
-  animation: rotation 250s linear infinite;
+  animation: rotation 125s ease-out infinite;
 }
 #orbit-6 {
-  animation: rotation 150s linear infinite;
+  animation: rotation 75s ease-out infinite;
 }
 #orbit-7 {
-  animation: rotation 250s linear infinite;
+  animation: rotation 125s ease-out infinite;
 }
 #orbit-8 {
-  animation: rotation 450s linear infinite;
+  animation: rotation 225s ease-out infinite;
 }
 #orbit-9 {
-  animation: rotation 550s linear infinite;
+  animation: rotation 225s ease-out infinite;
 }
 
 @keyframes rotation {
   0% {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: rotate(-20deg) scale(0.8);
+    transform-origin: 50% 50%;
+  }
+  0.5% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
     transform-origin: 50% 50%;
   }
   100% {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: rotate(360deg) scale(1);
     transform-origin: 50% 50%;
   }
 }
