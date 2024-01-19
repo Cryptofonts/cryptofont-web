@@ -334,6 +334,10 @@ FORMS
   font-size: 1rem;
 }
 
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+
 #tickerDetail,
 #iconDetail {
   background-image: url("../img/checker.png");
