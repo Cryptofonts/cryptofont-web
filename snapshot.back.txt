@@ -95,6 +95,7 @@ foam.svg
 front.svg
 ssv.svg
 xmt.svg
+d2.svg
 keep.svg
 dvf.svg
 op.svg
@@ -706,6 +707,7 @@ sweat.svg
 dojo.svg
 hegic.svg
 nxm.svg
+comai.svg
 pre.svg
 abusd.svg
 elec.svg
@@ -940,6 +942,7 @@ ausdt.svg
 enj.svg
 asnx.svg
 skl.svg
+ceek.svg
 alcx.svg
 hex.svg
 juno.svg

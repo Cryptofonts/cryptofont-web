@@ -885,6 +885,11 @@
     "ticker": "cdt"
   },
   {
+    "name": "ceek",
+    "image": "ceek.svg",
+    "ticker": "ceek"
+  },
+  {
     "name": "Celsius Network",
     "image": "cel.svg",
     "ticker": "cel"
@@ -1018,6 +1023,11 @@
     "name": "Coca Network",
     "image": "cocn.svg",
     "ticker": "cocn"
+  },
+  {
+    "name": "comai",
+    "image": "comai.svg",
+    "ticker": "comai"
   },
   {
     "name": "Compound Finance",
@@ -1193,6 +1203,11 @@
     "name": "c0x",
     "image": "czrx.svg",
     "ticker": "czrx"
+  },
+  {
+    "name": "d2",
+    "image": "d2.svg",
+    "ticker": "d2"
   },
   {
     "name": "Edge",
