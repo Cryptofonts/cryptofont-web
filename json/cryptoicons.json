@@ -1585,6 +1585,11 @@
     "ticker": "ens"
   },
   {
+    "name": "ents",
+    "image": "ents.svg",
+    "ticker": "ents"
+  },
+  {
     "name": "EOS",
     "image": "eos.svg",
     "ticker": "eos"
@@ -2450,6 +2455,11 @@
     "ticker": "kiro"
   },
   {
+    "name": "kiwi",
+    "image": "kiwi.svg",
+    "ticker": "kiwi"
+  },
+  {
     "name": "Klaytn",
     "image": "klay.svg",
     "ticker": "klay"
@@ -2670,6 +2680,11 @@
     "ticker": "mana"
   },
   {
+    "name": "manta",
+    "image": "manta.svg",
+    "ticker": "manta"
+  },
+  {
     "name": "Mask Network",
     "image": "mask.svg",
     "ticker": "mask"
@@ -2688,6 +2703,11 @@
     "name": "AntiMatter",
     "image": "matter.svg",
     "ticker": "matter"
+  },
+  {
+    "name": "mav",
+    "image": "mav.svg",
+    "ticker": "mav"
   },
   {
     "name": "Marblecoin",
@@ -3075,6 +3095,16 @@
     "ticker": "ntic"
   },
   {
+    "name": "ntl",
+    "image": "ntl.svg",
+    "ticker": "ntl"
+  },
+  {
+    "name": "ntrn",
+    "image": "ntrn.svg",
+    "ticker": "ntrn"
+  },
+  {
     "name": "NuCypher",
     "image": "nu.svg",
     "ticker": "nu"
@@ -3163,6 +3193,11 @@
     "name": "OMG Network",
     "image": "omg.svg",
     "ticker": "omg"
+  },
+  {
+    "name": "ondo",
+    "image": "ondo.svg",
+    "ticker": "ondo"
   },
   {
     "name": "Harmony",
@@ -3275,6 +3310,11 @@
     "ticker": "palm"
   },
   {
+    "name": "palm-2",
+    "image": "palm-2.svg",
+    "ticker": "palm-2"
+  },
+  {
     "name": "Dope Wars Paper",
     "image": "paper.svg",
     "ticker": "paper"
@@ -3288,6 +3328,11 @@
     "name": "Particl",
     "image": "part.svg",
     "ticker": "part"
+  },
+  {
+    "name": "pasg",
+    "image": "pasg.svg",
+    "ticker": "pasg"
   },
   {
     "name": "Paxos",
@@ -3840,6 +3885,11 @@
     "ticker": "scrt"
   },
   {
+    "name": "scs",
+    "image": "scs.svg",
+    "ticker": "scs"
+  },
+  {
     "name": "SmarDex",
     "image": "sdex.svg",
     "ticker": "sdex"
@@ -3960,6 +4010,11 @@
     "ticker": "sld"
   },
   {
+    "name": "slex",
+    "image": "slex.svg",
+    "ticker": "slex"
+  },
+  {
     "name": "Smooth Love Potion",
     "image": "slp.svg",
     "ticker": "slp"
@@ -4050,6 +4105,11 @@
     "ticker": "spn"
   },
   {
+    "name": "sqr",
+    "image": "sqr.svg",
+    "ticker": "sqr"
+  },
+  {
     "name": "Serum",
     "image": "srm.svg",
     "ticker": "srm"
@@ -4118,6 +4178,11 @@
     "name": "Strike",
     "image": "strk.svg",
     "ticker": "strk"
+  },
+  {
+    "name": "strx",
+    "image": "strx.svg",
+    "ticker": "strx"
   },
   {
     "name": "Stacks",
@@ -4323,6 +4388,11 @@
     "name": "Tierion",
     "image": "tnt.svg",
     "ticker": "tnt"
+  },
+  {
+    "name": "token",
+    "image": "token.svg",
+    "ticker": "token"
   },
   {
     "name": "tomiNet",
@@ -4713,6 +4783,11 @@
     "name": "Waves Community Token",
     "image": "wct.svg",
     "ticker": "wct"
+  },
+  {
+    "name": "weco",
+    "image": "weco.svg",
+    "ticker": "weco"
   },
   {
     "name": "WEMIX",

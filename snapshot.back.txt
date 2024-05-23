@@ -94,6 +94,8 @@ trtl.svg
 foam.svg
 front.svg
 ssv.svg
+ents.svg
+token.svg
 xmt.svg
 d2.svg
 keep.svg
@@ -269,6 +271,7 @@ rfox.svg
 iknc.svg
 hanep.svg
 gno.svg
+strx.svg
 upp.svg
 appc.svg
 kas.svg
@@ -311,6 +314,7 @@ qlc.svg
 datx.svg
 uma.svg
 xido.svg
+palm-2.svg
 bcha.svg
 powr.svg
 amp.svg
@@ -553,11 +557,13 @@ $read.svg
 icn.svg
 tbtc.svg
 sweth.svg
+pasg.svg
 lon.svg
 gyen.svg
 tel.svg
 ever.svg
 sand.svg
+ondo.svg
 1inch.svg
 cyber.svg
 eos.svg
@@ -568,6 +574,7 @@ dgd.svg
 flex.svg
 nest.svg
 vlx.svg
+slex.svg
 ppt.svg
 lym.svg
 nec.svg
@@ -582,6 +589,7 @@ noia.svg
 seth2.svg
 canto.svg
 vvs.svg
+scs.svg
 wemix.svg
 ppp.svg
 bfc.svg
@@ -622,6 +630,7 @@ efi.svg
 dai.svg
 atusd.svg
 mvc.svg
+weco.svg
 arkm.svg
 bto.svg
 cbat.svg
@@ -774,6 +783,7 @@ vrs.svg
 dash.svg
 capp.svg
 blk.svg
+kiwi.svg
 atmi.svg
 cosm.svg
 cake.svg
@@ -790,6 +800,7 @@ evx.svg
 hav.svg
 rif.svg
 armor.svg
+ntl.svg
 pal.svg
 chain.svg
 klv.svg
@@ -816,6 +827,7 @@ unibot.svg
 wopenx.svg
 ftc.svg
 mura.svg
+ntrn.svg
 apl.svg
 lrc.svg
 reth-2.svg
@@ -886,6 +898,7 @@ bond-2.svg
 nav.svg
 amkr.svg
 mimatic.svg
+mav.svg
 xcm.svg
 kin.svg
 orai.svg
@@ -1012,11 +1025,13 @@ hbar.svg
 rdai.svg
 hakka.svg
 got.svg
+sqr.svg
 whale.svg
 xaut.svg
 xyo.svg
 waves.svg
 lxt.svg
+manta.svg
 azero.svg
 suqa.svg
 egt.svg
