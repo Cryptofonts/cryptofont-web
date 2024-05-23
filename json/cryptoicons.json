@@ -315,6 +315,11 @@
     "ticker": "arbs"
   },
   {
+    "name": "archive",
+    "image": "archive.svg",
+    "ticker": "archive"
+  },
+  {
     "name": "Ardor",
     "image": "ardr.svg",
     "ticker": "ardr"
@@ -430,6 +435,11 @@
     "ticker": "avax"
   },
   {
+    "name": "avinoc",
+    "image": "avinoc.svg",
+    "ticker": "avinoc"
+  },
+  {
     "name": "Aave WBTC",
     "image": "awbtc.svg",
     "ticker": "awbtc"
@@ -473,6 +483,11 @@
     "name": "Basis Cash",
     "image": "bac.svg",
     "ticker": "bac"
+  },
+  {
+    "name": "badger",
+    "image": "badger.svg",
+    "ticker": "badger"
   },
   {
     "name": "Balancer",
@@ -563,6 +578,11 @@
     "name": "Beefy.Finance",
     "image": "bifi.svg",
     "ticker": "bifi"
+  },
+  {
+    "name": "birb",
+    "image": "birb.svg",
+    "ticker": "birb"
   },
   {
     "name": "BitDAO",
@@ -1216,6 +1236,11 @@
   },
   {
     "name": "DeepBrain Chain",
+    "image": "dbc.svg",
+    "ticker": "dbc"
+  },
+  {
+    "name": "dbc",
     "image": "dbc.svg",
     "ticker": "dbc"
   },
@@ -2975,6 +3000,11 @@
     "ticker": "noia"
   },
   {
+    "name": "nos",
+    "image": "nos.svg",
+    "ticker": "nos"
+  },
+  {
     "name": "Perpetuals",
     "image": "nper.svg",
     "ticker": "nper"
@@ -4035,6 +4065,11 @@
     "ticker": "strat"
   },
   {
+    "name": "strdy",
+    "image": "strdy.svg",
+    "ticker": "strdy"
+  },
+  {
     "name": "Strike",
     "image": "strk.svg",
     "ticker": "strk"
@@ -4873,6 +4908,11 @@
     "name": "Radix",
     "image": "xrd.svg",
     "ticker": "xrd"
+  },
+  {
+    "name": "xrgb",
+    "image": "xrgb.svg",
+    "ticker": "xrgb"
   },
   {
     "name": "Ripple",
