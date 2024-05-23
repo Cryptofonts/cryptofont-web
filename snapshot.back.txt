@@ -223,6 +223,7 @@ ost.svg
 bu.svg
 mom.svg
 warp.svg
+shuf.svg
 govi.svg
 slt.svg
 hnt.svg

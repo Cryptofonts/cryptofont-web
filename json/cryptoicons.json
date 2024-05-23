@@ -3895,6 +3895,11 @@
     "ticker": "shuf"
   },
   {
+    "name": "shuf",
+    "image": "shuf.svg",
+    "ticker": "shuf"
+  },
+  {
     "name": "Siren",
     "image": "si.svg",
     "ticker": "si"
