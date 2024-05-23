@@ -534,6 +534,7 @@ ksm.svg
 ayfi.svg
 sdex.svg
 syn.svg
+dck.svg
 xrp.svg
 cover.svg
 anc.svg
@@ -646,6 +647,7 @@ gamma.svg
 ovc.svg
 nxra.svg
 aknc.svg
+gtai.svg
 looks.svg
 pom.svg
 elf.svg
@@ -751,6 +753,7 @@ dag.svg
 ewt.svg
 silo.svg
 sem.svg
+enix.svg
 etc.svg
 bnt.svg
 dock.svg
@@ -1023,8 +1026,10 @@ xmark.svg
 scrt.svg
 bora.svg
 rsr.svg
+grp.svg
 cspr.svg
 nft.svg
+jto.svg
 rndr.svg
 isai.svg
 gt.svg

@@ -1265,6 +1265,11 @@
     "ticker": "dbc"
   },
   {
+    "name": "dck",
+    "image": "dck.svg",
+    "ticker": "dck"
+  },
+  {
     "name": "Dentacoin",
     "image": "dcn.svg",
     "ticker": "dcn"
@@ -1563,6 +1568,11 @@
     "name": "Enigma",
     "image": "eng.svg",
     "ticker": "eng"
+  },
+  {
+    "name": "enix",
+    "image": "enix.svg",
+    "ticker": "enix"
   },
   {
     "name": "Enjin Coin",
@@ -2005,6 +2015,11 @@
     "ticker": "grow"
   },
   {
+    "name": "grp",
+    "image": "grp.svg",
+    "ticker": "grp"
+  },
+  {
     "name": "Groestlcoin",
     "image": "grs.svg",
     "ticker": "grs"
@@ -2028,6 +2043,11 @@
     "name": "GateToken",
     "image": "gt.svg",
     "ticker": "gt"
+  },
+  {
+    "name": "gtai",
+    "image": "gtai.svg",
+    "ticker": "gtai"
   },
   {
     "name": "Game",
@@ -2368,6 +2388,11 @@
     "name": "Jarvis Network",
     "image": "jst.svg",
     "ticker": "jst"
+  },
+  {
+    "name": "jto",
+    "image": "jto.svg",
+    "ticker": "jto"
   },
   {
     "name": "Juno",
