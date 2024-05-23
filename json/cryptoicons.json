@@ -2645,11 +2645,6 @@
     "ticker": "mana"
   },
   {
-    "name": "Marscoin",
-    "image": "mars.svg",
-    "ticker": "mars"
-  },
-  {
     "name": "Mask Network",
     "image": "mask.svg",
     "ticker": "mask"
@@ -4673,11 +4668,6 @@
     "name": "Wbt",
     "image": "wbt.svg",
     "ticker": "wbt"
-  },
-  {
-    "name": "wbtb",
-    "image": "wbtb.svg",
-    "ticker": "wbtb"
   },
   {
     "name": "Wrapped Bitcoin",
