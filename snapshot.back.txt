@@ -138,6 +138,7 @@ del.svg
 gxs.svg
 flow.svg
 mds.svg
+blur.svg
 nexus.svg
 brock.svg
 dgtx.svg

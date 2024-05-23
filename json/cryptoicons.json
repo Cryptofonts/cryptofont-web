@@ -630,6 +630,11 @@
     "ticker": "blue"
   },
   {
+    "name": "blur",
+    "image": "blur.svg",
+    "ticker": "blur"
+  },
+  {
     "name": "Bluzelle",
     "image": "blz.svg",
     "ticker": "blz"
