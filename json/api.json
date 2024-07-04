@@ -2,67 +2,67 @@
   {
     "logo": "chain-ethereum.svg",
     "chain": "Ethereum",
-    "counter": "10526"
+    "counter": "12256"
   },
   {
     "logo": "chain-bsc.svg",
     "chain": "Binance Smart Chain",
-    "counter": "9374"
+    "counter": "9771"
   },
   {
     "logo": "chain-polygon.svg",
     "chain": "Polygon",
-    "counter": "1721"
+    "counter": "2110"
   },
   {
     "logo": "chain-arbitrum.svg",
     "chain": "Arbitrum",
-    "counter": "873"
+    "counter": "1003"
   },
   {
     "logo": "chain-avalanche.svg",
     "chain": "Avalanche",
-    "counter": "683"
+    "counter": "743"
   },
   {
     "logo": "chain-fantom.svg",
     "chain": "Fantom",
-    "counter": "544"
+    "counter": "558"
   },
   {
     "logo": "chain-solana.svg",
     "chain": "Solana",
-    "counter": "12848"
+    "counter": "14041"
   },
   {
     "logo": "chain-optimism.svg",
     "chain": "Optimism",
-    "counter": "420"
+    "counter": "469"
   },
   {
     "logo": "chain-cronos.svg",
     "chain": "Cronos",
-    "counter": "95"
+    "counter": "118"
   },
   {
     "logo": "chain-gnosis.svg",
     "chain": "Gnosis",
-    "counter": "95"
+    "counter": "99"
   },
   {
     "logo": "chain-zksync.svg",
     "chain": "zkSync",
-    "counter": "71"
+    "counter": "80"
   },
   {
     "logo": "chain-base.svg",
     "chain": "Base",
-    "counter": "120870"
+    "counter": "604"
   },
   {
     "logo": "chain-aurora.svg",
     "chain": "Aurora",
-    "counter": "42"
+    "counter": "44"
   },
   {
     "logo": "chain-canto.svg",
@@ -72,6 +72,6 @@
   {
     "logo": "chain-linea.svg",
     "chain": "Linea",
-    "counter": "38"
+    "counter": "48"
   }
 ]
