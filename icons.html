@@ -271,8 +271,13 @@
     </div>
 
     <script src="vendors/bootstrap-5.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
     <script>
+      // Initialise Supabase client
+      const client = supabase.createClient("https://xkqpczltzicnmbqvihbc.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhrcXBjemx0emljbm1icXZpaGJjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODg1NDU5MTksImV4cCI6MjAwNDEyMTkxOX0.WfEjGjZQ9AbCyxZvOmcaQahXCDVCnUZsP9P6LR-Ogzc");
+
       document.addEventListener("DOMContentLoaded", function () {
         // FETCHING DATA FROM JSON FILE
         fetch("json/cryptoicons.json")
@@ -334,6 +339,27 @@
       }
 
       const searchBar = document.getElementById("searchTicker");
+
+      let timeoutId;
+
+      searchBar.addEventListener("input", () => {
+        clearTimeout(timeoutId);
+
+        if (searchBar.value.length >= 3) {
+          timeoutId = setTimeout(async () => {
+            await listenTicker(searchBar.value);
+          }, 1000);
+        }
+      });
+
+      async function listenTicker(ticker) {
+        console.log(ticker);
+
+        const { data, error } = await client
+          .from("search_insights")
+          .insert([{ text: ticker, collection: "icons" }])
+          .select();
+      }
 
       document.addEventListener("keydown", (event) => {
         if (event.metaKey && event.key === "k") {
