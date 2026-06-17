@@ -37,6 +37,7 @@ kava.svg
 oil.svg
 orai.svg
 mex.svg
+h.svg
 c20.svg
 vlx.svg
 doge.svg
@@ -1031,6 +1032,7 @@ ubi.svg
 pal.svg
 pxp.svg
 matter.svg
+opm.svg
 cyber.svg
 ali.svg
 thales.svg
