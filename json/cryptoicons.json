@@ -4055,16 +4055,6 @@
     "ticker": "sem"
   },
   {
-    "name": "sentero",
-    "image": "sent.svg",
-    "ticker": "sent"
-  },
-  {
-    "name": "sent",
-    "image": "sent.svg",
-    "ticker": "sent"
-  },
-  {
     "name": "sETH",
     "image": "seth.svg",
     "ticker": "seth"
