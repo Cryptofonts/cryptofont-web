@@ -598,6 +598,7 @@ fida.svg
 xpr.svg
 ox.svg
 rae.svg
+sto.svg
 vest.svg
 super.svg
 wck.svg
