@@ -269,7 +269,6 @@ sdl.svg
 xlq.svg
 thc.svg
 tio.svg
-sent.svg
 oax.svg
 seele.svg
 bao.svg
