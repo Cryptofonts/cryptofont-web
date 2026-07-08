@@ -1565,11 +1565,6 @@
     "ticker": "egld2"
   },
   {
-    "name": "egld2",
-    "image": "egld2.svg",
-    "ticker": "egld2"
-  },
-  {
     "name": "Egretia",
     "image": "egt.svg",
     "ticker": "egt"
@@ -2711,11 +2706,6 @@
   },
   {
     "name": "Lossless",
-    "image": "lss.svg",
-    "ticker": "lss"
-  },
-  {
-    "name": "lss",
     "image": "lss.svg",
     "ticker": "lss"
   },
@@ -4825,11 +4815,6 @@
     "ticker": "usr"
   },
   {
-    "name": "usr",
-    "image": "usr.svg",
-    "ticker": "usr"
-  },
-  {
     "name": "dForce USD",
     "image": "usx.svg",
     "ticker": "usx"
@@ -4856,11 +4841,6 @@
   },
   {
     "name": "Valor",
-    "image": "valor.svg",
-    "ticker": "valor"
-  },
-  {
-    "name": "valor",
     "image": "valor.svg",
     "ticker": "valor"
   },
@@ -5001,11 +4981,6 @@
   },
   {
     "name": "Ambire Wallet",
-    "image": "wallet.svg",
-    "ticker": "wallet"
-  },
-  {
-    "name": "wallet",
     "image": "wallet.svg",
     "ticker": "wallet"
   },
