@@ -138,6 +138,7 @@ ovc.svg
 aeth.svg
 prime.svg
 myb.svg
+lss.svg
 par.svg
 ignis.svg
 ela.svg
@@ -349,6 +350,7 @@ paper.svg
 dojo.svg
 rpl.svg
 cvx.svg
+valor.svg
 via.svg
 upp.svg
 qtcon.svg
@@ -453,6 +455,7 @@ comp.svg
 xns.svg
 metano.svg
 dgb.svg
+wallet.svg
 surge.svg
 ceth.svg
 kiro.svg
@@ -749,6 +752,7 @@ ppt.svg
 usdd.svg
 crd.svg
 flr.svg
+usr.svg
 elg.svg
 ost.svg
 ezy.svg
@@ -873,6 +877,7 @@ gxs.svg
 gtai.svg
 ice.svg
 mask.svg
+egld2.svg
 hot.svg
 zel.svg
 usx.svg
