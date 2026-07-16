@@ -590,6 +590,11 @@
     "ticker": "beam"
   },
   {
+    "name": "Bedrock",
+    "image": "br.svg",
+    "ticker": "br"
+  },
+  {
     "name": "BeeChat",
     "image": "chat.svg",
     "ticker": "chat"
@@ -598,6 +603,11 @@
     "name": "Beefy.Finance",
     "image": "bifi.svg",
     "ticker": "bifi"
+  },
+  {
+    "name": "Beldex",
+    "image": "bdx.svg",
+    "ticker": "bdx"
   },
   {
     "name": "Bella Protocol",
@@ -653,6 +663,11 @@
     "name": "Binance USD",
     "image": "busd.svg",
     "ticker": "busd"
+  },
+  {
+    "name": "Bio Protocol",
+    "image": "bio.svg",
+    "ticker": "bio"
   },
   {
     "name": "birb",
@@ -783,6 +798,16 @@
     "name": "BlackCoin",
     "image": "blk.svg",
     "ticker": "blk"
+  },
+  {
+    "name": "Block Street",
+    "image": "bsb.svg",
+    "ticker": "bsb"
+  },
+  {
+    "name": "Blockchain Capital",
+    "image": "bcap.svg",
+    "ticker": "bcap"
   },
   {
     "name": "Blocknet",
@@ -923,6 +948,11 @@
     "name": "Canto",
     "image": "canto.svg",
     "ticker": "canto"
+  },
+  {
+    "name": "Canton",
+    "image": "cc.svg",
+    "ticker": "cc"
   },
   {
     "name": "Cap",
@@ -1068,6 +1098,11 @@
     "name": "Cindicator",
     "image": "cnd.svg",
     "ticker": "cnd"
+  },
+  {
+    "name": "Circle USYC",
+    "image": "usyc.svg",
+    "ticker": "usyc"
   },
   {
     "name": "Cirus",
@@ -1760,6 +1795,11 @@
     "ticker": "ess"
   },
   {
+    "name": "Ethena Stacked USDe",
+    "image": "susde.svg",
+    "ticker": "sUSDe"
+  },
+  {
     "name": "Ether Zero",
     "image": "etz.svg",
     "ticker": "etz"
@@ -1848,6 +1888,11 @@
     "name": "Factom",
     "image": "fct.svg",
     "ticker": "fct"
+  },
+  {
+    "name": "Falcon USD",
+    "image": "usdf.svg",
+    "ticker": "usdf"
   },
   {
     "name": "Fame",
@@ -2070,6 +2115,11 @@
     "ticker": "gamma"
   },
   {
+    "name": "Gate",
+    "image": "gt.svg",
+    "ticker": "gt"
+  },
+  {
     "name": "GateToken",
     "image": "gt.svg",
     "ticker": "gt"
@@ -2095,6 +2145,11 @@
     "ticker": "gvt"
   },
   {
+    "name": "GHO",
+    "image": "gho.svg",
+    "ticker": "gho"
+  },
+  {
     "name": "Gifto",
     "image": "gto.svg",
     "ticker": "gto"
@@ -2113,6 +2168,11 @@
     "name": "Global Digital Token",
     "image": "gdc.svg",
     "ticker": "gdc"
+  },
+  {
+    "name": "Global Dollar",
+    "image": "usdg.svg",
+    "ticker": "usdg"
   },
   {
     "name": "Global Social Chain",
@@ -2955,6 +3015,11 @@
     "ticker": "meme"
   },
   {
+    "name": "MemeCore",
+    "image": "m.svg",
+    "ticker": "m"
+  },
+  {
     "name": "Merculet",
     "image": "mvp.svg",
     "ticker": "mvp"
@@ -3015,6 +3080,11 @@
     "ticker": "mfg"
   },
   {
+    "name": "Midnight",
+    "image": "night.svg",
+    "ticker": "night"
+  },
+  {
     "name": "MimbleWimbleCoin",
     "image": "mwc.svg",
     "ticker": "mwc"
@@ -3060,6 +3130,11 @@
     "ticker": "mom"
   },
   {
+    "name": "Monad",
+    "image": "mon.svg",
+    "ticker": "mon"
+  },
+  {
     "name": "Monero",
     "image": "xmr.svg",
     "ticker": "xmr"
@@ -3083,6 +3158,11 @@
     "name": "Morpheus Network",
     "image": "mnw.svg",
     "ticker": "mnw"
+  },
+  {
+    "name": "Morpho",
+    "image": "morpho.svg",
+    "ticker": "morpho"
   },
   {
     "name": "mSOL",
@@ -3118,6 +3198,11 @@
     "name": "MyBit",
     "image": "myb.svg",
     "ticker": "myb"
+  },
+  {
+    "name": "MYX Finance",
+    "image": "myx.svg",
+    "ticker": "myx"
   },
   {
     "name": "NAGA",
@@ -3218,6 +3303,11 @@
     "name": "Nexo",
     "image": "nex.svg",
     "ticker": "nex"
+  },
+  {
+    "name": "NEXO",
+    "image": "nexo.svg",
+    "ticker": "nexo"
   },
   {
     "name": "Nexus",
@@ -3363,6 +3453,11 @@
     "name": "ondo",
     "image": "ondo.svg",
     "ticker": "ondo"
+  },
+  {
+    "name": "Ondo US Dollar Yield",
+    "image": "usdy2.svg",
+    "ticker": "usdy2"
   },
   {
     "name": "OneLedger",
@@ -3940,6 +4035,11 @@
     "ticker": "rdn"
   },
   {
+    "name": "Rain",
+    "image": "rain.svg",
+    "ticker": "rain"
+  },
+  {
     "name": "Rally",
     "image": "rly.svg",
     "ticker": "rly"
@@ -3958,6 +4058,11 @@
     "name": "Rarible",
     "image": "rari.svg",
     "ticker": "rari"
+  },
+  {
+    "name": "RaveDAO",
+    "image": "rave.svg",
+    "ticker": "rave"
   },
   {
     "name": "Ravencoin",
@@ -4280,6 +4385,11 @@
     "ticker": "skl"
   },
   {
+    "name": "Sky",
+    "image": "sky2.svg",
+    "ticker": "sky2"
+  },
+  {
     "name": "Skycoin",
     "image": "sky.svg",
     "ticker": "sky"
@@ -4388,6 +4498,11 @@
     "name": "SSV Network",
     "image": "ssv.svg",
     "ticker": "ssv"
+  },
+  {
+    "name": "Stable",
+    "image": "stable.svg",
+    "ticker": "stable"
   },
   {
     "name": "Stably USD",
@@ -4510,6 +4625,11 @@
     "ticker": "strx"
   },
   {
+    "name": "stUSDS",
+    "image": "stusds.svg",
+    "ticker": "stUSDS"
+  },
+  {
     "name": "Substratum",
     "image": "sub.svg",
     "ticker": "sub"
@@ -4553,6 +4673,11 @@
     "name": "sUSD",
     "image": "susd-2.svg",
     "ticker": "susd"
+  },
+  {
+    "name": "sUSDS",
+    "image": "susds.svg",
+    "ticker": "sUSDS"
   },
   {
     "name": "Sushi",
@@ -4950,6 +5075,11 @@
     "ticker": "usde"
   },
   {
+    "name": "USDGO",
+    "image": "usdgo.svg",
+    "ticker": "usdgo"
+  },
+  {
     "name": "usdt0",
     "image": "usdt0.svg",
     "ticker": "usdt0"
@@ -5013,6 +5143,11 @@
     "name": "Velodrome",
     "image": "velo.svg",
     "ticker": "velo"
+  },
+  {
+    "name": "Venice",
+    "image": "vvv.svg",
+    "ticker": "vvv"
   },
   {
     "name": "Verge",
@@ -5245,6 +5380,11 @@
     "ticker": "wopenx"
   },
   {
+    "name": "World Liberty Financial",
+    "image": "wlfi.svg",
+    "ticker": "wlfi"
+  },
+  {
     "name": "World Mobile Token",
     "image": "wmt.svg",
     "ticker": "wmt"
@@ -5363,6 +5503,11 @@
     "name": "YOYOW",
     "image": "yoyo.svg",
     "ticker": "yoyo"
+  },
+  {
+    "name": "Zano",
+    "image": "zano.svg",
+    "ticker": "zano"
   },
   {
     "name": "ZB Token",
