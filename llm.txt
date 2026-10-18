@@ -1,0 +1,25 @@
+# CryptoFonts
+
+> Cryptocurrency token icons, SVG logos, webfonts, and a token data API for developers and designers.
+
+CryptoFonts provides cryptocurrency icon and brand-logo resources, a webfont, and an API for token data. The API page advertises data for more than 50,000 tokens across 15 blockchain networks.
+
+## Main Pages
+
+- [Home](https://cryptofonts.com/): Overview of CryptoFonts and its resources.
+- [Cryptocurrency icons](https://cryptofonts.com/icons.html): Browse the cryptocurrency SVG icon collection.
+- [Brand logos](https://cryptofonts.com/brands.html): Browse cryptocurrency brand icons and logos.
+- [Webfont](https://cryptofonts.com/font.html): Information about using the CryptoFonts icon webfont.
+- [License](https://cryptofonts.com/license.html): Personal and commercial licensing information.
+
+## API
+
+- [Token API](https://cryptofonts.com/api.html): API for cryptocurrency token data and icons; the page lists support for 50,000+ tokens and 15 chains.
+- [API documentation](https://docs.cryptofonts.com/api/how-to-use-the-api): Instructions for using the API.
+- [Get an API key](https://rapidapi.com/cryptofonts/api/cryptofonts-token-icon-api1): CryptoFonts Token Icon API listing on RapidAPI.
+
+## Optional
+
+- [GitHub icon releases](https://github.com/monzanifabio/cryptoicons/releases): Releases for the SVG icon collection.
+- [Token icons on Figma Community](https://www.figma.com/community/file/1330118466318746218/token-icons-collection-by-cryptofonts): CryptoFonts token icon collection.
+- [Commercial webfont license](https://cryptofonts.gumroad.com/l/cryptofonts-webfont): Purchase page linked from the licensing page.
