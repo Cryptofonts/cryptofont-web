@@ -9,23 +9,35 @@
 
 <url>
   <loc>https://www.cryptofonts.com/</loc>
-  <lastmod>2020-06-24T21:49:49+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.cryptofonts.com/index.html</loc>
-  <lastmod>2020-06-24T21:49:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.cryptofonts.com/font.html</loc>
-  <lastmod>2020-06-24T21:49:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.cryptofonts.com/icons.html</loc>
-  <lastmod>2020-06-24T21:49:49+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cryptofonts.com/api.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cryptofonts.com/brands.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.cryptofonts.com/license.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.cryptofonts.com/request-token.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.cryptofonts.com/examples/getting-started.html</loc>
+  <priority>0.60</priority>
 </url>
 
 
