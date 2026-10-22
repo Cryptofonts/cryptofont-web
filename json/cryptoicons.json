@@ -2830,6 +2830,11 @@
     "ticker": "lrc"
   },
   {
+    "name": "Lorenzo Protocol",
+    "image": "bank.svg",
+    "ticker": "bank"
+  },
+  {
     "name": "Lossless",
     "image": "lss.svg",
     "ticker": "lss"
